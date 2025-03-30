@@ -12,7 +12,7 @@ This is a rough list of all changes and bugfixes that Forge adds on [1.16.5](htt
 - [MC-52974](https://bugs.mojang.com/browse/MC-52974) – Host's skin not visible to other players when in a LAN world <sup>*["fixed" in 18w21a]*</sup>
 - [MC-53850](https://bugs.mojang.com/browse/MC-53850) – Invulnerable item entities and experience orbs are removed client-side when they take damage <sup>*[fixed in 22w07a]*</sup>
 - [MC-94054](https://bugs.mojang.com/browse/MC-94054) – Cave spiders spin around when walking <sup>*["fixed" in 16w07b]*</sup>
-- [MC-98707](https://bugs.mojang.com/browse/MC-98707) – Texture manager is not deleting entry in `mapTextureObjects`<sup>*[`byPath` now]*</sup> when texture is deleted
+- [MC-98707](https://bugs.mojang.com/browse/MC-98707) – Texture manager is not deleting entry in `byPath` when texture is deleted
 - [MC-105080](https://bugs.mojang.com/browse/MC-105080) – Ender dragon is respawned if all exit end portal blocks are removed / legacy scanning is done for worlds with new dragon fight <sup>*[fixed in 21w19a]*</sup>
 - [MC-112730](https://bugs.mojang.com/browse/MC-112730) – Beacon beam and structure block render twice per frame
 - [MC-119811](https://bugs.mojang.com/browse/MC-119811) – Boats rubberband on dismount <sup>*[duplicate of [MC-103672](https://bugs.mojang.com/browse/MC-103672) / "fixed" in 19w39a]*</sup>
@@ -21,7 +21,7 @@ This is a rough list of all changes and bugfixes that Forge adds on [1.16.5](htt
 - [MC-129055](https://bugs.mojang.com/browse/MC-129055) – Issues breaking tripwire with shears <sup>*[fixed in 24w33a]*</sup>
 - [MC-134110](https://bugs.mojang.com/browse/MC-134110) – Structure mirroring breaking apart double chests
 - [MC-145102](https://bugs.mojang.com/browse/MC-145102) – `--server` client launch argument may crash the client on the loading screen <sup>*["fixed" in 20w20b]*</sup>
-- [MC-146650](https://bugs.mojang.com/browse/MC-146650) – *GuiContainer*<sup>*[*ContainerScreen* now]*</sup> key and mouse handler methods return `true` even when input is not handled
+- [MC-146650](https://bugs.mojang.com/browse/MC-146650) – *ContainerScreen* key and mouse handler methods return `true` even when input is not handled
 - [MC-147659](https://bugs.mojang.com/browse/MC-147659) – Some witch huts spawn the incorrect cat
 - [MC-158205](https://bugs.mojang.com/browse/MC-158205) – Ender dragon doesn't take damage from melee attacks unless hit a certain way <sup>*[fixed in 24w44a]*</sup>
 - [MC-162953](https://bugs.mojang.com/browse/MC-162953) – *NativeImage* bounds checks are incorrect <sup>*[fixed in 21w18a]*</sup>
