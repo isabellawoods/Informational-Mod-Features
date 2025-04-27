@@ -25,7 +25,7 @@ Bowl types are defined using the following format:
 | [1.8.0.2](/Revaried/Changelogs/1.16.5%20-%201.8.0.2%20(Markdown)/Changelog%201.8.0.2.md) | <li> Added bowl types to data packs. </li> <li> Currently, the `bowl` field does not include a `components` field. </li> |
 | [1.8.0.3](/Revaried/Changelogs/1.16.5%20-%201.8.0.3/Changelog%201.8.0.3.md) | Bowl types can now read the `components` field, but only as a string that is later resolved. |
 | [1.8.0.5](/Revaried/Changelogs/1.16.5%20-%201.8.0.5/Changelog%201.8.0.5.md) | <li> The duplicate texture id error now includes the texture id in question. </li> <li> Bowl type instances are no longer made when it already exists in the default bowls list <sup>*[not sure whether this actually makes a diference]*</sup> </li> |
-| [1.8.0.7](/Revaried/Changelogs/1.16.5%20-%201.8.0.7/Changelog%201.8.0.7.md) | Bowl types using vanilla wood types are now in the `minecraft` namespace instead of `variants`'s.
+| [1.8.0.7](/Revaried/Changelogs/1.16.5%20-%201.8.0.7/Changelog%201.8.0.7.md) | Bowl types using vanilla wood types are now in the `minecraft` namespace instead of `variants`'s. |
 | [1.8.0.9](/Revaried/Changelogs/1.16.5%20-%201.8.0.9/Changelog%201.8.0.9.md) | <li> Bowl type bowls no longer include the `count` field by default. </li> <li> Renamed the field `components` to `tags`. </li> <li> Bowl types can now read the `tags` field as a full object instead of only a string. </li> |
 
 ## Issues
