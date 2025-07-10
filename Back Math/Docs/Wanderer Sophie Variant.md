@@ -2,9 +2,12 @@
 > [!NOTE]
 > This feature is exclusive to *Back Math*.
 >
-> ***Last Updated**: 1.9.0.5 (10-3-25)*
+> ***Last Updated**: 1.9.0.7 (2-7-25)*
 
-A **wanderer sophie variant** is an individual variant used for wanderer sophie's textures. Wanderer sophie variants can be defined using JSON files in a data pack at the path `data/<namespace>/wanderer_sophie_variant/`.
+> [!WARNING]
+> In my current implementation of data-driven "registries", it **doesn't work in multiplayer** due to the server not sending them to the client. Loading them beforehand may be a possible workaround.
+
+A **wanderer sophie variant** is an individual variant used for wanderer sophie's textures. Wanderer sophie variants can be defined using JSON files in a data pack at the path `data/<namespace>/mob_variant/wanderer_sophie/`.
 
 Wanderer sophie variants can have tags defined at the path `data/<namespace>/tags/wanderer_sophie_variant/`.
 
@@ -27,6 +30,7 @@ Wanderer sophie variants are defined using the following format:
 | [*October 22nd, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2022-10-24/Changelog%2022-10-24.md) (1.8.0) | <li> Added the `green_hoodie`, `swimsuit` and `round_six` variants. <li> Added the `spawns_naturally` field, controlling whether this variant can naturally spawn from natural spawns and spawn eggs. </li> |
 | [1.9.0.4](/Back%20Math/Changelogs/1.9.0.4%20Beta%20-%2026-01-25/Changelog%201.9.0.4.md) | <li> Added wanderer sophie heads, which use wanderer sophie variants for their textures. <li> The "ender" variant now has a hardcoded emissive texture.</li> |
 | [1.9.0.5](/Back%20Math/Changelogs/1.9.0.5%20Beta%20-%2028-01-25/Changelog%201.9.0.5.md) | <li> Added the `piglin_brute` variant. <li>Added the `emissive_texture` field, which replaced the hardcoded emissive texture for the "ender" variant. <li> The `slim_arms` and `spawns_naturally` fields are now optional. They default to `true` when not defined.</li> |
+| [1.9.0.7](/Back%20Math/Changelogs/1.9.0.7%20Beta%20-%2028-03-25/Changelog%201.9.0.7.md) | Moved the variants folder to `/mob_variant/wanderer_sophie`, from `/wanderer_sophie_variant`. |
 
 ## Issues
 Issues relating to "Wanderer sophie variant" are maintained on [Back Math's bug tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
@@ -38,3 +42,4 @@ Issues relating to "Wanderer sophie variant" are maintained on [Back Math's bug 
 | **Back Math** | ![](/Textures/navbox/outfit_definition.png) [Outfit Definition](/Back%20Math/Docs/Outfit%20Definition.md) ▪ ![](/Textures/navbox/queen_lucy_variant.png) [Queen Lucy Variant](/Back%20Math/Docs/Queen%20Lucy%20Variant.md) ▪ ![](/Textures/navbox/queen_lucy_pet_variant.png) [Queen Lucy Pet Variant](/Back%20Math/Docs/Queen%20Lucy%20Pet%20Variant.md) ▪ ![](/Textures/navbox/wanderer_sophie_variant.png) **Wanderer Sophie Variant** |
 | **Revaried** | ![](/Textures/navbox/bowl_type.png) [Bowl Type](/Revaried/Docs/Bowl%20Type.md) ▪ ![](/Textures/navbox/damage_source.png) [Damage Source](/Revaried/Docs/Damage%20Source.md) ▪ ![](/Textures/navbox/wool_armor_color.png) [Wool Armor Color](/Revaried/Docs/Wool%20Armor%20Color.md) |
 | **Stacked Goods** | ![](/Textures/navbox/mineral_extraction.png) [Mineral Extraction](/Stacked%20Goods/Docs/Mineral%20Extraction.md) |
+| **Mellotech** | ![](/Textures/navbox/cluster_material.png) [Cluster Material](/Mellotech/Docs/Cluster%20Material.md) |

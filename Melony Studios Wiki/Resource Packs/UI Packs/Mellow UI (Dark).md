@@ -3,7 +3,11 @@
 
 It is mainly used in my modpack, [*Mellomedley*](/Melony%20Studios%20Wiki/Instances/Mellomedley.md).
 
-![](/Melony%20Studios%20Wiki/Resource%20Packs/Screenshots/mellow_ui_dark_example.png)
+<center>
+
+  ![](/Melony%20Studios%20Wiki/Resource%20Packs/Screenshots/mellow_ui_dark_example.png)
+</center>
+
 | | |
 |-|-|
 | **Developer(s)** | isabellawoods |

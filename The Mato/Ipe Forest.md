@@ -112,43 +112,12 @@ Issues relating to "Ipe Forest" are maintained on [The Mato's bug tracker](https
 ## External links
 
 ## Navigation
-### <div style="text-align: center;">- My Mods' Biomes -</div>
-
-- *The Mato*: **Ipe Forest** ||
-[The Woods](/The%20Mato/The%20Woods.md) ||
-Honey Forest ||
-[Meadow](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/The%20Mato/Meadow.md) ||
-[Grove](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/The%20Mato/Grove.md) ||
-[Snowy Slopes](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/The%20Mato/Snowy%20Slopes.md) ||
-[Jagged Peaks](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/The%20Mato/Jagged%20Peaks.md) ||
-[Stony Peaks](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/The%20Mato/Stony%20Peaks.md) ||
-Stony Shores || Amazon Rainforest || Pantanal || Caatinga || Atlantic Thicket || Pampas || Cerrado
-
-- *Back Math*: *Overworld*: [Back Fields](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Back%20Field.md) ([Original](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Original%20Back%20Fields.md) || [Modified](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Modified%20Back%20Fields.md)) || [Angelic Woods](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Angelic%20Woods.md)
-
-- *Back Math*: *The Aljan*:
-[Aljan Woods](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Aljan%20Woods.md) ||
-[Aljamic Highlands](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Aljamic%20Highlands.md) ||
-[Aljamic Orchard](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Aljamic%20Orchard.md) ||
-[Capped Hills](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Capped%20Hills.md) ||
-[Insomnian Woods](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Insomnian%20Woods.md) ||
-[Avondalic Grove](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Avondalic%20Grove.md) ||
-[Amaracamel Sticks](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Amaracamel%20Sticks.md) ||
-[Sleepish Ocean](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Sleepish%20Ocean.md)
-([Deep](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Deep%20Sleepish%Ocean.md) ||
-[D E E P E R](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Deeper%20Sleepish%20Ocena.md))
-
-- *Variants*:
-[Paintingwood Forest](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Variants/Biomes/Paintingwood%20Forest.md) ||
-[Enderwood Forest](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Variants/Biomes/Enderwood%20Forest.md) ||
-[Azure Fields](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Variants/Biomes/Azure%20Fields.md)
-
-- *Rimcraft*:
-[Temperate Forest](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Rimcraft/Biomes/Temperate%20Forest.md) ||
-[Temperate Swamp](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Rimcraft/Biomes/Temperate%20Swamp.md) ||
-Tropical Rainforest || Tropical Swamp || Arid Shrubland || Desert || Extreme Desert || Boreal Forest || Tundra || Cold Bog || Ice Sheet || Sea Ice
-
-- *Project Alcook*:
-[Dead Forest](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Project%20Alcook/Biomes/Dead%20Forest.md)
-
-- *Sam's Workshop*: Darkness
+| | |
+|-|-|
+| **The Mato** | **Ipe Forest** ▪ [The Woods](/The%20Mato/The%20Woods.md) ▪ Honey Forest ▪ [Meadow](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/The%20Mato/Meadow.md) ▪ [Grove](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/The%20Mato/Grove.md) ▪ [Snowy Slopes](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/The%20Mato/Snowy%20Slopes.md) ▪ [Jagged Peaks](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/The%20Mato/Jagged%20Peaks.md) ▪ [Stony Peaks](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/The%20Mato/Stony%20Peaks.md) ▪ Stony Shores ▪ Amazon Rainforest ▪ Pantanal ▪ Caatinga ▪ Atlantic Thicket ▪ Pampas ▪ Cerrado |
+| **Back Math**: Overworld | [Back Fields](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Back%20Field.md) ([Original](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Original%20Back%20Fields.md) ▪ [Modified](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Modified%20Back%20Fields.md)) ▪ [Angelic Woods](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Angelic%20Woods.md) ▪ Juice Areas |
+| **Back Math**: The Aljan | [Aljan Woods](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Aljan%20Woods.md) ▪ [Aljamic Highlands](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Aljamic%20Highlands.md) ▪ [Aljamic Orchard](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Aljamic%20Orchard.md) ▪ [Capped Hills](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Capped%20Hills.md) ▪ [Insomnian Woods](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Insomnian%20Woods.md) ▪ [Avondalic Grove](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Avondalic%20Grove.md) ▪ [Amaracamel Sticks](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Amaracamel%20Sticks.md) ▪ [Sleepish Ocean](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Sleepish%20Ocean.md) ([Deep](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Deep%20Sleepish%Ocean.md) ▪ [D E E P E R](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Back%20Math/Biomes/Deeper%20Sleepish%20Ocena.md)) |
+| **Revaried** | [Paintingwood Forest](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Variants/Biomes/Paintingwood%20Forest.md) ▪ [Enderwood Forest](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Variants/Biomes/Enderwood%20Forest.md) ▪ [Azure Fields](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Variants/Biomes/Azure%20Fields.md) |
+| **Rimcraft** | [Temperate Forest](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Rimcraft/Biomes/Temperate%20Forest.md) ▪ [Temperate Swamp](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Rimcraft/Biomes/Temperate%20Swamp.md) ▪ Tropical Rainforest ▪ Tropical Swamp ▪ Arid Shrubland ▪ Desert ▪ Extreme Desert ▪ Boreal Forest ▪ Tundra ▪ Cold Bog ▪ Ice Sheet ▪ Sea Ice |
+| **Project Alcook** | [Dead Forest](https://github.com/isabellawoods/Informational-Mod-Features/blob/main/Project%20Alcook/Biomes/Dead%20Forest.md) |
+| **Sam's Workshop** | Darkness |

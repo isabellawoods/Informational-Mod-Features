@@ -9,7 +9,7 @@
 ### Entities
 - Shulkers can now be dyed by right-clicking.
   - Clicking with any dye will apply that color to the shulker, consuming the item and playing a "Dye stains" sound.
-  - Clicking with an ink sac with clear the color and set the shulker back to its regular color, consuming the item and playing a "Ink Sac splotches" sound.
+  - Clicking with an ink sac will clear the color and set the shulker back to its regular color, consuming the item and playing an "Ink Sac splotches" sound.
   - Killing a dyed shulker now pulls from a different loot table, like with sheep.
     - This means dyed shulker shells can now be obtained in regular gameplay.
 - Shulkers now drop 1 shell by default, and a maximum of 2 with looting.
@@ -21,7 +21,7 @@
 - Readded the "subtitute 'The End' biome with" text box, now located besides the "Done" button.
   - Currently, the footer bar in *Mellow UI* collides the text. This will be fixed eventually.
 - Entries that require restarting the game will now be colored **#FFC55F** and will show a custom tooltip: "<h style="color: #FFC55F">[Requires a restart to take effect!]</h>".
-- The panorama now spins consistent between screens.
+- The panorama now spins consistently between screens.
 
 ## Miscellaneous
 - Added **2** new sound events: `variants:item.dye.stain` and `variants:item.ink_sac.splotch`.
@@ -50,8 +50,8 @@
   - These behaviors *might* work with *The Mato*'s cauldrons.
 
 ## Blocks
-- Crimson wheat now its seeds set to crimson wheat seeds instead of air.
-- Dyeing the text in signs now plays the dye stains sound.
+- Crimson wheat now has its seeds set to crimson wheat seeds instead of air.
+- Dyeing text in signs now plays the dye stains sound.
 
 ## Entities
 - Dyeing sheep now plays the dye stains sound.
@@ -74,7 +74,7 @@
 - Updated the JSON config version to `1809`.
 - Updated the item stack loading and savings methods within *Revaried*.
   - The `count` field is no longer saved if it's set to `0`.
-  - The `components` field has been renamed to `tags`, and now it can be specified both as a compound or string.
+  - The `components` field has been renamed to `tags`, and now can be specified both as a compound or string.
 - Damage source parsing from JSON has been improved.
   - Parsing is now done inside *JSONDeserializer* and *DamageSourceUtils*, with most fields being checked for the correct tag type.
 - The config files are now located inside `melonystudios`, from `jtw-mods`.

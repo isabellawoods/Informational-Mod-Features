@@ -5,7 +5,7 @@
 
 ## NBT Format
 - <img src=Tags/compound_tag.png> Root tag for this item.
-  - <img src=Tags/compound_tag.png> **consumable**: The main tag for consumable items. This tag only applies changes to Revaried' consumables.<sup>*[until 1.8.0.7]*</sup>
+  - <img src=Tags/compound_tag.png> **consumable**: The main tag for consumable items. This tag applies to most items. However, not all items work with this system.
     - <img src=Tags/string_tag.png> **animation**: The animation played when eating this item. Can be one of `none`, `eat`, `drink`, `block`, `bow`, `crossbow` and `trident`. Defaults to `eat`.
     - <img src=Tags/compound_tag.png> **behavior**: The consume behavior to execute when this item is eaten.
       - <img src=Tags/string_tag.png> **id**: The id of the consume behavior to run.
@@ -17,8 +17,8 @@
     - <img src=Tags/compound_tag.png> **use_remainder**: The item left after eating this item.
       > **Tags common to all items saved by Revaried:**
       > - <img src=Tags/string_tag.png> **id**: The id of the item.
-      > - <img src=Tags/integer_tag.png> **count**: How many items there are in this stack. Effectively capped at 127 due to the default count tag being a <img src=Tags/short_tag.png> short.
-      > - <img src=Tags/compound_tag.png> **components**: The tags this item stack has.
+      > - <img src=Tags/integer_tag.png> **count**: How many items there are in this stack. Effectively capped at 127 due to the default count tag being a <img src=Tags/byte_tag.png> byte.
+      > - <img src=Tags/compound_tag.png> **tags**: The tags this item stack has.
   - <img src=Tags/float_tag.png> **texture_id**: *(Unused)* The texture identifier for item model overrides.
   - <img src=Tags/integer_tag.png> **texture_id**: The texture identifier for item model overrides. Used by exponential stews and stained bottles.
 
@@ -70,8 +70,8 @@ This behavior shows what effects it will apply on the item's tooltip. However, t
         - <img src=Tags/compound_tag.png> A single compound.
           > **Tags common to all items saved by Revaried:**
           > - <img src=Tags/string_tag.png> **id**: The id of the item.
-          > - <img src=Tags/integer_tag.png> **count**: How many items there are in this stack. Effectively capped at 127 due to the default count tag being a <img src=Tags/short_tag.png> short.
-          > - <img src=Tags/compound_tag.png> **components**: The tags this item stack has.
+          > - <img src=Tags/integer_tag.png> **count**: How many items there are in this stack. Effectively capped at 127 due to the default count tag being a <img src=Tags/byte_tag.png> byte.
+          > - <img src=Tags/compound_tag.png> **tags**: The tags this item stack has.
 
 ### Clear Effects (`ClearMobEffectsBehavior`)
 <sup>**Registry Name**: `variants:clear_mob_effects` | **Translation**: Clear Effects</sup>
@@ -82,8 +82,8 @@ Clears all effects from the entity eating, like a milk bucket.
   - <img src=Tags/compound_tag.png> **curative_item**: The item used to clear all effects. Defaults to a milk bucket.
     > **Tags common to all items saved by Revaried:**
     > - <img src=Tags/string_tag.png> **id**: The id of the item.
-    > - <img src=Tags/integer_tag.png> **count**: How many items there are in this stack. Effectively capped at 127 due to the default count tag being a <img src=Tags/short_tag.png> short.
-    > - <img src=Tags/compound_tag.png> **components**: The tags this item stack has.
+    > - <img src=Tags/integer_tag.png> **count**: How many items there are in this stack. Effectively capped at 127 due to the default count tag being a <img src=Tags/byte_tag.png> byte.
+    > - <img src=Tags/compound_tag.png> **tags**: The tags this item stack has.
 
 ### Damage Entity (`DamageEntityBehavior`)
 <sup>**Registry Name**: `variants:damage_entity` | **Translation**: Damage Entity</sup>
@@ -132,8 +132,8 @@ Makes the entity eat an item.
   - <img src=Tags/compound_tag.png> **consumable_item**: The item for the entity to eat.
     > **Tags common to all items saved by Revaried:**
     > - <img src=Tags/string_tag.png> **id**: The id of the item.
-    > - <img src=Tags/integer_tag.png> **count**: How many items there are in this stack. Effectively capped at 127 due to the default count tag being a <img src=Tags/short_tag.png> short.
-    > - <img src=Tags/compound_tag.png> **components**: The tags this item stack has.
+    > - <img src=Tags/integer_tag.png> **count**: How many items there are in this stack. Effectively capped at 127 due to the default count tag being a <img src=Tags/byte_tag.png> byte.
+    > - <img src=Tags/compound_tag.png> **tags**: The tags this item stack has.
 
 ### Explode (`ExplodeBehavior`)
 <sup>**Registry Name**: `variants:explode` | **Translation**: Explode</sup>

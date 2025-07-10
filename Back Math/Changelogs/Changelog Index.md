@@ -1,5 +1,6 @@
 # Changelogs
 ## 1.9.0.X
+- [1.9.0.7](1.9.0.7%20Beta%20-%2028-03-25/Changelog%201.9.0.7.md)
 - [1.9.0.6](1.9.0.6%20Beta%20-%2004-03-25/Changelog%201.9.0.6.md)
 - [1.9.0.5](1.9.0.5%20Beta%20-%2028-01-25/Changelog%201.9.0.5.md)
 - [1.9.0.4](1.9.0.4%20Beta%20-%2026-01-25/Changelog%201.9.0.4.md)
@@ -7,7 +8,7 @@
 - [1.9.0.2](1.9.0.2%20Beta%20-%2017-11-24/Changelog%201.9.0.2.md)
 - [1.9.0.1](1.9.0.1%20Beta%20-%2015-11-24/Changelog%201.9.0.1.md)
 
-## 1.8.0
+## 1.8.0 (Bountifully Expansive)
 - [October 22nd, 2024](1.8%20Beta%20Dev%20-%2022-10-24/Changelog%2022-10-24.md)
 - [October 6th, 2024](1.8%20Beta%20Dev%20-%2006-10-24/Changelog%2006-10-24.md)
 - [October 4th, 2024](1.8%20Beta%20Dev%20-%2004-10-24/Changelog%2004-10-24.md)
@@ -31,10 +32,11 @@
 - [December 27th, 2022](1.8%20Beta%20Dev%20-%2027-12-22/Changelog%2027-12-22.md)
 - December 20th, 2022 (Initial commit, no changelog for this one)
 
-## 1.7.0
+## 1.7.0 (Aljamic Wars)
 
-## 1.6.0
+## 1.6.0 (Sophies Take Over)
+- [1.6.0 Early Build 3](1.6.0%20-%20Early%20Build%203.md)
 
-## 1.5.0
+## 1.5.0 (Nightly Thoughts)
 
 ## Alpha

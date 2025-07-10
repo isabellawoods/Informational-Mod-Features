@@ -11,30 +11,34 @@ body, li {
 a:link, a:active, code:link, code:active {
   color: rgb(194, 139, 216);
 }
+d {
+  font-family: 'Minecraft Seven v3';
+  text-shadow: 0.125em 0.125em 0 color-mix(in srgb, currentColor 25%, #000 75%);
+}
 
 /*Minecraft rarity colors*/
 mc-c {
-  font-family: 'Minecraft Seven';
+  font-family: 'Minecraft Seven v3';
   color: rgb(255, 255, 255);
+  text-shadow: 0.125em 0.125em 0 color-mix(in srgb, currentColor 25%, #000 75%);
 }
 mc-u {
-  font-family: 'Minecraft Seven';
+  font-family: 'Minecraft Seven v3';
   color: rgb(255, 255, 85);
+  text-shadow: 0.125em 0.125em 0 color-mix(in srgb, currentColor 25%, #000 75%);
 }
 mc-r {
-  font-family: 'Minecraft Seven';
+  font-family: 'Minecraft Seven v3';
   color: rgb(85, 255, 255);
+  text-shadow: 0.125em 0.125em 0 color-mix(in srgb, currentColor 25%, #000 75%);
 }
 mc-e {
-  font-family: 'Minecraft Seven';
+  font-family: 'Minecraft Seven v3';
   color: rgb(255, 85, 255);
+  text-shadow: 0.125em 0.125em 0 color-mix(in srgb, currentColor 25%, #000 75%);
 }
 mc-p {
-  font-family: 'Minecraft Seven';
+  font-family: 'Minecraft Seven v3';
   color: rgb(85, 255, 85);
-}
-
-tooltip {
-  font-family: 'Minecraft Seven';
-  color: rgb(170, 170, 170);
+  text-shadow: 0.125em 0.125em 0 color-mix(in srgb, currentColor 25%, #000 75%);
 }

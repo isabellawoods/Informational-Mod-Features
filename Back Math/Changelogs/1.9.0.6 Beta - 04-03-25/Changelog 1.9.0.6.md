@@ -11,13 +11,12 @@
   - Crates serve as an early-game version of shulker boxes, being able to be carried around with all its items.
   - These can be crafted using two string and a composter in a "V" shape.
   - These have essentially the same properties as planks.
-  - Placed crates can be picked up using shift-right-click, using this will automatically put it in your chestplate slot, or your hand it it's occupied.
+  - Placed crates can be picked up by shift-right-clicking. Doing this will automatically put it in your chestplate slot, or your hand if it's occupied.
   - Crates on your inventory inflict Slowness III for 1 second, unless there's a crate in your chestplate slot.
-  - Crates render on your back, and come with a simple chest strap to make it look like you're carrying it.
-  - Filled crates show a tooltip like the shulker box, but updated.
+  - Crates render on your back, and come with a simple chest strap to look like you're carrying it.
+  - Filled crates show a tooltip like shulker boxes, but updated.
     - The crate's tooltip has the ability to show all items by holding shift.
-  - Crates cannot be put inside other crates or shulker boxes.
-    - Shulker boxes cannot be put into crates either.
+  - Crates cannot be put inside other crates or shulker boxes, and shulker boxes cannot be put into crates either.
   - These use *Revaried*'s stack handling to save and load items.
 
 ### Entities
@@ -25,7 +24,7 @@
   - The size of their bust is controlled by a new tag called `bust_size`.
   - Their bust size is randomized when they spawn.
   - Breasts can have outfits rendered on top of them, but there's a lot of Z-fighting that occurs.
-  - Their breasts are only rendered if the `renderBreasts` config is set to `true` and the *Female Gender Mod* is loaded.
+  - Breasts are only rendered if the `renderBreasts` config is set to `true` and the *Female Gender Mod* is loaded.
 
 ### Statistics
 - Added the **"Crates Opened"** statistics.
@@ -34,10 +33,11 @@
 ### Items
 - Plateforced mid-term armor now has an emissive layer.
   - This is defined by its outfit definition.
+  - However, the emissive layer seems to pick the wrong textures while loading.<sup>*[This might be an issue with Sodium]*</sup>
   - The items, however, don't have it.
-- Fixed a single floating pixel on the plateforced mid-term leggings outfit model.
+- Removed a single floating pixel on the plateforced mid-term leggings outfit model.
 - Dyed outfit items will now show its colors when worn.
-  - This doesn't apply to outfits being rendered on your first-person arm.
+  - This doesn't yet apply to outfits being rendered on your first-person arm.
 - Karate headbands can now be dyed.
   - Updated the item and outfit textures to be white.
   - Karate lucia's karate headbands are still yellow.
@@ -81,12 +81,11 @@
 - They now bob their arms when idle.
 
 ### Sounds
-- Changes the ids of all sounds with "fabricio" in their name to "alcalyte".
-  - This includes all subtitles too.
+- Changes the ids of all sounds with "fabricio" in their name to "alcalyte". This also includes subtitles.
 
 ### Miscellaneous
 - The "anger dungeon" feature is now registered (not sure if it helps with anything).
-- Changed the changelog location from the mod's description to point at the *Informational Mod Features*'s *Back Math* changelogs page, which can be found [here](https://github.com/Fabricio20106/Informational-Mod-Features/tree/main/Back%20Math/Changelogs).
+- Changed the changelog location from the mod's description to point at the *Informational Mod Features*'s *Back Math* changelogs page, which can be found [here](/Back%20Math/Changelogs).
 
 ## Technical
 ### Additions
@@ -100,13 +99,13 @@
 
 ### Changes
 - Renamed the `karate_band` outfit definition to `karate_headband`.
-- Outfit textures return an null when the given asset id is `minecraft:`.
+- Outfit textures return null when the given asset id is `minecraft:`.
 - The loot modifiers provider now has a name: *"Back Math - Loot Modifiers"*.
 - The *Back Math* config file is now located inside the `melonystudios` subfolder.
   - All my other mods' configs are going to be moved here for consistency.
 - Renamed the `shyFabricioSpawn` config to `shyAlcalyteSpawn`.
 - Added the `renderBreasts` config.
-  - When enabled, and if *Female Gender Mod* is installed, *Back Math* mobs can have breasts.
+  - When enabled, and if *Female Gender Mod* is installed, some *Back Math* mobs can have breasts.
   - Breasts are also rendered if the game version is set to `melony-studios-dev`.
 - The logger used by the *QueenLucyEntity* class is no longer from the *Entity* class.
 
@@ -118,7 +117,7 @@
 - Added `#backmath:crates` item tag.
   - Contains crates.
   - Items in this tag:
-    - When being worn by wanderer and angry sophies, have a 50% chance to be dropped;
+    - When being worn by wanderer and angry sophies, have a 50% chance to be dropped (set upon spawning);
     - The `backmath:crate` outfit definition is choosen for outfits and breasts if this isn't an armor item;
     - Capes are automatically hidden when these are in your chest slot;
     - Cannot be put inside crates and shulker boxes;

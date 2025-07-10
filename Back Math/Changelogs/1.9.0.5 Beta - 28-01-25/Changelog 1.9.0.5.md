@@ -65,6 +65,7 @@
   - Queen lucy's eyes are (kind of) meant to match the mid-term, as they carry the summoner staff. So now their eyes glow like mid-term.
 - Queen lucy's shirt drop is now controlled by which variant it has.
   - If it's a new variant, a shirt won't drop by default.
+  - Though currently shirts don't even drop due to some problem with the way I wrote it.
 - Queen lucy's spell tag no longer prints an error if it's empty.
   - An empty tag now defaults to no spell.
 

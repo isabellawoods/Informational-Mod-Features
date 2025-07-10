@@ -4,6 +4,9 @@
 >
 > ***Last Updated**: 1.8.0.9 (10-3-25)*
 
+> [!WARNING]
+> In my current implementation of data-driven "registries", it **doesn't work in multiplayer** due to the server not sending them to the client. Loading them beforehand may be a possible workaround.
+
 A **bowl type** is group of properties for an exponential stew bowl, which includes item and model data number. Bowl types can be defined using JSON files in a data pack at the path `data/<namespace>/bowl_type/`.
 
 ## JSON format
@@ -14,7 +17,7 @@ Bowl types are defined using the following format:
   - <img src=Tags/compound_tag.png> **bowl**: The bowl item stack to use when finishing to eat the stew.
     > **Tags common to all items saved by Revaried:**
     > - <img src=Tags/string_tag.png> **id**: The id of the item.
-    > - <img src=Tags/integer_tag.png> **count**: *(optional)* How many items there are in this stack. Effectively capped at 127 due to the default count tag being a <img src=Tags/short_tag.png> short.
+    > - <img src=Tags/integer_tag.png> **count**: *(optional)* How many items there are in this stack. Effectively capped at 127 due to the default count tag being a <img src=Tags/byte_tag.png> byte.
     > - <img src=Tags/compound_tag.png> **tags**: *(optional)* The tags this item stack has.
   - <img src=Tags/string_tag.png> **name**: The name of the material of this bowl. Used when creating item models and recipe through the data generators.
   - <img src=Tags/integer_tag.png> **texture_id**: The texture identifier (custom model data value) of this bowl.
@@ -38,3 +41,4 @@ Issues relating to "Bowl type" are maintained on [Revaried's bug tracker](https:
 | **Back Math** | ![](/Textures/navbox/outfit_definition.png) [Outfit Definition](/Back%20Math/Docs/Outfit%20Definition.md) ▪ ![](/Textures/navbox/queen_lucy_variant.png) [Queen Lucy Variant](/Back%20Math/Docs/Queen%20Lucy%20Variant.md) ▪ ![](/Textures/navbox/queen_lucy_pet_variant.png) [Queen Lucy Pet Variant](/Back%20Math/Docs/Queen%20Lucy%20Pet%20Variant.md) ▪ ![](/Textures/navbox/wanderer_sophie_variant.png) [Wanderer Sophie Variant](/Back%20Math/Docs/Wanderer%20Sophie%20Variant.md) |
 | **Revaried** | ![](/Textures/navbox/bowl_type.png) **Bowl Type** ▪ ![](/Textures/navbox/damage_source.png) [Damage Source](/Revaried/Docs/Damage%20Source.md) ▪ ![](/Textures/navbox/wool_armor_color.png) [Wool Armor Color](/Revaried/Docs/Wool%20Armor%20Color.md) |
 | **Stacked Goods** | ![](/Textures/navbox/mineral_extraction.png) [Mineral Extraction](/Stacked%20Goods/Docs/Mineral%20Extraction.md) |
+| **Mellotech** | ![](/Textures/navbox/cluster_material.png) [Cluster Material](/Mellotech/Docs/Cluster%20Material.md) |
