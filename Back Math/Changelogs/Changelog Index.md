@@ -35,6 +35,7 @@
 ## 1.7.0 (Aljamic Wars)
 
 ## 1.6.0 (Sophies Take Over)
+- [1.6.0](1.6.0%20-%2030-12-21/Changelog%201.6.0.md)
 - [1.6.0 Early Build 3](1.6.0%20-%20Early%20Build%203.md)
 
 ## 1.5.0 (Nightly Thoughts)

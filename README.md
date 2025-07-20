@@ -12,7 +12,8 @@ Changelogs documenting most version of my mods.
 Documentation of data-driven registries and their formats and history.
 - [Back Math](/Back%20Math/Docs);
 - [Revaried](/Revaried/Docs);
-- [Stacked Goods](/Stacked%20Goods/Docs).
+- [Stacked Goods](/Stacked%20Goods/Docs);
+- [Mellotech](/Mellotech/Docs).
 
 ## Melony Studios Wiki
 Documentation for various things of mine, not exclusively related to my mods.
