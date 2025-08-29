@@ -1,19 +1,15 @@
 # Outfit Definition
 > [!NOTE]
-> This feature is exclusive to *Back Math*.
->
-> ***Last Updated**: 1.9.0.8 (26-7-25)*
+> ***Last Updated**: 1.2.0 (24-8-25)*
 
-> [!WARNING]
-> In my current implementation of data-driven "registries", it **doesn't work in multiplayer** due to the server not sending them to the client. Loading them beforehand may be a possible workaround.
+An **outfit definition** is a set of textures to use for an outfit item or `outfit` tag. Outfit definitions can be defined using JSON files in a data pack at the path `data/<namespace>/reutilities/outfit_definition/`.
 
-An **outfit definition** is a set of textures to use for an outfit item or `outfit` tag. Outfit definitions can be defined using JSON files in a data pack at the path `data/<namespace>/outfit_definition/`.
+Outfit definitions can have tags defined at the path `data/<namespace>/tags/outfit_definition/`.
 
 ## JSON Format
 Outfit definitions are defined using the following format.
 
 - ![](/Revaried/Docs/Tags/compound_tag.png) The root object.
-  - ![](/Revaried/Docs/Tags/string_tag.png) **asset_id**: The resource location of this outfit definition. Should match the filename and namespace of this outfit.
   - ![](/Revaried/Docs/Tags/compound_tag.png) **head**: *(optional)* The head outfit slot. Used when getting a texture for the entity's head.
     - ![](/Revaried/Docs/Tags/string_tag.png) **texture**: A resource location for the texture used by this outfit slot. Omits the `textures/` prefix and `.png` suffix.
     - ![](/Revaried/Docs/Tags/string_tag.png) **emissive_texture**: *(optional)* A resource location for the emissive texture used by this outfit slot. Omits the `textures/` prefix and `.png` suffix.
@@ -28,14 +24,20 @@ Outfit definitions are defined using the following format.
   - ![](/Revaried/Docs/Tags/compound_tag.png) **chest**, **legs** and **feet**: *(all optional)* Same format as ![](/Revaried/Docs/Tags/compound_tag.png) **head**.
 
 ## History
+### Back Math
 | Version | Changes |
 |---------|---------|
 | [1.9.0.5](/Back%20Math/Changelogs/Changelog%201.9.0.5-beta.md) | <li> Added outfit definitions to data packs. </li> <li> Currently, the `emissive_texture` field doesn't work because I didn't implement it. |
 | [1.9.0.6](/Back%20Math/Changelogs/Changelog%201.9.0.6-beta.md) | <li> Added the `color` field. </li> <li> The `emissive_texture` field now works. </li> |
 | [1.9.0.8](/Back%20Math/Changelogs/Changelog%201.9.0.8-beta.md) | Added the `hides_skin_layers` field. |
 
+### Reutilities
+| Version | Changes |
+|---------|---------|
+| 1.1.0 | Added outfit definitions to data packs, ported from *Back Math*. |
+
 ## Issues
-Issues relating to "Outfit definition" are maintained on [Back Math's bug tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
+Issues relating to "Outfit definition" are maintained on [Reutilities's bug tracker](https://github.com/isabellawoods/Reutilities/issues). Issues should be reported and viewed there.
 
 ## Navigation
 ### Data pack definitions

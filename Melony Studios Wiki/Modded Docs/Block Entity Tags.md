@@ -7,21 +7,27 @@
   - ![](/Revaried/Docs/Tags/list_tag.png) **items**: A list of item stacks stored in this crate, with a maximum of 27 stacks.
     - ![](/Revaried/Docs/Tags/compound_tag.png) A single item stack.
       > **Tags common to all items saved by Revaried:**
-      > - ![](/Revaried/Docs/Tags/string_tag.png)  **id**: The id of the item.
-      > - ![](/Revaried/Docs/Tags/integer_tag.png)  **count**: *(optional)* How many items there are in this stack. Effectively capped at 127 due to the default count tag being a ![](/Revaried/Docs/Tags/byte_tag.png) byte.
-      > - ![](/Revaried/Docs/Tags/compound_tag.png)  **tags**: *(optional)* The tags this item stack has.
+      > - ![](/Revaried/Docs/Tags/string_tag.png) **id**: The id of the item.
+      > - ![](/Revaried/Docs/Tags/integer_tag.png) **count**: *(optional)* How many items there are in this stack. Effectively capped at 127 due to the default count tag being a ![](/Revaried/Docs/Tags/byte_tag.png) byte.
+      > - ![](/Revaried/Docs/Tags/integer_tag.png) **slot**: Which slot this item is in. Ranges from `0` to `26`.
+      > - ![](/Revaried/Docs/Tags/compound_tag.png) **tags**: *(optional)* The tags this item stack has.
 
 ### Crate (`crate`)
 - ![](/Revaried/Docs/Tags/compound_tag.png) The root object.
   - ![](/Revaried/Docs/Tags/list_tag.png) **items**: A list of item stacks stored in this crate, with a maximum of 18 stacks.
     - ![](/Revaried/Docs/Tags/compound_tag.png) A single item stack.
       > **Tags common to all items saved by Revaried:**
-      > - ![](/Revaried/Docs/Tags/string_tag.png)  **id**: The id of the item.
-      > - ![](/Revaried/Docs/Tags/integer_tag.png)  **count**: *(optional)* How many items there are in this stack. Effectively capped at 127 due to the default count tag being a ![](/Revaried/Docs/Tags/byte_tag.png) byte.
-      > - ![](/Revaried/Docs/Tags/compound_tag.png)  **tags**: *(optional)* The tags this item stack has.
+      > - ![](/Revaried/Docs/Tags/string_tag.png) **id**: The id of the item.
+      > - ![](/Revaried/Docs/Tags/integer_tag.png) **count**: *(optional)* How many items there are in this stack. Effectively capped at 127 due to the default count tag being a ![](/Revaried/Docs/Tags/byte_tag.png) byte.
+      > - ![](/Revaried/Docs/Tags/integer_tag.png) **slot**: Which slot this item is in. Ranges from `0` to `17`.
+      > - ![](/Revaried/Docs/Tags/compound_tag.png) **tags**: *(optional)* The tags this item stack has.
 
 ### Head (`head`)
 - ![](/Revaried/Docs/Tags/compound_tag.png) The root object.
+
+### Sign (`sign`)
+- ![](/Revaried/Docs/Tags/compound_tag.png) The root object.
+  - > **Tags common to vanilla signs.**
 
 ### Queen Lucy Head (`queen_lucy_head`)
 - ![](/Revaried/Docs/Tags/compound_tag.png) The root object.
@@ -71,9 +77,9 @@
 - ![](/Revaried/Docs/Tags/compound_tag.png) The root object.
   - ![](/Revaried/Docs/Tags/compound_tag.png) **item**: *(optional)* The item stack of the currently stored disc (be it recorded or not). Saved using *Revaried*'s stack handling.
     > **Tags common to all items saved by Revaried:**
-    > - ![](/Revaried/Docs/Tags/string_tag.png)  **id**: The id of the item.
-    > - ![](/Revaried/Docs/Tags/integer_tag.png)  **count**: *(optional)* How many items there are in this stack. Effectively capped at 127 due to the default count tag being a ![](/Revaried/Docs/Tags/byte_tag.png) byte.
-    > - ![](/Revaried/Docs/Tags/compound_tag.png)  **tags**: *(optional)* The tags this item stack has.
+    > - ![](/Revaried/Docs/Tags/string_tag.png) **id**: The id of the item.
+    > - ![](/Revaried/Docs/Tags/integer_tag.png) **count**: *(optional)* How many items there are in this stack. Effectively capped at 127 due to the default count tag being a ![](/Revaried/Docs/Tags/byte_tag.png) byte.
+    > - ![](/Revaried/Docs/Tags/compound_tag.png) **tags**: *(optional)* The tags this item stack has.
   - ![](/Revaried/Docs/Tags/string_tag.png) **music_id**: *(optional)* A resource location of the sound file currently being recorded. Setting this separately of right-clicking the recorder, and inserting a vinyl disc with a hopper, will start recording the song.
   - ![](/Revaried/Docs/Tags/integer_tag.png) **ticks_until_finished_recording**: A countdown, in ticks, of how long until the recording is finished. Set to `600` when recording and `-1` when finished/not recording.
   - ![](/Revaried/Docs/Tags/integer_array_tag.png) **recorder_player**: *(optional)* An UUID of a player who was recording this song. This is used to show the "<d style="color: #FFAA00">Finished recording!</d>" message on your action bar.

@@ -1,12 +1,13 @@
 # Changelogs
 ## 1.9.0.X
-- [1.9.0.7](1.9.0.7%20Beta%20-%2028-03-25/Changelog%201.9.0.7.md)
-- [1.9.0.6](1.9.0.6%20Beta%20-%2004-03-25/Changelog%201.9.0.6.md)
-- [1.9.0.5](1.9.0.5%20Beta%20-%2028-01-25/Changelog%201.9.0.5.md)
-- [1.9.0.4](1.9.0.4%20Beta%20-%2026-01-25/Changelog%201.9.0.4.md)
-- [1.9.0.3](1.9.0.3%20Beta%20-%2005-01-25/Changelog%201.9.0.3.md)
-- [1.9.0.2](1.9.0.2%20Beta%20-%2017-11-24/Changelog%201.9.0.2.md)
-- [1.9.0.1](1.9.0.1%20Beta%20-%2015-11-24/Changelog%201.9.0.1.md)
+- [1.9.0.8](Changelog%201.9.0.8-beta.md)
+- [1.9.0.7](Changelog%201.9.0.7-beta.md)
+- [1.9.0.6](Changelog%201.9.0.6-beta.md)
+- [1.9.0.5](Changelog%201.9.0.5-beta.md)
+- [1.9.0.4](Changelog%201.9.0.4-beta.md)
+- [1.9.0.3](Changelog%201.9.0.3-beta.md)
+- [1.9.0.2](Changelog%201.9.0.2-beta.md)
+- [1.9.0.1](Changelog%201.9.0.1-beta.md)
 
 ## 1.8.0 (Bountifully Expansive)
 - [October 22nd, 2024](1.8%20Beta%20Dev%20-%2022-10-24/Changelog%2022-10-24.md)

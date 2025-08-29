@@ -16,15 +16,15 @@ Unlike other files, all tags in this file are optional unless annotated with "*(
 > - [*Exponential Stews*](/Revaried/Docs/Exponential%20Stews%20(After%201.7-pre5).md): from [1.7.0 pre-release 5](/Revaried/Changelogs/1.16.5%20-%201.7.0%20Pre-Release%205/Changelog%201.7.0%20Pre-Release%205%20(Part%20I%20and%20II).md) to [1.8.0.1](/Revaried/Changelogs/1.16.5%20-%201.8.0.1/Changelog%201.8.0.1.md);
 > - [*Exponential Stews*](/Revaried/Docs/Exponential%20Stews%20(Before%201.7-pre5).md): before 1.7.0 pre-release 5.
 
-Almost all consumables in the game, when using *Revaried*, can be turned into consumables. Technically all items can be consumables, but most aren't going to work.
+All items in the game, when using *Revaried*, can be turned into consumables, although most of them won't work.
 
 ### Equippables
 > ***Documentation**: [Equippables](/Revaried/Docs/Equippables.md).*
 
 ### Wool Sweater
 > ***Documentation***:
-> - [Wool Armor (Updated)](/Revaried/Docs/Wool%20Armor%20(Updated).md): from 1.8.0.3 onwards;
-> - [Wool Armor](/Revaried/Docs/Wool%20Armor.md): before 1.8.0.3.
+> - [*Wool Armor (Updated)*](/Revaried/Docs/Wool%20Armor%20(Updated).md): from [1.8.0.3](/Revaried/Changelogs/1.16.5%20-%201.8.0.3/Changelog%201.8.0.3.md) onwards;
+> - [*Wool Armor*](/Revaried/Docs/Wool%20Armor.md): before 1.8.0.3.
 
 ### Hiding Tags
 *Revaried* has various hiding tags for hiding specific parts of the item's tooltip, like with vanilla's ![](/Revaried/Docs/Tags/integer_tag.png) **HideFlags**.
@@ -98,7 +98,7 @@ Almost all consumables in the game, when using *Revaried*, can be turned into co
     > | Label ID | From Disc |
     > |----------|------------|
     > | ``0`` (none) and ``1`` | C418 - blocks / stal / strad |
-    > | ``2`` | C418 - cat, mall |
+    > | ``2`` | C418 - cat / mall |
     > | ``3`` | C418 - chirp |
     > | ``4`` | C418 - far |
     > | ``5`` | C418 - mellohi |

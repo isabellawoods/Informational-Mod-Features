@@ -50,15 +50,18 @@ This effects adds this tooltip to the item:
 ### Give Milked Sword Item (`GiveMilkedSwordItemEffectType`)
 Gives a milk bucket (by default) when hitting an entity.
 
+This effects adds this tooltip to the item:
+> <d style="color: #7C979E">[☐]</d> <d style="color: #BDDCE4">Gives you \<amount> \<item name></d> 
+
 - *(ItemStack)* **bucketStack**: The item stack to give the attacker. Defaults to one milk bucket.
 
 #### NBT Format
 - ![](/Revaried/Docs/Tags/compound_tag.png) Root tag for this item.
   - ![](/Revaried/Docs/Tags/string_tag.png)![](/Revaried/Docs/Tags/compound_tag.png) **milked_sword_item**: An item stack to give the player. Can be defined as both a compound and string, with the string being an item id that's automatically converted into a compound.
     > **Tags common to all items saved by Revaried:**
-    > - ![](/Revaried/Docs/Tags/string_tag.png)  **id**: The id of the item.
-    > - ![](/Revaried/Docs/Tags/integer_tag.png)  **count**: *(optional)* How many items there are in this stack. Effectively capped at 127 due to the default count tag being a ![](/Revaried/Docs/Tags/byte_tag.png) byte.
-    > - ![](/Revaried/Docs/Tags/compound_tag.png)  **tags**: *(optional)* The tags this item stack has.
+    > - ![](/Revaried/Docs/Tags/string_tag.png) **id**: The id of the item.
+    > - ![](/Revaried/Docs/Tags/integer_tag.png) **count**: *(optional)* How many items there are in this stack. Effectively capped at 127 due to the default count tag being a ![](/Revaried/Docs/Tags/byte_tag.png) byte.
+    > - ![](/Revaried/Docs/Tags/compound_tag.png) **tags**: *(optional)* The tags this item stack has.
 
 ### Add Experience (`AddExperienceEffectType`)
 Gives the player a specific amount of experience points when either hitting an entity or eating the item.

@@ -1,4 +1,4 @@
-<div style="text-align: center;"> <img src=ChangelogPhoto.png width="1500"> </div>
+<div style="text-align: center;"> <img src=Assets/1.9.0.2-beta.png width="1500"> </div>
 
 # <div style="text-align: center;">- Back Math - 1.9.0.2 -</div>
 ### <div style="text-align: center;">A Back Math Update Changelog made on *09 and 10/11/2024*</div>
