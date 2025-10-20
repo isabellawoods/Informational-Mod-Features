@@ -2,23 +2,26 @@
 > [!NOTE]
 > This feature is exclusive to *Stacked Goods*.
 >
-> ***Last Updated**: 0.4.0.1 (26-7-25)*
+> ***Last Updated**: 4.0.2 (19-10-25)*
 
-**Mineral extractions** define which blocks use which loot table when right-clicking a mineral extractor with a hammer. Mineral extractions can be defined using JSON files in a data pack at the path `data/<namespace>/mineral_extraction/`.
+**Mineral extractions** define which blocks use which loot table when right-clicking a mineral extractor with a hammer. Mineral extractions can be defined using JSON files in a data pack at the path `data/<namespace>/stackedgoods/mineral_extraction/`.
+
+Mineral extractions can have tags defined at the path `data/<namespace>/tags/stackedgoods/mineral_extraction/`.
 
 ## JSON Format
 Mineral extractions are defined using the following format:
 - ![](/Revaried/Docs/Tags/compound_tag.png) The root object.
-  - ![](/Revaried/Docs/Tags/string_tag.png) **block**: A non-hashtagged block tag defining which blocks can be used to get the specified resources.
-  - ![](/Revaried/Docs/Tags/string_tag.png) **extraction_table**: The loot table to use when extracting minerals from the blocks in the tag.
+  - ![](/Revaried/Docs/Tags/string_tag.png)![](/Revaried/Docs/Tags/list_tag.png) **blocks**: A block, block list or hashtagged block tag defining which blocks can be used to get the specified resources.
+  - ![](/Revaried/Docs/Tags/string_tag.png) **extraction_table**: A loot table to use when extracting minerals from the defined blocks.
 
 ## History
-| Version | Changes                                  |
-|---------|------------------------------------------|
-| 0.4     | Added mineral extractions to data packs. |
+| Version | Changes |
+|---------|---------|
+| 0.4     | Added mineral extractions to data packs, under the folder `mineral_extraction`. |
+| 0.4.1   | <li> Renamed the ![](/Revaried/Docs/Tags/string_tag.png) **block** field to **blocks**. </li> <li> The **blocks** field now supports having single blocks and lists of blocks (tags now need to be hashtagged). </li> <li> Changed the folder to `stackedgoods/mineral_extraction`, as NeoForge prepends the mod id to registries. </li> |
 
 ## Issues
-Issues relating to "Mineral extraction" or "Mineral extraction type" are maintained on [Stacked Goods's bug tracker](https://github.com/isabellawoods/Stacked-Goods/issues). Issues should be reported and viewed there.
+Issues relating to "Mineral extraction" or "Mineral extraction type" are maintained on [*Stacked Goods*' bug tracker](https://github.com/isabellawoods/Stacked-Goods/issues). Issues should be reported and viewed there.
 
 ## Navigation
 ### Data pack definitions

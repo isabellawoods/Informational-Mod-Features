@@ -1,10 +1,10 @@
 # Outfit Definition
 > [!NOTE]
-> ***Last Updated**: 1.2.0 (24-8-25)*
+> ***Last Updated**: 1.2.0 (19-10-25)*
 
 An **outfit definition** is a set of textures to use for an outfit item or `outfit` tag. Outfit definitions can be defined using JSON files in a data pack at the path `data/<namespace>/reutilities/outfit_definition/`.
 
-Outfit definitions can have tags defined at the path `data/<namespace>/tags/outfit_definition/`.
+Outfit definitions can have tags defined at the path `data/<namespace>/tags/reutilities/outfit_definition/`.
 
 ## JSON Format
 Outfit definitions are defined using the following format.
@@ -37,7 +37,7 @@ Outfit definitions are defined using the following format.
 | 1.1.0 | Added outfit definitions to data packs, ported from *Back Math*. |
 
 ## Issues
-Issues relating to "Outfit definition" are maintained on [Reutilities's bug tracker](https://github.com/isabellawoods/Reutilities/issues). Issues should be reported and viewed there.
+Issues relating to "Outfit definition" are maintained on [*Reutilities*'s bug tracker](https://github.com/isabellawoods/Reutilities/issues). Issues should be reported and viewed there.
 
 ## Navigation
 ### Data pack definitions

@@ -15,7 +15,7 @@ Wool armor colors are defined using the following format:
 - <img src=Tags/compound_tag.png> The root object.
   - <img src=Tags/string_tag.png> **asset_id**: The resource location of this wool armor color. Should match the location of this file inside the data pack.
   > **If this wool armor color is a color:**
-  - <img src=Tags/integer_tag.png> **color**: The color of this color definition. Uncapped, but recomended to stay within **0** and **16777215**.
+  - <img src=Tags/integer_tag.png> **color**: The color of this definition. Uncapped, but recomended to stay within **0** and **16777215**.
   - <img src=Tags/string_tag.png> **color_name**: A translation key for this color definition's name. This is prepended with the wool armor item name.
   > **If this wool armor color is a design:**
   - <img src=Tags/integer_tag.png> **armor_design**: The number of this armor design. This is effectively the number of the custom model data for the item model.
@@ -33,7 +33,7 @@ Wool armor colors are defined using the following format:
 | [*October 22nd, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2022-10-24/Changelog%2022-10-24.md) (1.8.0) | Added `red_yellow`, `aljan_light_blue`, `poison_brown` and `insomnian` wool armor colors. |
 
 ## Issues
-Issues relating to "Wool armor color" are maintained on [Revaried's bug tracker](https://github.com/isabellawoods/Revaried/issues). Issues should be reported and viewed there.
+Issues relating to "Wool armor color" are maintained on [*Revaried*'s bug tracker](https://github.com/isabellawoods/Revaried/issues). Issues should be reported and viewed there.
 
 ## Navigation
 ### Data pack definitions

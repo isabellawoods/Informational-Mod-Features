@@ -15,6 +15,9 @@ d {
   font-family: 'Minecraft Seven v3';
   text-shadow: 0.125em 0.125em 0 color-mix(in srgb, currentColor 25%, #000 75%);
 }
+c {
+  font-family: 'Kantumruy Pro';
+}
 
 /*Minecraft rarity colors*/
 mc-c {

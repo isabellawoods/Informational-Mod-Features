@@ -2,12 +2,12 @@
 > [!NOTE]
 > This feature is exclusive to *Revaried*.
 >
-> ***Last Updated**: 1.8.0.9 (10-3-25)*
+> ***Last Updated**: 1.8.0.9 (19-10-25)*
 
 > [!WARNING]
 > In my current implementation of data-driven "registries", it **doesn't work in multiplayer** due to the server not sending them to the client. Loading them beforehand may be a possible workaround.
 
-**Damage sources** are the way Minecraft defines different kinds of damage that entities can take. Damage sources can be defined using JSON files in a data pack at the path `data/<namespace>/damage_source/`.
+**Damage sources** are the way *Minecraft* defines different kinds of damage that entities can take. Damage sources can be defined using JSON files in a data pack at the path `data/<namespace>/damage_source/`.
 
 ## JSON Format
 Damage sources are defined using the following format:
@@ -57,7 +57,7 @@ Damage sources are defined using the following format:
 | 1.5.0   | Added the `enderbreath`, `voided` and `watery` damage sources. |
 
 ## Issues
-Issues relating to "Damage source" are maintained on [Revaried's bug tracker](https://github.com/isabellawoods/Revaried/issues). Issues should be reported and viewed there.
+Issues relating to "Damage source" are maintained on [*Revaried*'s bug tracker](https://github.com/isabellawoods/Revaried/issues). Issues should be reported and viewed there.
 
 ## Navigation
 ### Data pack definitions
