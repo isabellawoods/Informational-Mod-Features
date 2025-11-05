@@ -14,6 +14,7 @@ Documentation of data-driven registries and their formats and history.
 - [Revaried](/Revaried/Docs);
 - [Reutilities](/Reutilities/Docs);
 - [Stacked Goods](/Stacked%20Goods/Docs);
+- [Mellow UI](/Mellow%20UI/Docs);
 - [Melony Lib](/Melony%20Lib/Docs);
 - [Mellotech](/Mellotech/Docs).
 

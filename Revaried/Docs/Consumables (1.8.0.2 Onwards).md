@@ -95,6 +95,7 @@ Damages the entity with a pre-existing or custom damage source. See [**damage so
   - <img src=Tags/string_tag.png><img src=Tags/compound_tag.png> **source**: The damage source to hurt the entity with.
     > **If defined as a string:**
     > - A resource location of a damage source to be used. Damage sources were made data-driven by Revaried, and new ones can be defined in `data/<namespace>/damage_source`.
+
 <details>
 <summary>Click to show the damage source compound definition</summary>
 

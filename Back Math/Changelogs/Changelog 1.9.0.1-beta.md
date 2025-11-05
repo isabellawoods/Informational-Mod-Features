@@ -1,7 +1,7 @@
-<div style="text-align: center;"> <img src=Assets/1.9.0.1-beta.png width="1500"> </div>
+![1.9.0.1-beta](1.9.0.1-beta.png)
 
-# <div style="text-align: center;">- Back Math - 1.9.0.1 -</div>
-### <div style="text-align: center;">A Back Math Update Changelog made on *09/11/2024*</div>
+<h1 style="text-align: center;">- Back Math - 1.9.0.1 -</h1>
+<h3 style="text-align: center;">A Back Math Update Changelog made on *09/11/2024*</h3>
 
 **1.9.0.1** is the first version for *Back Math* 1.9.0, released on November 15, 2024.[^1][^2] 
 

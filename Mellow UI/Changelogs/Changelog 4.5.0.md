@@ -1,7 +1,8 @@
 <div style="text-align: center;"> <img src=ChangelogPhoto.png width="1170"> </div>
 
-# <div style="text-align: center;">- Mellow UI 4.5.0 -</div>
-> ***Written On:** 29-9-25* - ***Last Updated:** 29-9-25*
+<h1 style="text-align: center;">- Mellow UI 4.5.0 -</h1>
+
+> **Written On:** 29-9-25 - **Last Updated:** 29-9-25
 
 **4.5.0** is a major release for *Mellow UI*, released on September 28, 2025.[^1][^2][^3]
 

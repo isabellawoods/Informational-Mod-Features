@@ -1,5 +1,5 @@
 # Flair
-> ***Last Updated**: 29-9-25 (4.5.0)*
+> **Last Updated**: 4-11-25 (4.5.0)
 
 A **flair** is per-mod customization options for their own entry on *Mellow UI*'s mod list and configuration screens. Flairs can be defined using JSON files in a resource pack at the path `assets/<namespace>/flair/<mod_id>.json`.
 
@@ -36,6 +36,6 @@ Issues relating to "flair" are maintained on [*Mellow UI*'s bug tracker](https:/
 
 ## Navigation
 ### Resource pack definitions
-| | |
-|-|-|
-| **Mellow UI** | ![](/Textures/navbox/flair.png) **Flair** ▪![](/Textures/navbox/panorama.png) [Panorama](/Mellow%20UI/Docs/Panorama.md) |
+|               |                                                                                                                         |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| **Mellow UI** | **Flair** ▪ [Panorama](/Mellow%20UI/Docs/Panorama.md) |

@@ -39,7 +39,7 @@ The **June 12th** update is a version for *Back Math* 1.8.0, released on June 12
 - Termian patrollers no longer despawn if they're beyond 16.384 blocks away from the nearest player.
 - Moved the textures for queen lucy into a subfolder called `queen_lucy`.
   - The default texture file is now called *"current.png"*.
-  - Added a new *"alternate"* texture for queen lucy, which goes unused until *Back Math* [1.9.0.5](/Back%20Math/Changelogs/1.9.0.5%20Beta%20-%2028-01-25/Changelog%201.9.0.5.md).
+  - Added a new *"alternate"* texture for queen lucy, which goes unused until *Back Math* [1.9.0.5](Changelog%201.9.0.5-beta.md)
 - Updated the textures of most queen lucy pets.
   - Their hair now has shading.
   - The "brazil shirt" variant no longer has a hood.

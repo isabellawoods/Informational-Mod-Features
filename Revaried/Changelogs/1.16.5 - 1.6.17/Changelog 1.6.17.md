@@ -3,7 +3,7 @@
 # <div style="text-align: center;">- Variants - 1.6.17 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *28/12/2023*</div>
 
-Some of the bugs in this version (and the crash as well) are due to IntelliJ breaking when I was going to test the features. These errors are fixed in the next version, 1.6.17.1.
+Some of the bugs in this version (and the crash as well) are due to IntelliJ breaking when I was going to test the features. These errors are fixed in the next version, [1.6.17.1](Changelog%201.6.17.1.md).
 
 ## Additions
 - Added Enderwood Boats.

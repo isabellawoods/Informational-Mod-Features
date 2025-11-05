@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "f7d248e4768f89cb",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa82977729a4c8d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd7e25c635aa56fc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Back Math/Updates/Sophies Take Over.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Sophies Take Over"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "712d946ffc384fc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "7917e1a4ab34d585",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe0c1cd61243045a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "78a64443bbaa3685",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d3a9819cb2be72e4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7dd0536081d980be",
+    "type": "split",
+    "children": [
+      {
+        "id": "ebc51d50d6c33316",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "aeee36c8ac2d6d5f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Back Math/Updates/Sophies Take Over.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Sophies Take Over"
+            }
+          },
+          {
+            "id": "d91a9b33afed7eff",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "66d9c48048763710",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "3ae86f087112a071",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Back Math/Updates/Sophies Take Over.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Sophies Take Over"
+            }
+          },
+          {
+            "id": "41c7af90b00b1a65",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {},
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "fe0c1cd61243045a",
+  "lastOpenFiles": [
+    "Back Math/Legacy Files/Code Snippets.md",
+    "Back Math/Docs/Wanderer Sophie Variant.md",
+    "Back Math/Docs/Queen Lucy Variant.md",
+    "Back Math/Docs/Queen Lucy Pet Variant.md",
+    "Back Math/Docs/Outfit Definition.md",
+    "Back Math/Docs/Crystallizer Recipes.md",
+    "Back Math/Changelogs/Changelog 1.9.0.8-beta.md",
+    "Back Math/Changelogs/Changelog 1.9.0.7-beta.md",
+    "Back Math/Changelogs/Changelog 1.9.0.6-beta.md",
+    "Back Math/Changelogs/Changelog 1.9.0.5-beta.md",
+    "Back Math/Changelogs/Changelog 1.9.0.4-beta.md",
+    "Back Math/Changelogs/Changelog 1.9.0.3-beta.md",
+    "Back Math/Changelogs/Changelog 1.9.0.2-beta.md",
+    "Back Math/Changelogs/Changelog 1.9.0.1-beta.md",
+    "Back Math/Changelogs/BM8 Jar to Commit Map.md",
+    "Back Math/Changelogs/1.6.0 - Early Build 3.md",
+    "Back Math/Changelogs/1.8 Beta Dev - 31-12-22/Changelog 31-12-22.md",
+    "Back Math/Changelogs/1.8 Beta Dev - 31-08-24/Changelog 31-08-24.md",
+    "Back Math/Changelogs/1.8 Beta Dev - 28-06-24/Changelog 28-06-24.md",
+    "Back Math/Changelogs/1.8 Beta Dev - 27-12-22/Changelog 27-12-22.md",
+    "Back Math/Changelogs/1.8 Beta Dev - 25-05-24/Changelog 25-05-24.md",
+    "Back Math/Changelogs/1.8 Beta Dev - 23-05-24/Changelog 23-05-24.md",
+    "Back Math/Changelogs/1.8 Beta Dev - 22-10-24/Changelog 22-10-24.md",
+    "Back Math/Changelogs/1.8 Beta Dev - 14-08-24/Changelog 14-08-24.md",
+    "Back Math/Changelogs/1.8 Beta Dev - 12-06-24/Changelog 12-06-24.md",
+    "Back Math/Changelogs/1.8 Beta Dev - 09-07-24/Changelog 09-07-24.md",
+    "Revaried/Changelogs/1.16.5 - 1.6.14/ChangelogPhoto.png",
+    "Revaried/Changelogs/1.16.5 - 1.6.14/Assets/creeper_powder_pot_old.png",
+    "Revaried/Changelogs/1.16.5 - 1.6.14/Assets/creeper_powder_pot_new.png",
+    "Revaried/Changelogs/1.16.5 - 1.6.14/Assets/creeper_powder_poisoning_old.png",
+    "Revaried/Changelogs/1.16.5 - 1.6.14/Assets/creeper_powder_poisoning_new.png",
+    "Tags/Reutilities",
+    "Tags/Melony Convention",
+    "Tags",
+    "Melony Studios Wiki/Tags",
+    "Mellow UI/Mellow UI 5.0.canvas",
+    "Mellow UI/Changelogs/Assets/4.7.0.png",
+    "Mellow UI/Changelogs/Assets/2025-10-31_19.15.00.png",
+    "Untitled.base",
+    "Revaried/Docs/Tags/byte_tag.png",
+    "Revaried/Docs/Tags/byte_array_tag.png",
+    "Revaried/Docs/Tags/boolean_tag.png",
+    "trails_resource_pack.zip",
+    "markdown-light-mode.css",
+    "markdown-dark-mode.css",
+    "LICENSE",
+    "The Mato/Showcase Pictures/Ipe Forest"
+  ]
+}

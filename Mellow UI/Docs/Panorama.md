@@ -1,6 +1,6 @@
 # Panorama
 > [!NOTE]
-> ***Last Updated**: 19-10-25 (4.6.0)*
+> **Last Updated**: 4-11-25 (4.6.0)
 
 A **panorama** is a set of textures  and properties that are rendered on the background of nearly all screens. Panoramas can be defined using JSON files in a resource pack at the path `assets/<namespace>/panorama`.
 
@@ -22,7 +22,7 @@ Panoramas are defined using the following format:
       - `mellowui:constant`;
       - `mellowui:bobbing`.
     - Other fields depending on the ![](/Revaried/Docs/Tags/string_tag.png) **type**, see below.
-  - ![](/Revaried/Docs/Tags/string_tag.png) **shader**: *(optional)* The resource location of a post effect to render on the panorama. The available effects can be seen [here](#post-effects). **These are currently hardcoded**.
+  - ![](/Revaried/Docs/Tags/string_tag.png) **shader**: *(optional)* The resource location of a post effect to render on the panorama. The available effects can be seen [here](#Post%20effects). **These are currently hardcoded**.
   - ![](/Revaried/Docs/Tags/integer_tag.png) **blur_strength**: *(optional)* An integer that overrides the "*Menu Background Blur*" option, controlling how blurry the background should be.
 
 ### `constant`
@@ -78,4 +78,4 @@ Issues relating to "panorama" are maintained on [*Mellow UI*'s bug tracker](http
 ### Resource pack definitions
 | | |
 |-|-|
-| **Mellow UI** | ![](/Textures/navbox/flair.png) [Flair](/Mellow%20UI/Docs/Flair.md) ▪![](/Textures/navbox/panorama.png) **Panorama** |
+| **Mellow UI** | [Flair](/Mellow%20UI/Docs/Flair.md) ▪ **Panorama** |

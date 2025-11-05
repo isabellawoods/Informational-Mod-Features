@@ -110,18 +110,18 @@
   > <d style="color: #A0A0A0">Back Math is a content mod made by me and my sister. While most of the content in it is fluff, recently I've been adding more fleshed out features (kind of).</d>
 - Renamed the following classes:
 
-| Old Name | New Name |
-|----------|----------|
-| *BMColorManager* | **Removed**, merged with *BMEventBusEvents* |
-| *BMCrossbowUser* | *ChargeableWeaponUser* |
-| *BMFoodStats* | *AlcalyteFoodData* |
-| *BMKeys* | *BMKeyBindings* |
-| *BMLootTableUtils* | *LootTableUtils* |
-| *BMStats* | *BMStatistics* |
-| *BMTagFixes* | *TagFixes* |
-| *HasBust* | *HasBreasts* |
-| *SophieFriendlies* | *TermianFriendlies* |
-| *WornOutfit* | *OutfitWearer* |
+| Old Name           | New Name                                    |
+| ------------------ | ------------------------------------------- |
+| *BMColorManager*   | **Removed**, merged with *BMEventBusEvents* |
+| *BMCrossbowUser*   | *ChargeableWeaponUser*                      |
+| *BMFoodStats*      | *AlcalyteFoodData*                          |
+| *BMKeys*           | *BMKeyBindings*                             |
+| *BMLootTableUtils* | *LootTableUtils*                            |
+| *BMStats*          | *BMStatistics*                              |
+| *BMTagFixes*       | *TagFixes*                                  |
+| *HasBust*          | *HasBreasts*                                |
+| *SophieFriendlies* | *TermianFriendlies*                         |
+| *WornOutfit*       | *OutfitWearer*                              |
 
 - Renamed the following methods:
 
