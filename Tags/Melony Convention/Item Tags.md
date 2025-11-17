@@ -29,7 +29,7 @@ Used to craft enderwood, plain birch and styled bookshelves.
 
 Replaced with `#minecraft:bookshelf_books` in 1.21.
 
-**Added in**: *Revaried* 1.6.1, *Edits* 1.4.3.7
+**Added in**: *Revaried* 6.1.0, *Edits* 1.4.3.7
 
 ![list_tag](list_tag.png) **#melony:books** *(8 values)*
 - `#minecraft:lectern_books`
@@ -44,7 +44,7 @@ Replaced with `#minecraft:bookshelf_books` in 1.21.
 ### bookshelves
 Replaced with `#c:bookshelves` in 1.21.
 
-**Added in**: *Revaried* 1.6.1
+**Added in**: *Revaried* 6.1.0
 
 ![list_tag](list_tag.png) **#melony:bookshelves** *(4 values)*
 - `minecraft:bookshelf`
@@ -55,7 +55,7 @@ Replaced with `#c:bookshelves` in 1.21.
 ### bowls
 Grouping tag.
 
-**Added in**: [*Revaried* 1.6.14](Changelog%201.6.14.md)
+**Added in**: [*Revaried* 6.14.0](Changelog%201.6.14.md)
 
 ![list_tag](list_tag.png) **#melony:bowls** *(2 values)*
 - [`#melony:bowls/wooden`](#bowls/wooden)
@@ -64,7 +64,7 @@ Grouping tag.
 ### bowls/obtainable_through_fishing
 Can be obtained from the junk fishing loot table.
 
-**Added in**: [*Revaried* 1.6.14](Changelog%201.6.14.md)
+**Added in**: [*Revaried* 6.14.0](Changelog%201.6.14.md)
 
 ![list_tag](list_tag.png) **#melony:bowls/obtainable_through_finishing** *(8 values)*
 - `minecraft:bowl`
@@ -79,7 +79,7 @@ Can be obtained from the junk fishing loot table.
 ### bowls/wooden
 Can be used to craft (end) fungi and exponential suspicious stew and melting beet soups.
 
-**Added in**: [*Revaried* 1.6.14](Changelog%201.6.14.md)
+**Added in**: [*Revaried* 6.14.0](Changelog%201.6.14.md)
 
 ![list_tag](list_tag.png) **#melony:bowls/wooden** *(11 values)*
 - `minecraft:bowl`
@@ -102,7 +102,7 @@ Replaced with `#c:tools/bow` in 1.21.
 
 **Added in**:
 - *February 12th, 2024* (*Back Math* 8.0)
-- [*Revaried* 7.0 Release Candidate 3](Changelog%201.7.0%20Release%20Candidate%203.md)
+- [*Revaried* 7.0.0 Release Candidate 3](Changelog%201.7.0%20Release%20Candidate%203.md)
 - *Project Alcook* 1.3
 - *Mob Taker* 1.3
 
@@ -134,7 +134,7 @@ Can be used to tame cats and ocelots. Does not include tempting.
 
 Replaced with `#minecraft:cat_food` in 1.21.
 
-**Added in**: [*Revaried* 1.6.14](Changelog%201.6.14.md)
+**Added in**: [*Revaried* 6.14.0](Changelog%201.6.14.md)
 
 ![list_tag](list_tag.png) **#melony:catlike_tame_items** *(4 values)*
 - `minecraft:cod`
@@ -153,7 +153,7 @@ Items which cannot be picked up by *Back Math* chicken jockeys.
 ### clears_mob_effects
 Items that can be used to clear the effects of a queen lucy pet.
 
-**Added in**: [*Back Math* 1.9.0.4](Changelog%201.9.0.4-beta.md)
+**Added in**: [*Back Math* 9.0.4](Changelog%201.9.0.4-beta.md)
 
 ![list_tag](list_tag.png) **#melony:clears_mob_effects** *(1 value)*
 - `#forge:milk`
@@ -163,7 +163,7 @@ Items which can complete the "Find a Tree" tutorial step.
 
 Replaced with `#minecraft:completes_find_tree_tutorial` in 1.21.
 
-**Added in**: [*Revaried* 1.7.0 Pre-Release 2](Changelog%201.7.0%20Pre-Release%202.md), [Snapshot 22w15a](https://minecraft.wiki/w/Java_Edition_22w15a)
+**Added in**: [*Revaried* 7.0.0 Pre-Release 2](Changelog%201.7.0%20Pre-Release%202.md), [Snapshot 22w15a](https://minecraft.wiki/w/Java_Edition_22w15a)
 
 ![list_tag](list_tag.png) **#melony:completes_find_tree_tutorial** *(3 values)*
 - `#minecraft:logs`,
@@ -200,7 +200,7 @@ Can be smelted into *Rimcraft* slate bricks.
 ### icon_items
 Replaced with `#c:logos` in 1.21, added by *Reutilities*.
 
-**Added in**: [*Revaried* 1.6.19.1](Changelog%201.6.19.1.md)
+**Added in**: [*Revaried* 6.19.1](Changelog%201.6.19.1.md)
 
 ![list_tag](list_tag.png) **#melony:icon_items** *(2 values)*
 - `variants:infinity_sweaters_tab_icon`
@@ -209,7 +209,7 @@ Replaced with `#c:logos` in 1.21, added by *Reutilities*.
 ### nether_stars
 Can be used to craft beacons.
 
-**Added in**: [*Revaried* 1.6.19.1](Changelog%201.6.19.1.md), *Edits* 1.4.3.7, *F10 Elements* 1.4.3
+**Added in**: [*Revaried* 6.19.1](Changelog%201.6.19.1.md), *Edits* 1.4.3.7, *F10 Elements* 1.4.3
 
 ![list_tag](list_tag.png) **#melony:nether_stars** *(2 values)*
 - `minecraft:nether_star`
@@ -257,7 +257,7 @@ Used to determine whether a *Back Math* or *Revaried* shield is actually a shiel
 
 Replaced with `#c:tools/shield` in 1.21.
 
-**Added in**: *February 12th, 2024* (*Back Math* 8.0), [*Revaried* 1.6.8](Changelog%201.6.8.md)
+**Added in**: *February 12th, 2024* (*Back Math* 8.0), [*Revaried* 6.8.0](Changelog%201.6.8.md)
 
 ![list_tag](list_tag.png) **#melony:shields** *(7 values)*
 - `minecraft:shield`
@@ -287,7 +287,7 @@ Replaced with `#minecraft:villager_plantable_seeds` in 1.21.
 ### villager_wanted_items
 Items in this tag can be picked up by villagers.
 
-**Added in**: [*Revaried* 1.7.0 Pre-Release 2](Changelog%201.7.0%20Pre-Release%202.md)
+**Added in**: [*Revaried* 7.0.0 Pre-Release 2](Changelog%201.7.0%20Pre-Release%202.md)
 
 ![list_tag](list_tag.png) **#melony:villager_wanted_items** *(5 values)*
 - [`#melony:villager_plantable_seeds`](#villager_plantable_seeds)
@@ -299,7 +299,7 @@ Items in this tag can be picked up by villagers.
 ### with_rarity/common
 Items in this tag have their rarity switched to "common".
 
-**Added in**: *Stancements* 0.1
+**Added in**: *Stancements* 0.1.0
 
 ![list_tag](list_tag.png) **#melony:with_rarity/common** *(2 values)*
 - `minecraft:end_crystal`
@@ -308,7 +308,7 @@ Items in this tag have their rarity switched to "common".
 ### with_rarity/uncommon
 Items in this tag have their rarity switched to "uncommon".
 
-**Added in**: *Stancements* 0.1
+**Added in**: *Stancements* 0.1.0
 
 ![list_tag](list_tag.png) **#melony:with_rarity/uncommon** *(19 values)*
 - `minecraft:piglin_banner_pattern`
@@ -334,7 +334,7 @@ Items in this tag have their rarity switched to "uncommon".
 ### with_rarity/rare
 Items in this tag have their rarity switched to "rare".
 
-**Added in**: *Stancements* 0.1
+**Added in**: *Stancements* 0.1.0
 
 ![list_tag](list_tag.png) **#melony:with_rarity/rare** *(6 values)*
 - `minecraft:enchanted_golden_apple`
@@ -347,7 +347,7 @@ Items in this tag have their rarity switched to "rare".
 ### with_rarity/epic
 Items in this tag have their rarity switched to "epic".
 
-**Added in**: *Stancements* 0.1
+**Added in**: *Stancements* 0.1.0
 
 ![list_tag](list_tag.png) **#melony:with_rarity/epic** *(10 values)*
 - `minecraft:elytra`
@@ -364,7 +364,7 @@ Items in this tag have their rarity switched to "epic".
 ### with_rarity/potato
 Items in this tag have their rarity switched to "potato", from [snapshot 24w14potato](https://minecraft.wiki/w/Java_Edition_24w14potato).
 
-**Added in**: *Stancements* 0.1
+**Added in**: *Stancements* 0.1.0
 
 ![list_tag](list_tag.png) **#melony:with_rarity/potato** *(0 values)*
 - *Empty.*

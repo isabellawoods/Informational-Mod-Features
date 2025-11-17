@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "fa82977729a4c8d2",
+        "id": "74ff76e4c85a4b95",
         "type": "tabs",
         "children": [
           {
-            "id": "dd7e25c635aa56fc",
+            "id": "44069eeda215fe39",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Back Math/Updates/Sophies Take Over.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Sophies Take Over"
+              "title": "New tab"
             }
           }
         ]
@@ -104,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Back Math/Updates/Sophies Take Over.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sophies Take Over"
+              "title": "Backlinks"
             }
           },
           {
@@ -151,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Back Math/Updates/Sophies Take Over.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sophies Take Over"
+              "title": "Outline"
             }
           },
           {
@@ -189,8 +173,14 @@
       "bases:Create new base": false
     }
   },
-  "active": "fe0c1cd61243045a",
+  "active": "44069eeda215fe39",
   "lastOpenFiles": [
+    "Tags/Reutilities/Trim Material Tags.md",
+    "Tags/Reutilities/Item Tags.md",
+    "Tags/Melony Convention/Item Tags.md",
+    "Melony Studios Wiki/Modded Docs/World Generation Tags.md",
+    "Inter-GitHub File Transfer/Notebook Transcripts/8A Back Pages.md",
+    "Back Math/Updates/Sophies Take Over.md",
     "Back Math/Legacy Files/Code Snippets.md",
     "Back Math/Docs/Wanderer Sophie Variant.md",
     "Back Math/Docs/Queen Lucy Variant.md",
@@ -211,12 +201,6 @@
     "Back Math/Changelogs/1.8 Beta Dev - 31-08-24/Changelog 31-08-24.md",
     "Back Math/Changelogs/1.8 Beta Dev - 28-06-24/Changelog 28-06-24.md",
     "Back Math/Changelogs/1.8 Beta Dev - 27-12-22/Changelog 27-12-22.md",
-    "Back Math/Changelogs/1.8 Beta Dev - 25-05-24/Changelog 25-05-24.md",
-    "Back Math/Changelogs/1.8 Beta Dev - 23-05-24/Changelog 23-05-24.md",
-    "Back Math/Changelogs/1.8 Beta Dev - 22-10-24/Changelog 22-10-24.md",
-    "Back Math/Changelogs/1.8 Beta Dev - 14-08-24/Changelog 14-08-24.md",
-    "Back Math/Changelogs/1.8 Beta Dev - 12-06-24/Changelog 12-06-24.md",
-    "Back Math/Changelogs/1.8 Beta Dev - 09-07-24/Changelog 09-07-24.md",
     "Revaried/Changelogs/1.16.5 - 1.6.14/ChangelogPhoto.png",
     "Revaried/Changelogs/1.16.5 - 1.6.14/Assets/creeper_powder_pot_old.png",
     "Revaried/Changelogs/1.16.5 - 1.6.14/Assets/creeper_powder_pot_new.png",
