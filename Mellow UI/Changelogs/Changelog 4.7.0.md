@@ -2,9 +2,9 @@
 
 <h1 style="text-align: center;">- Mellow UI 4.7.0 -</h1>
 
-> **Written On:** 31-10-25 - **Last Updated:** 31-10-25
+> **Written On:** 31-10-25 - **Last Updated:** 16-12-25
 
-**4.7.0** is a minor release for *Mellow UI*, released on October 27, 2025.[^1]
+**4.7.0** is a major release for *Mellow UI*, released on October 27, 2025 on 1.16[^1], and on December 14, 2025 on 1.18.[^2][^3]
 
 ## Additions
 ### Backports
@@ -56,7 +56,7 @@
 
 #### Create New World
 - Improved tab management for this screen:
-  - The selected tab is now saved when switching to/from screens (clicking "Data Packs", for example). This is why tabs now have names.
+  - The selected tab is now saved when switching to/from screens (clicking "Data Packs", for example). This is why `TabButton` now has names.
   - Tab instances are no longer recreated upon switching tabs.
     - Instead, widgets are now saved to an immutable map, that's then copied for use in the screen.
   - Tabs now properly remove widgets from the screen, and no longer add repeat listeners to the UI state manager.
@@ -73,19 +73,21 @@
 
 #### Edit Value
 - Boolean configs now have a button.
-- Integer and long configs no have their initial values displayed as hexadecimal if the `displayColor` is `false`.
+- Integer and long configs no have their initial values displayed as hexadecimal if `displayColor` is `false`.
 - The "accepts decimal and hexadecimal" text now only shows up if the config is an integer or long.
 - The revert edit consumer now works when using Ctrl + Z to revert your edit.
 
 #### Select World
-- The "Hardcore Mode!" text in world summaries is now brighter tint of red (**#FF0000**).
-- The entry text is no cut when it extends beyond the entry itself.
+- The "Hardcore Mode!" text in world summaries is now a brighter tint of red (**#FF0000**).
+- The entry text is now trimmed when it extends beyond the entry itself.
   - I did forget to add the tooltips from the newer versions, though.
 - World titles now obey the widget text color options.
 - The locked world tooltip now has a maximum width of `170`, from `175`.
+- **(1.18)** The "requires manual conversion" world tooltip now has a maximum width of `170`, from `175`.
 
 #### Title
 - The panorama and post effects are now applied when the onboarding is opened from *Mellomedley*'s title screen for the first time.
+- **(1.18)** *Mellomedley*'s title screen title now obeys the **Title Text** color option, despite not being visible.
 - The copyright text is now a proper widget -- it can now be selected using Tab navigation.
 
 ## Technical
@@ -104,6 +106,7 @@
 - `Panoramas` and `ShaderManager` no longer save a value if it's the same as before.
 - Renamed the accessibility onboarding background to `overspin_protection.png`.
 - Renamed the class `AttributionsScreen` to `CreditsAndAttributionsScreen`.
+- **(1.18)** Renamed the class `TitleScreenWarning32Bit` to `TitleScreen32BitWarning`, to match 1.16.
 - Moved and renamed most text-related methods from `MellowUtils` to `TextComponents`:
   - Added `selectableStyle()`, combining both `withColor()` and `selectableColor()`.
 
@@ -113,6 +116,7 @@
 | `getSelectableTextColor`       | `selectableColor`       |
 | `getSelectableTextShadowColor` | `selectableShadowColor` |
 | `getShadowColor`               | `darkenColor`           |
+
 #### Inter-Mod Comms
 - Moved related methods from the mod's main class to the comms processor.
 - When adding an integer config using `mellowui:add_to_color_list`, the tooltip now uses `.tooltip` instead of `.desc`.
@@ -123,4 +127,6 @@
 - Temporarily removed the update checker URL due to GitHub giving `429: Too many requests`.
 
 ### References
-[^1]: ["4.7.0: Vanilla Backports & Customization Screen Search"](https://github.com/isabellawoods/Mellow-UI/commit/d5c3b5462ae04f002eb891054a2a3d4158d2bd3e) (Commit `d5c3b54`)  – GitHub, October 27, 2025.
+[^1]: **(1.16)** ["4.7.0: Vanilla Backports & Customization Screen Search"](https://github.com/isabellawoods/Mellow-UI/commit/d5c3b5462ae04f002eb891054a2a3d4158d2bd3e) (Commit `d5c3b54`) – GitHub, October 27, 2025.
+[^2]: **(1.18)** ["4.7.0 (Part I): Vanilla Backports"](https://github.com/isabellawoods/Mellow-UI/commit/6cb6e4d3856f70f7c45fad48f1dfb05b1aacd2b9) (Commit `6cb6e4d`) – GitHub, November 16, 2025.
+[^3]: **(1.18)** ["4.7.0 (Part II): Customization Screen Search"](https://github.com/isabellawoods/Mellow-UI/commit/6cb6e4d3856f70f7c45fad48f1dfb05b1aacd2b9) (Commit `6f8e215`) – GitHub, December 14, 2025.

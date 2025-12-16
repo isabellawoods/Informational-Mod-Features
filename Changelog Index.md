@@ -46,6 +46,9 @@
 
 ## Mellow UI
 ### 5.X
+- [5.0.0-beta3](Changelog%205.0.0-beta3.md)
+- [5.0.0-beta2](Changelog%205.0.0-beta2.md)
+- [5.0.0-beta1](Changelog%205.0.0-beta1.md)
 
 ### 4.X
 - [4.7.0](Changelog%204.7.0.md)

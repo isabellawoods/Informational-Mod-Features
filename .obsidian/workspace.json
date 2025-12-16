@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "74ff76e4c85a4b95",
+        "id": "0bf2c44f14cbb4c2",
         "type": "tabs",
         "children": [
           {
-            "id": "44069eeda215fe39",
+            "id": "9481b39a166f2c12",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -173,8 +173,22 @@
       "bases:Create new base": false
     }
   },
-  "active": "44069eeda215fe39",
+  "active": "9481b39a166f2c12",
   "lastOpenFiles": [
+    "Mellow UI/Changelogs/Changelog 5.0.0-beta2.md",
+    "Mellow UI/Changelogs/Changelog 5.0.0-beta3.md",
+    "Mellow UI/Changelogs/Changelog 4.7.0.md",
+    "Mellow UI/Changelogs/Changelog 5.0.0-beta1.md",
+    "Mellow UI/Docs/Panorama.md",
+    "Changelog Index.md",
+    "Mellow UI/Changelogs/Assets/5.0.0-beta2.png",
+    "Mellow UI/Changelogs/Assets/2025-12-16_18.23.58.png",
+    "Mellow UI/Changelogs/Changelog 4.5.0.md",
+    "Mellow UI/Changelogs/Changelog 4.6.0.md",
+    "Mellow UI/Docs/Assets/panorama_example.png",
+    "Mellow UI/Docs/Assets/flair_example.png",
+    "Mellow UI/Docs/Flair.md",
+    "Novo Documento de Texto.txt",
     "Tags/Reutilities/Trim Material Tags.md",
     "Tags/Reutilities/Item Tags.md",
     "Tags/Melony Convention/Item Tags.md",
@@ -192,15 +206,6 @@
     "Back Math/Changelogs/Changelog 1.9.0.6-beta.md",
     "Back Math/Changelogs/Changelog 1.9.0.5-beta.md",
     "Back Math/Changelogs/Changelog 1.9.0.4-beta.md",
-    "Back Math/Changelogs/Changelog 1.9.0.3-beta.md",
-    "Back Math/Changelogs/Changelog 1.9.0.2-beta.md",
-    "Back Math/Changelogs/Changelog 1.9.0.1-beta.md",
-    "Back Math/Changelogs/BM8 Jar to Commit Map.md",
-    "Back Math/Changelogs/1.6.0 - Early Build 3.md",
-    "Back Math/Changelogs/1.8 Beta Dev - 31-12-22/Changelog 31-12-22.md",
-    "Back Math/Changelogs/1.8 Beta Dev - 31-08-24/Changelog 31-08-24.md",
-    "Back Math/Changelogs/1.8 Beta Dev - 28-06-24/Changelog 28-06-24.md",
-    "Back Math/Changelogs/1.8 Beta Dev - 27-12-22/Changelog 27-12-22.md",
     "Revaried/Changelogs/1.16.5 - 1.6.14/ChangelogPhoto.png",
     "Revaried/Changelogs/1.16.5 - 1.6.14/Assets/creeper_powder_pot_old.png",
     "Revaried/Changelogs/1.16.5 - 1.6.14/Assets/creeper_powder_pot_new.png",
@@ -212,15 +217,10 @@
     "Melony Studios Wiki/Tags",
     "Mellow UI/Mellow UI 5.0.canvas",
     "Mellow UI/Changelogs/Assets/4.7.0.png",
-    "Mellow UI/Changelogs/Assets/2025-10-31_19.15.00.png",
     "Untitled.base",
-    "Revaried/Docs/Tags/byte_tag.png",
-    "Revaried/Docs/Tags/byte_array_tag.png",
-    "Revaried/Docs/Tags/boolean_tag.png",
     "trails_resource_pack.zip",
     "markdown-light-mode.css",
     "markdown-dark-mode.css",
-    "LICENSE",
-    "The Mato/Showcase Pictures/Ipe Forest"
+    "LICENSE"
   ]
 }
