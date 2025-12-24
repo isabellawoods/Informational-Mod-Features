@@ -1,0 +1,23 @@
+{
+  "homepage": "https://github.com/isabellawoods/Stancements/tree/neoforge-1.21.1",
+  "promos": {
+    "1.21.1-latest": "0.4.0",
+    "1.21.1-recommended": "0.4.0",
+    "1.16.5-latest": "1.16.5-0.2.1",
+    "1.16.5-recommended": "1.16.5-0.2.1"
+  },
+  "1.21.1": {
+    "0.4.0": "Minecart Tagging, Gilded Rails & Tagging Rails",
+    "0.3.4": "Update to Reutilities 1.4.0 & Upd. Dyed Water Bucket Tooltip",
+    "0.3.3": "Blue Item Recipes",
+    "0.3.2": "Music Disc Recording, Advancements & Jade Compatibility",
+    "0.3.1": "The Mato's Cauldrons, JTW Labs' Crop Pots & New Concrete Recipe",
+    "0.3.0": "Crafting Table Cloths & Updated Shelf Models",
+    "0.2.0": "Ambient Music Recording (& Initial Commit for 1.21.1)"
+  },
+  "1.16.5": {
+    "1.16.5-0.2.1": "Fixes for Valhelsia 3",
+    "1.16.5-0.2": "Ambient Music Recording",
+    "1.16.5-0.1": "Shelves, Updated Block Sounds & Ports from Melony Lib"
+  }
+}

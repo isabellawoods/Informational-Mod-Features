@@ -1,4 +1,4 @@
-![[4.7.0.png]]
+![Changelog photo for Mellow UI 4.7.0](Assets/4.7.0.png)
 
 <h1 style="text-align: center;">- Mellow UI 4.7.0 -</h1>
 

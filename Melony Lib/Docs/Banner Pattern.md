@@ -2,7 +2,7 @@
 > [!NOTE]
 > This feature is exclusive to *Melony Lib*.
 >
-> ***Last Updated**: 1.4.2 (24-8-25)*
+> ***Last Updated**: 1.4.2 (18-12-25)*
 
 > [!WARNING]
 > In my current implementation of data-driven "registries", it **doesn't work in multiplayer** due to the server not sending them to the client. Loading them beforehand may be a possible workaround.
@@ -18,12 +18,12 @@ Banner patterns are defined using the following format.
   - ![](/Revaried/Docs/Tags/boolean_tag.png) **has_pattern_item**: Whether this banner pattern has an associated banner pattern item. Defaults to `false`.
 
 ## History
-| Version | Changes |
-|---------|---------|
-| [1.3](https://github.com/isabellawoods/Melony-Lib/commit/75e640c6a81699ec9d46f9d475902897ee678162) | Added banner patterns to data packs. |
+| Version | Changes                              |
+| ------- | ------------------------------------ |
+| 1.3     | Added banner patterns to data packs. |
 
 ## Issues
-Issues relating to "Banner pattern" can be reported on [Melony Lib's bug tracker](https://github.com/isabellawoods/Melony-Lib/issues). However, this mod is **discontinued**, so any reports will not be addressed.
+Issues relating to "Banner pattern" cannot be reported, since *Melony Lib* no longer has a GitHub repository.
 
 ## Navigation
 | | |

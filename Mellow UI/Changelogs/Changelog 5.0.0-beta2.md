@@ -1,4 +1,4 @@
-![[5.0.0-beta2.png]]
+![Changelog photo for Mellow UI 5.0.0 Beta 2](Assets/5.0.0-beta2.png)
 
 <h1 style="text-align: center;">- Mellow UI 5.0.0 Beta 2 -</h1>
 
