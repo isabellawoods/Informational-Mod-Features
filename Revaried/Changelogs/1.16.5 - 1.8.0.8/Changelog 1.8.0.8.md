@@ -29,7 +29,7 @@
   - This is a slightly cold plains biome densely populated with short & tall grass, (large) ferns and azure bluets.
   - Has various azure bluet bushes spread across the biome.
   - Only sheep and chickens can spawn here.
-  - When **The Mato's Music Pack** is present, *"Left to Bloom"* and *"One More Day"* can play in this biome, with *"Subwoofer Lullaby"*, *"Living Mice"*, *"Haggstrom"* and *"Danny"* always having a chance to play:
+  - When [**The Mato's Music Pack**](/Melony%20Studios%20Wiki/Resource%20Packs/Music%20Packs/The%20Mato%20Music%20Pack.md) is present, *"Left to Bloom"* and *"One More Day"* can play in this biome, with *"Subwoofer Lullaby"*, *"Living Mice"*, *"Haggstrom"* and *"Danny"* always having a chance to play:
   - Has a weight of 5, and its categories are **overworld**, **plains** and **lush**.
 - Added the **paintingwood forest** biome.
   - This is like a forest biome, but it only has painting trees, and double the amount of *Revaried*'s flowers.

@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Stancements 0.3.2 -</h1>
 
-> **Written On:** 23-12-25 - **Last Updated:** 23-12-25
+> **Written On:** 23-12-25 - **Last Updated:** 05-01-26
 
 **0.3.2** is a major release for *Stancements*, released on November 9, 2025.[^1] It makes music recorder able to record from adjacent jukeboxes, and adds compatibility with [*Jade*](https://modrinth.com/mod/jade).
 
@@ -54,10 +54,10 @@
 
 ### Translations
 - The "Edit" buttons in the mod's options screen is now translated.
-- **\[PT-BR]** Renamed all crop pots to "vasos", from "potes".
-- **\[PT-BR]** Renamed all shelves to "prateleiras", from "estantes".
-- **\[PT-BR]** Updated the names of spruce and birch wood on the shelves.
-- **\[PT-BR]** Replaced the hyphen (-) in the recorded disc names with an em dash (—).
+- **\[Bra. Portuguese]** Renamed all crop pots to "vasos", from "potes".
+- **\[Bra. Portuguese]** Renamed all shelves to "prateleiras", from "estantes".
+- **\[Bra. Portuguese]** Updated the names of spruce and birch wood on the shelves.
+- **\[Bra. Portuguese]** Replaced the hyphen (-) in the recorded disc names with an em dash (—).
 
 ## Technical
 ### Additions

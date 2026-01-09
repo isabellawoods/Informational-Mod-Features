@@ -1,4 +1,4 @@
-![1.9.0.1-beta](1.9.0.1-beta.png)
+![1.9.0.1-beta](Assets/1.9.0.1-beta.png)
 
 <h1 style="text-align: center;">- Back Math - 1.9.0.1 -</h1>
 <h3 style="text-align: center;">A Back Math Update Changelog made on *09/11/2024*</h3>

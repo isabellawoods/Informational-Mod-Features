@@ -1,44 +1,44 @@
 # Changelogs
 ## Back Math
 ### 9.0.X
-- [9.0.8](Changelog%201.9.0.8-beta.md)
-- [9.0.7](Changelog%201.9.0.7-beta.md)
-- [9.0.6](Changelog%201.9.0.6-beta.md)
-- [9.0.5](Changelog%201.9.0.5-beta.md)
-- [9.0.4](Changelog%201.9.0.4-beta.md)
-- [9.0.3](Changelog%201.9.0.3-beta.md)
-- [9.0.2](Changelog%201.9.0.2-beta.md)
-- [9.0.1](Changelog%201.9.0.1-beta.md)
+- [9.0.8](/Back%20Math/Changelogs/Changelog%201.9.0.8-beta.md)
+- [9.0.7](/Back%20Math/Changelogs/Changelog%201.9.0.7-beta.md)
+- [9.0.6](/Back%20Math/Changelogs/Changelog%201.9.0.6-beta.md)
+- [9.0.5](/Back%20Math/Changelogs/Changelog%201.9.0.5-beta.md)
+- [9.0.4](/Back%20Math/Changelogs/Changelog%201.9.0.4-beta.md)
+- [9.0.3](/Back%20Math/Changelogs/Changelog%201.9.0.3-beta.md)
+- [9.0.2](/Back%20Math/Changelogs/Changelog%201.9.0.2-beta.md)
+- [9.0.1](/Back%20Math/Changelogs/Changelog%201.9.0.1-beta.md)
 
 ### 8.0 (Bountifully Expansive)
-- [October 22nd, 2024](1.8%20Beta%20Dev%20-%2022-10-24/Changelog%2022-10-24.md)
-- [October 6th, 2024](1.8%20Beta%20Dev%20-%2006-10-24/Changelog%2006-10-24.md)
-- [October 4th, 2024](1.8%20Beta%20Dev%20-%2004-10-24/Changelog%2004-10-24.md)
+- [October 22nd, 2024](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2022-10-24/Changelog%2022-10-24.md)
+- [October 6th, 2024](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2006-10-24/Changelog%2006-10-24.md)
+- [October 4th, 2024](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2004-10-24/Changelog%2004-10-24.md)
   - Includes October 5th, 2024
-- [August 31st, 2024](1.8%20Beta%20Dev%20-%2031-08-24/Changelog%2031-08-24.md)
-- [August 14th, 2024](1.8%20Beta%20Dev%20-%2014-08-24/Changelog%2014-08-24.md)
+- [August 31st, 2024](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2031-08-24/Changelog%2031-08-24.md)
+- [August 14th, 2024](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2014-08-24/Changelog%2014-08-24.md)
   - Includes August 19th, 2024 (crash fix)
-- [August 6th, 2024](1.8%20Beta%20Dev%20-%2006-08-24/Changelog%2006-08-24.md)
-- [August 5th, 2024](1.8%20Beta%20Dev%20-%2005-08-24/Changelog%2005-08-24.md)
-- [July 9th, 2024](1.8%20Beta%20Dev%20-%2009-07-24/Changelog%2009-07-24.md)
-- [June 28th, 2024](1.8%20Beta%20Dev%20-%2028-06-24/Changelog%2028-06-24.md)
-- [June 12th, 2024](1.8%20Beta%20Dev%20-%2012-06-24/Changelog%2012-06-24.md)
-- [June 9th, 2024](1.8%20Beta%20Dev%20-%2009-06-24/Changelog%2009-06-24.md)
-- [June 5th, 2024](1.8%20Beta%20Dev%20-%2005-06-24/Changelog%2005-06-24.md)
-- [May 25th, 2024](1.8%20Beta%20Dev%20-%2025-05-24/Changelog%2025-05-24.md)
-- [May 23rd, 2024](1.8%20Beta%20Dev%20-%2023-05-24/Changelog%2023-05-24.md)
+- [August 6th, 2024](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2006-08-24/Changelog%2006-08-24.md)
+- [August 5th, 2024](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2005-08-24/Changelog%2005-08-24.md)
+- [July 9th, 2024](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2009-07-24/Changelog%2009-07-24.md)
+- [June 28th, 2024](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2028-06-24/Changelog%2028-06-24.md)
+- [June 12th, 2024](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2012-06-24/Changelog%2012-06-24.md)
+- [June 9th, 2024](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2009-06-24/Changelog%2009-06-24.md)
+- [June 5th, 2024](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2005-06-24/Changelog%2005-06-24.md)
+- [May 25th, 2024](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2025-05-24/Changelog%2025-05-24.md)
+- [May 23rd, 2024](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2023-05-24/Changelog%2023-05-24.md)
 - May 19th, 2024
 - *...*
 - June 18th, 2023 (Back Math's 3rd (?) year anniversary)
-- [December 31st, 2022](1.8%20Beta%20Dev%20-%2031-12-22/Changelog%2031-12-22.md)
-- [December 27th, 2022](1.8%20Beta%20Dev%20-%2027-12-22/Changelog%2027-12-22.md)
+- [December 31st, 2022](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2031-12-22/Changelog%2031-12-22.md)
+- [December 27th, 2022](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2027-12-22/Changelog%2027-12-22.md)
 - December 20th, 2022 (Initial commit, no changelog for this one)
 
 ### 7.0 (Aljamic Wars)
 
 ### 6.0 (Sophies Take Over)
-- [6.0](1.6.0%20-%2030-12-21/Changelog%201.6.0.md)
-- [6.0 Early Build 3](1.6.0%20-%20Early%20Build%203.md)
+- [6.0](/Back%20Math/Changelogs/1.6.0%20-%2030-12-21/Changelog%201.6.0.md)
+- [6.0 Early Build 3](/Back%20Math/Changelogs/1.6.0%20-%20Early%20Build%203.md)
 
 ### 5.0 (Nightly Thoughts)
 
@@ -46,14 +46,15 @@
 
 ## Mellow UI
 ### 5.X
-- [5.0.0-beta3](Changelog%205.0.0-beta3.md)
-- [5.0.0-beta2](Changelog%205.0.0-beta2.md)
-- [5.0.0-beta1](Changelog%205.0.0-beta1.md)
+- [5.0.0-beta4](/Mellow%20UI/Changelogs/Changelog%205.0.0-beta4.md)
+- [5.0.0-beta3](/Mellow%20UI/Changelogs/Changelog%205.0.0-beta3.md)
+- [5.0.0-beta2](/Mellow%20UI/Changelogs/Changelog%205.0.0-beta2.md)
+- [5.0.0-beta1](/Mellow%20UI/Changelogs/Changelog%205.0.0-beta1.md)
 
 ### 4.X
-- [4.7.0](Changelog%204.7.0.md)
-- [4.6.0](Changelog%204.6.0.md)
-- [4.5.0](Changelog%204.5.0.md)
+- [4.7.0](/Mellow%20UI/Changelogs/Changelog%204.7.0.md)
+- [4.6.0](/Mellow%20UI/Changelogs/Changelog%204.6.0.md)
+- [4.5.0](/Mellow%20UI/Changelogs/Changelog%204.5.0.md)
 
 ### 3.X
 
@@ -63,19 +64,20 @@
 
 ## Revaried
 ### 8.0.X
-- [8.0.10](Changelog%201.8.0.10.md)
-- [8.0.9](Changelog%201.8.0.9.md)
-- [8.0.8](Changelog%201.8.0.8.md)
-- [8.0.7](Changelog%201.8.0.7.md)
-- [8.0.6](Changelog%201.8.0.6.md)
-- [8.0.5](Changelog%201.8.0.5.md)
-- [8.0.4](Changelog%201.8.0.4.md)
-- [8.0.3](Changelog%201.8.0.3.md)
-- 8.0.2 ([Markdown](Changelog%201.8.0.2.md) | [HTML](Changelog%201.8.0.2.html))
-- [8.0.1](Changelog%201.8.0.1.md)
+- [8.0.11](/Revaried/Changelogs/Changelog%208.0.11.md)
+- [8.0.10](/Revaried/Changelogs/Changelog%208.0.10.md)
+- [8.0.9](/Revaried/Changelogs/1.16.5%20-%201.8.0.9/Changelog%201.8.0.9.md)
+- [8.0.8](/Revaried/Changelogs/1.16.5%20-%201.8.0.8/Changelog%201.8.0.8.md)
+- [8.0.7](/Revaried/Changelogs/1.16.5%20-%201.8.0.7/Changelog%201.8.0.7.md)
+- [8.0.6](/Revaried/Changelogs/1.16.5%20-%201.8.0.6/Changelog%201.8.0.6.md)
+- [8.0.5](/Revaried/Changelogs/1.16.5%20-%201.8.0.5/Changelog%201.8.0.5.md)
+- [8.0.4](/Revaried/Changelogs/1.16.5%20-%201.8.0.4/Changelog%201.8.0.4.md)
+- [8.0.3](/Revaried/Changelogs/1.16.5%20-%201.8.0.3/Changelog%201.8.0.3.md)
+- 8.0.2 ([Markdown](/Revaried/Changelogs/1.16.5%20-%201.8.0.2%20(Markdown)/Changelog%201.8.0.2.md) | [HTML](/Revaried/Changelogs/1.16.5%20-%201.8.0.2%20(HTML)/Changelog%201.8.0.2.html))
+- [8.0.1](/Revaried/Changelogs/1.16.5%20-%201.8.0.1/Changelog%201.8.0.1.md)
 
 ### 7.0
-- [7.0](Changelog%201.7.0.md)
+- [7.0](/Revaried/Changelogs/1.16.5%20-%201.7.0/Changelog%201.7.0.md)
 - [7.0 Release Candidate 3](Changelog%201.7.0%20Release%20Candidate%203.md)
 - [7.0 Release Candidate 2](Changelog%201.7.0%20Release%20Candidate%202.md)
 - [7.0 Release Candidate 1](Changelog%201.7.0%20Release%20Candidate%201.md)
@@ -120,3 +122,18 @@
 - [June 15, 2021](Changelog%2015-06-24.md)
 - [June 14, 2021](Changelog%2014-06-21.md)
 - [June 12, 2021](Changelog%2012-06-21.md)
+
+## Stancements
+### 1.21.1
+- [0.4.0](Stancements/Changelogs/Changelog%200.4.0.md)
+- [0.3.4](Stancements/Changelogs/Changelog%200.3.4.md)
+- [0.3.3](Stancements/Changelogs/Changelog%200.3.3.md)
+- [0.3.2](Stancements/Changelogs/Changelog%200.3.2.md)
+- [0.3.1](Stancements/Changelogs/Changelog%200.3.1.md)
+- [0.3.0](Stancements/Changelogs/Changelog%200.3.0.md)
+- [0.2.0](Stancements/Changelogs/Changelog%200.2.0.md)
+
+### 1.16.5
+- [0.2.1](Stancements/Changelogs/Changelog%200.2.1.md)
+- [0.2](Stancements/Changelogs/Changelog%200.2.md)
+- [0.1](Stancements/Changelogs/Changelog%200.1.md)

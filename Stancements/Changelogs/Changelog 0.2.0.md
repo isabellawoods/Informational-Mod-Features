@@ -2,9 +2,9 @@
 
 <h1 style="text-align: center;">- Stancements 0.2.0 -</h1>
 
-> **Written On:** 23-12-25 - **Last Updated:** 23-12-25
+> **Written On:** 23-12-25 - **Last Updated:** 03-01-26
 
-**0.2.0** is a major release for *Stancements*, released on August 30, 2025.[^1][^2] This is the first version released for *NeoForge* 1.21.1. This changelog will document the differences between this 1.21.1 release and the 1.16.5 **0.2.1** release.
+**0.2.0** is a major release for *Stancements*, released on August 30, 2025.[^1][^2] This is the first version released for *NeoForge* 1.21.1. This changelog will document the differences between this 1.21.1 release and the **0.2.1** release from 1.16.5.
 
 This is the first version to be released on 1.21.
 
@@ -85,4 +85,4 @@ This is the first version to be released on 1.21.
 
 ### References
 [^1]: ["0.2.0: Initial Commit for 1.21.1"](https://github.com/isabellawoods/Stancements/commit/f15b872970715bc3f4a93efac10b2229061bd83b) (Commit `f15b872`) – GitHub, August 29, 2025.
-[^1]: ["Fixed Recorded Discs & Removed Block Sounds"](https://github.com/isabellawoods/Stancements/commit/119b30a42cb026de332fdab5b16a4715b49e7c96) (Commit `119b30a`) – GitHub, August 30, 2025.
+[^2]: ["Fixed Recorded Discs & Removed Block Sounds"](https://github.com/isabellawoods/Stancements/commit/119b30a42cb026de332fdab5b16a4715b49e7c96) (Commit `119b30a`) – GitHub, August 30, 2025.

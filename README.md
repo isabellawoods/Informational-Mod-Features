@@ -6,7 +6,9 @@ This repository will include changelogs, logos, texture history, isometric rende
 ## Changelogs
 Changelogs documenting most version of my mods.
 - [Back Math](/Back%20Math/Changelogs);
-- [Revaried](/Revaried/Changelogs): for nearly all 1.16 versions.
+- [Mellow UI](/Mellow%20UI/Changelogs);
+- [Revaried](/Revaried/Changelogs): for nearly all 1.16 versions;
+- [Stancements](/Stancements/Changelogs).
 
 ## Docs
 Documentation of data-driven registries and their formats and history.

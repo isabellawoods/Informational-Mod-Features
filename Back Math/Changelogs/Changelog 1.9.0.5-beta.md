@@ -1,9 +1,9 @@
-<div style="text-align: center;"> <img src=Assets/1.9.0.5-beta.png width="1500"> </div>
+![Back Math 9.0.5 changelog photo](Assets/1.9.0.5-beta.png)
+<h1 style="text-align: center;">- Back Math - 9.0.5 -</h1>
 
-# <div style="text-align: center;">- Back Math - 1.9.0.5 -</div>
-### <div style="text-align: center;">A Back Math Update Changelog made on *28/02/2025*</div>
+> **Written On:** 28-02-25 - **Last Updated:** 03-01-26
 
-**1.9.0.5** is the fifth version for *Back Math* 1.9.0, released on February 28, 2025.[^1][^2][^3]
+**9.0.5** is the fifth version for *Back Math* 9.0, released on February 28, 2025.[^1][^2][^3]
 
 ## Additions
 ### Entities
@@ -131,7 +131,7 @@
   - This is a resource location without the `textures/` prefix and `.png` suffix.
 - The `slim_arms` and `spawns_naturally` fields of wanderer sophie variants are now optional.
   - Now they're only written when they're set to `false`.
-- Updated *Revaried*'s stack handling methods to 1.8.0.9.
+- Updated *Revaried*'s stack handling methods to `8.0.9`.
   - The `components` tag has been renamed to `tags`, and is properly converted to the new tag.
   - The stack tag is now always verified even if the `components` or `tags` field isn't present.
 

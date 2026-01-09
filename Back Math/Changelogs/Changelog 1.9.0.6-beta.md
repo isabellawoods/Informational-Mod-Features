@@ -1,9 +1,9 @@
-<div style="text-align: center;"> <img src=Assets/1.9.0.6-beta.png width="1500"> </div>
+![Back Math 9.0.6 changelog photo](Assets/1.9.0.6-beta.png)
+<h1 style="text-align: center;">- Back Math - 9.0.6 -</h1>
 
-# <div style="text-align: center;">- Back Math - 1.9.0.6 -</div>
-### <div style="text-align: center;">A Back Math Update Changelog made on *04/03/2025*</div>
+> **Written On:** 04-03-25 - **Last Updated:** 03-01-26
 
-**1.9.0.6** is the sixth version for *Back Math* 1.9.0, released on March 4, 2025.[^1]
+**9.0.6** is the sixth version for *Back Math* 9.0, released on March 4, 2025.[^1]
 
 ## Additions
 ### Blocks

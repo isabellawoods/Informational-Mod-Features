@@ -1,16 +1,16 @@
 # Panorama
 > [!NOTE]
-> **Last Updated**: 16-12-25 (5.0.0-beta3)
+> **Last Updated**: 03-01-26 (5.0.0-beta3)
 
-A **panorama** is a set of textures  and properties that are rendered on the background of nearly all screens. Panoramas can be defined using JSON files in a resource pack at the path `assets/<namespace>/panorama`.
+A **panorama** is a set of textures  and properties that are rendered on the background of nearly all screens. Panoramas can be defined using JSON files in a resource pack at the path `assets/<namespace>/panorama/`.
 
-<center>
+<div style="text-align: center;">
   <img src="Assets/panorama_example.png" width=700/>
 
-*A still shot of the [Nether Update](https://minecraft.wiki/w/Nether_Update) panorama*
-</center>
+*A still shot of the [Nether Update panorama](https://minecraft.wiki/w/Historical_panoramas#Nether_Update)*
+</div>
 
-## JSON Format
+## JSON format
 Panoramas are defined using the following format:
 
 - ![](/Revaried/Docs/Tags/compound_tag.png) The root object.
@@ -23,8 +23,8 @@ Panoramas are defined using the following format:
       - `mellowui:constant`;
       - `mellowui:bobbing`.
     - Other fields depending on the ![](/Revaried/Docs/Tags/string_tag.png) **type**, see below.
-  - ![](/Revaried/Docs/Tags/string_tag.png) **shader**: *(optional)* The resource location of a post effect to render on the panorama. The available effects can be seen [here](#Post%20effects). **These are currently hardcoded**.
-  - ![](/Revaried/Docs/Tags/integer_tag.png) **blur_strength**: *(optional)* An integer that overrides the "*Menu Background Blur*" option, controlling how blurry the background should be.
+  - ![](/Revaried/Docs/Tags/string_tag.png) **shader**: *(optional)* The resource location of a post-processing effect to render on the panorama. The available effects can be seen [here](#Post-processing%20effects).
+  - ![](/Revaried/Docs/Tags/integer_tag.png) **blur_strength**: *(optional)* An integer that overrides the "*Menu Background Blur*" option, controlling how blurry the background should be. This only applies to the panorama.
 
 ### `constant`
 - ![](/Revaried/Docs/Tags/compound_tag.png) **pitch_override**: The root object.
@@ -36,14 +36,14 @@ Panoramas are defined using the following format:
   - ![](/Revaried/Docs/Tags/string_tag.png) **type**: `mellowui:bobbing`.
   - ![](/Revaried/Docs/Tags/float_tag.png) **bobbing_strength**: How strong the bobbing effect should be. Clamped from `0` to `10`, and defaults to `0.001`.
 
-## Post effects
-*Minecraft* and *Mellow UI* together include **27** built-in post effects that can be rendered on the panorama. These are:
-- `mellowui:blur`: The default blur shader used on the panorama. This one doesn't render on the title screen;
+## Post-processing effects
+*Minecraft* and *Mellow UI* together include **28** built-in post-processing effects that can be rendered on the panorama. These are:
 - `minecraft:antialias`;
 - `minecraft:art`;
 - `minecraft:bits`;
 - `minecraft:blobs`;
 - `minecraft:blobs2`;
+- `mellowui:blur`: The default blur shader used on the panorama. This one doesn't render on the title screen;
 - `minecraft:blur`: Slightly different from the default blur shader, and also applies to the title screen;
 - `minecraft:bumpy`;
 - `minecraft:color_convolve`;
@@ -64,20 +64,21 @@ Panoramas are defined using the following format:
 - `minecraft:scan_pincushion`;
 - `minecraft:sobel`;
 - `minecraft:spider`;
+- `minecraft:transparency`: Used for rendering the world when using "*Fabulous!*" graphics. Has no effect on panoramas as far as I'm aware;
 - `minecraft:wobble`.
 
 ## History
-| Version                                                           | Changes                                                                     |
-| ----------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| [4.5.0](/Mellow%20UI/Changelogs/Changelog%204.5.0.md)             | Added panoramas to resource packs.                                          |
-| [4.6.0](/Mellow%20UI/Changelogs/Changelog%204.6.0.md)             | Added the ![](/Revaried/Docs/Tags/integer_tag.png) **blur_strength** field. |
-| [5.0.0-beta3](/Mellow%20UI/Changelogs/Changelog%205.0.0-beta3.md) | Added the ![list_tag](list_tag.png) **used_in** field.                      |
+| Version                                                           | Changes                                                                                                                             |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| [4.5.0](/Mellow%20UI/Changelogs/Changelog%204.5.0.md)             | Added panoramas to resource packs.                                                                                                  |
+| [4.6.0](/Mellow%20UI/Changelogs/Changelog%204.6.0.md)             | Added the ![](/Revaried/Docs/Tags/integer_tag.png) **blur_strength** field.                                                         |
+| [5.0.0-beta3](/Mellow%20UI/Changelogs/Changelog%205.0.0-beta3.md) | <li>Added the ![list_tag](list_tag.png) **used_in** field.</li> <li>Added the `minecraft:transparency` post-processing effect.</li> |
 
 ## Issues
 Issues relating to "panorama" are maintained on [*Mellow UI*'s bug tracker](https://github.com/isabellawoods/Mellow-UI/issues). Issues should reported and viewed there.
 
 ## Navigation
 ### Resource pack definitions
-| | |
-|-|-|
-| **Mellow UI** | [Flair](/Mellow%20UI/Docs/Flair.md) ▪ **Panorama** |
+|               |                                                                                                                                                                                             |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Mellow UI** | ![](/Textures/navbox/flair.png) [Flair](/Mellow%20UI/Docs/Flair.md) ▪ ![](/Textures/navbox/panorama.png) **Panorama** ▪ ![](/Textures/navbox/theme.png) [Theme](/Mellow%20UI/Docs/Theme.md) |
