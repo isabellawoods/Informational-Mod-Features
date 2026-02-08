@@ -2,14 +2,14 @@
 > [!NOTE]
 > This feature is exclusive to *Back Math*.
 >
-> ***Last Updated**: 1.9.0.7 (26-7-25)*
+> ***Last Updated**: 9.0.9 (06-02-26)*
 
 > [!WARNING]
 > In my current implementation of data-driven "registries", it **doesn't work in multiplayer** due to the server not sending them to the client. Loading them beforehand may be a possible workaround.
 
 A **wanderer sophie variant** is an individual variant used for wanderer sophie's textures. Wanderer sophie variants can be defined using JSON files in a data pack at the path `data/<namespace>/mob_variant/wanderer_sophie/`.
 
-Wanderer sophie variants can have tags defined at the path `data/<namespace>/tags/wanderer_sophie_variant/`.
+Wanderer sophie variants can have tags defined at the path `data/<namespace>/tags/mob_variant/wanderer_sophie/`.
 
 ## JSON Format
 Wanderer sophie variants are defined using the following format:
@@ -22,18 +22,19 @@ Wanderer sophie variants are defined using the following format:
   - ![](/Revaried/Docs/Tags/boolean_tag.png) **spawns_naturally**: *(optional)* Whether this variant can spawn naturally (either by natural spawning or spawn eggs). Defaults to `true`.
 
 ## History
-| Version | Changes |
-|---------|---------|
-| [*May 25th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2025-05-24/Changelog%2025-05-24.md) (1.8.0) | Added wanderer sophie variants as a *Forge* registry. Only includes the `asset_id` (technical texture location) and `slim_arms` fields. |
-| [*June 9th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2009-06-24/Changelog%2009-06-24.md) (1.8.0) | Removed the `asset_id` field, replacing it with `texture_location`. |
-| [*October 6th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2006-10-24/Changelog%2006-10-24.md) (1.8.0) | <li> Wanderer sophie variants are now loaded from data packs. <li> Readded the `asset_id` field. <li> Added the `farmer` variant. </li> |
-| [*October 22nd, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2022-10-24/Changelog%2022-10-24.md) (1.8.0) | <li> Added the `green_hoodie`, `swimsuit` and `round_six` variants. <li> Added the `spawns_naturally` field, controlling whether this variant can naturally spawn from natural spawns and spawn eggs. </li> |
-| [1.9.0.4](/Back%20Math/Changelogs/Changelog%201.9.0.4-beta.md) | <li> Added wanderer sophie heads, which use wanderer sophie variants for their textures. <li> The "ender" variant now has a hardcoded emissive texture.</li> |
-| [1.9.0.5](/Back%20Math/Changelogs/Changelog%201.9.0.5-beta.md) | <li> Added the `piglin_brute` variant. <li>Added the `emissive_texture` field, which replaced the hardcoded emissive texture for the "ender" variant. <li> The `slim_arms` and `spawns_naturally` fields are now optional. They default to `true` when not defined.</li> |
-| [1.9.0.7](/Back%20Math/Changelogs/Changelog%201.9.0.7-beta.md) | Moved the variants folder to `/mob_variant/wanderer_sophie`, from `/wanderer_sophie_variant`. |
+| Version                                                                                                         | Changes                                                                                                                                                                                                                                                                  |
+| --------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [*May 25th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2025-05-24/Changelog%2025-05-24.md) (1.8.0)     | Added wanderer sophie variants as a *Forge* registry. Only includes the `asset_id` (technical texture location) and `slim_arms` fields.                                                                                                                                  |
+| [*June 9th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2009-06-24/Changelog%2009-06-24.md) (1.8.0)     | Removed the `asset_id` field, replacing it with `texture_location`.                                                                                                                                                                                                      |
+| [*October 6th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2006-10-24/Changelog%2006-10-24.md) (1.8.0)  | <li> Wanderer sophie variants are now loaded from data packs. <li> Readded the `asset_id` field. <li> Added the `farmer` variant. </li>                                                                                                                                  |
+| [*October 22nd, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2022-10-24/Changelog%2022-10-24.md) (1.8.0) | <li> Added the `green_hoodie`, `swimsuit` and `round_six` variants. <li> Added the `spawns_naturally` field, controlling whether this variant can naturally spawn from natural spawns and spawn eggs. </li>                                                              |
+| [1.9.0.4](/Back%20Math/Changelogs/Changelog%201.9.0.4-beta.md)                                                  | <li> Added wanderer sophie heads, which use wanderer sophie variants for their textures. <li> The "ender" variant now has a hardcoded emissive texture.</li>                                                                                                             |
+| [1.9.0.5](/Back%20Math/Changelogs/Changelog%201.9.0.5-beta.md)                                                  | <li> Added the `piglin_brute` variant. <li>Added the `emissive_texture` field, which replaced the hardcoded emissive texture for the "ender" variant. <li> The `slim_arms` and `spawns_naturally` fields are now optional. They default to `true` when not defined.</li> |
+| [1.9.0.7](/Back%20Math/Changelogs/Changelog%201.9.0.7-beta.md)                                                  | Moved the variants folder to `/mob_variant/wanderer_sophie`, from `/wanderer_sophie_variant`.                                                                                                                                                                            |
+| [9.0.9](Back%20Math/Changelogs/Changelog%209.0.9.md)                                                            | <li>Renamed the *Forge* registry to `mob_variant/wanderer_sophie`, from `wanderer_sophie_variant`.</li> <li>Moved the tags folder to `tags/mob_variant/wanderer_sophie/`.</li>                                                                                           |
 
 ## Issues
-Issues relating to "Wanderer sophie variant" are maintained on [Back Math's bug tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
+Issues relating to "Wanderer sophie variant" are maintained on [*Back Math*'s bug tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
 
 ## Navigation
 ### Data pack definitions

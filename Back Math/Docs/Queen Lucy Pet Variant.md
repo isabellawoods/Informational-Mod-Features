@@ -2,14 +2,14 @@
 > [!NOTE]
 > This feature is exclusive to *Back Math*.
 >
-> ***Last Updated**: 1.9.0.7 (26-7-25)*
+> ***Last Updated**: 9.0.9 (06-02-26)*
 
 > [!WARNING]
 > In my current implementation of data-driven "registries", it **doesn't work in multiplayer** due to the server not sending them to the client. Loading them beforehand may be a possible workaround.
 
 A **queen lucy pet variant** is an individual variant used for a queen lucy pet's textures. Queen lucy pet variants can be defined using JSON files in a data pack at the path `data/<namespace>/mob_variant/queen_lucy_pet/`.
 
-Queen lucy pet variants can have tags defined at the path `data/<namespace>/tags/queen_lucy_pet_variant/`.
+Queen lucy pet variants can have tags defined at the path `data/<namespace>/tags/mob_variant/queen_lucy_pet/`.
 
 ## JSON Format
 Queen lucy pet variants are defined using the following format:
@@ -21,17 +21,18 @@ Queen lucy pet variants are defined using the following format:
   - ![](/Revaried/Docs/Tags/compound_tag.png) **display_name**: A text component for this queen lucy pet's name.
 
 ## History
-| Version | Changes |
-|---------|---------|
-| [*June 9th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2009-06-24/Changelog%2009-06-24.md) (1.8.0) | <li> Added queen lucy pet variants as both a *Forge* and data-driven registry. <li> Currently, it includes the `texture_location` (read as `textureLocation`) and `display_name` fields. <li> The `display_name` field is not a text component. Instead, it is a hardcoded string/translatable text component. </li> |
-| [*June 12th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2012-06-24/Changelog%2012-06-24.md) (1.8.0) | <li>The `textureLocation` field is now read as `texture_location`. <li> If the `display_name` field is omitted, it now defaults to "<d>No translation.</d>" |
-| [*June 28th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2028-06-24/Changelog%2028-06-24.md) (1.8.0) | The `display_name` field is now a proper text component, and can no longer be omitted.<sup>*[verify]*</sup> |
-| [*October 6th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2006-10-24/Changelog%2006-10-24.md) (1.8.0) | <li> Queen lucy pet variants are now loaded from data packs. <li> Added the `asset_id` field. |
-| [1.9.0.5](/Back%20Math/Changelogs/Changelog%201.9.0.5-beta.md) | Added the `emissive_texture` field. |
-| [1.9.0.7](/Back%20Math/Changelogs/Changelog%201.9.0.7-beta.md) | Moved the variants folder to `/mob_variant/queen_lucy_pet`, from `/queen_lucy_pet_variant`. |
+| Version                                                                                                        | Changes                                                                                                                                                                                                                                                                                                              |
+| -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [*June 9th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2009-06-24/Changelog%2009-06-24.md) (1.8.0)    | <li> Added queen lucy pet variants as both a *Forge* and data-driven registry. <li> Currently, it includes the `texture_location` (read as `textureLocation`) and `display_name` fields. <li> The `display_name` field is not a text component. Instead, it is a hardcoded string/translatable text component. </li> |
+| [*June 12th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2012-06-24/Changelog%2012-06-24.md) (1.8.0)   | <li>The `textureLocation` field is now read as `texture_location`. <li> If the `display_name` field is omitted, it now defaults to "<d>No translation.</d>"                                                                                                                                                          |
+| [*June 28th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2028-06-24/Changelog%2028-06-24.md) (1.8.0)   | The `display_name` field is now a proper text component, and can no longer be omitted.<sup>*[verify]*</sup>                                                                                                                                                                                                          |
+| [*October 6th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2006-10-24/Changelog%2006-10-24.md) (1.8.0) | <li> Queen lucy pet variants are now loaded from data packs. <li> Added the `asset_id` field.                                                                                                                                                                                                                        |
+| [1.9.0.5](/Back%20Math/Changelogs/Changelog%201.9.0.5-beta.md)                                                 | Added the `emissive_texture` field.                                                                                                                                                                                                                                                                                  |
+| [1.9.0.7](/Back%20Math/Changelogs/Changelog%201.9.0.7-beta.md)                                                 | Moved the variants folder to `/mob_variant/queen_lucy_pet`, from `/queen_lucy_pet_variant`.                                                                                                                                                                                                                          |
+| [9.0.9](Back%20Math/Changelogs/Changelog%209.0.9.md)                                                           | <li>Renamed the *Forge* registry to `mob_variant/queen_lucy_pet`, from `queen_lucy_pet_variant`.</li> <li>Moved the tags folder to `tags/mob_variant/queen_lucy_pet`.</li>                                                                                                                                           |
 
 ## Issues
-Issues relating to "Queen lucy pet variant" are maintained on [Back Math's bug tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
+Issues relating to "Queen lucy pet variant" are maintained on [*Back Math*'s bug tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
 
 ## Navigation
 ### Data pack definitions

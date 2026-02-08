@@ -1,13 +1,12 @@
 # Informational Mod Features
-This is a repository dedicated to documenting all release changelogs, mod logos, and other things relating to me and my mods.
-
-This repository will include changelogs, logos, texture history, isometric renders, among others.
+This repository mainly includes changelogs, documentation, and some miscellaneous things (like some textures and logos) related to my mods.
 
 ## Changelogs
-Changelogs documenting most version of my mods.
+Changelogs documenting most versions of my mods. See the [index](Changelog%20Index.md) for a list of all changelogs.
 - [Back Math](/Back%20Math/Changelogs);
 - [Mellow UI](/Mellow%20UI/Changelogs);
 - [Revaried](/Revaried/Changelogs): for nearly all 1.16 versions;
+- [Reutilities](Reutilities/Changelogs/);
 - [Stancements](/Stancements/Changelogs).
 
 ## Docs

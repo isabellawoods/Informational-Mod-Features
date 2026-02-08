@@ -2,9 +2,9 @@
 
 <h1 style="text-align: center;">- Revaried 8.0.11 -</h1>
 
-> **Written On:** 04-01-26 - **Last Updated:** 05-01-26
+> **Written On:** 04-01-26 - **Last Updated:** 06-02-26
 
-**8.0.11** is the tenth version for [*Revaried* 8.0.0](/Revaried/Changelogs/1.16.5%20-%201.8.0/Changelog%201.8.0.md), released on December 12, 2025.[^1]
+**8.0.11** is the eleventh version for [*Revaried* 8.0.0](/Revaried/Changelogs/1.16.5%20-%201.8.0/Changelog%201.8.0.md), released on December 12, 2025.[^1] It makes various under the hood technical changes, and finally removes the TOML-based config file in favor of the new JSON-based settings file.
 
 ## Additions
 ### Miscellaneous
@@ -61,7 +61,7 @@
 ### Additions
 - The ![*(integer)*](/Revaried/Docs/Tags/integer_tag.png) **color** field of wool armor color definitions now accepts hexadecimal values prefixed with `#`.
   - By default, the data generator uses the hexadecimal format.
-- Added a built-in panorama under `variants:default_panorama`, used by *Mellow UI*  for this mod's settings screens.
+- Added a built-in panorama under `variants:default_panorama`, used by *Mellow UI* for this mod's settings screens.
   - Currently, it points to the wrong texture location.
 - *NBTSavingRecipeBuilder* now accepts *Forge*'s recipe conditions.
 - Added descriptions of the newer updates to the update checker file.

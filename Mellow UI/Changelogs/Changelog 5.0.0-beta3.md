@@ -2,9 +2,9 @@
 
 <h1 style="text-align: center;">- Mellow UI 5.0.0 Beta 3 -</h1>
 
-> **Written On:** 16-12-25 - **Last Updated:** 03-01-26
+> **Written On:** 16-12-25 - **Last Updated:** 07-02-26
 
-**5.0.0 Beta 3** is a major release for *Mellow UI*, released on December 21, 2025 on 1.16.[^1][^2][^3] It adds themes, makes post-processing effects loaded via resource packs, and makes various changes to other screens.
+**5.0.0 Beta 3** is a major release for *Mellow UI*, released on December 21, 2025 on 1.16[^1][^2][^3], and on January 24, 2026 on 1.18.[^4] It adds themes, makes post-processing effects loaded via resource packs, and makes various changes to other screens.
 
 ## Additions
 ### Options
@@ -30,6 +30,7 @@
   - As there's no way I know to find the correct uniforms, they are currently hardcoded for only the vanilla shaders.
 - Added a unique flair color for *Minecraft*: **#6CC349** (light green).
 - Added a dark mode version of *Mellomedley*'s title screen gradient.
+- Added new texture for the title screen icons background to the High Contrast resource pack.
 
 ## Changes
 ### Miscellaneous
@@ -60,6 +61,9 @@
 - **(1.16)** Removed all translations strings related to the `CustomizedWorldOptionsScreen`.
 - **(1.16)** Updated the tooltip of the **Screen Background** style option to include **Fading Blur**.
 - **(1.16)** The "Autor(es)" text in *Mellow UI*'s mod list has been changed to "Autor(es):" in Brazilian Portuguese.
+- **(1.18) [Bra. Portuguese]** Added the word "mod" on the "broken config screen" error message.
+- **(1.18) [Bra. Portuguese]** Changed the word "no" to "ao" on the button compatibility error messages.
+- Removed all translation strings related to the work-in-progress theme list, as it has been added.
 - Changed the breast settings error message to say "options" instead of "skin customization".
 - Added the word "mod" before the mod id in the "broken config screen" error message.
 - Updated the slabfish hat and breast settings error messages in Brazilian Portuguese.
@@ -81,9 +85,11 @@
 - Per-screen panoramas are now controlled by the panorama definition itself.
 - Resizing the game's window on a screen with tabs no longer selects the first tab.
 - The panorama's blur strength is no longer used in-game, causing excessive blurring.
+- Removed the **Mod List** style option from the "Forge" tab under *Mellow UI*'s option screen.
 
 #### Customization
 - Options on the "Styles" tab are now split into four categories: Backgrounds, Screens, Options and Forge.
+  - **(1.18)** In the process of splitting all the lists, the **Online Options** style option was accidentally removed.
 - The "Themes" tab is now functional.
   - Themes display their icon on the right side, or a missing icon if none is present.
     - This missing icon is colored based on the widget text options.
@@ -116,6 +122,7 @@
 
 #### Statistics
 - Item tooltips are now shown only if the cursor is within the bounds of the list.
+- Buttons now render after the list background and contents to fix a rendering issue with themes.
 
 #### Super Secret Settings
 - Added a search box to this screen. It behaves like other search boxes, but it doesn't support searching by namespaces.
@@ -145,13 +152,15 @@
   - All flairs added by this mod have been changed to use hexadecimal.
 - Reenabled the update checker for this mod.
 
-#### `DebuggingFlags`
+#### [`DebuggingFlags`](Melony%20Studios%20Wiki/Debugging%20Flags.md)
 This is a new class in some of my mods that controls the behavior of dev-only features. This mod includes the following flags:
 - `DEBUG_OOPS_ALL_TEXTURES`: Allows themes to override ***any*** texture being loaded, including dynamic textures. *Use at your own risk*;
-- `DEBUG_CONSTANT_MUSIC_TOAST`: displays the music toast from the start to finish of the song. Used for easing the changelog photoshoot process;
+- `DEBUG_CONSTANT_MUSIC_TOAST`: Displays the music toast from the start to finish of the song. Used for easing the changelog photoshoot process;
 - `DEBUG_FAKE_LOADING_ERRORS`: Fakes a mod loading error to test the UI change rollback;
 - `DEBUG_LOG_SECRET_SETTINGS_SOUNDS`: Logs the sound played in the Super Secret Settings screen;
-- `DEBUG_RECTANGLE_RAVE`: draws a colored box around every scissor rectangle. Has this name due to a bug during development.
+- `DEBUG_RECTANGLE_RAVE`: Draws a colored box around every scissor rectangle. Has this name due to a bug during development.
+
+In 1.18, in class is called `MUIDebuggingFlags` and is located under `util.debug`.
 
 ### Changes
 - *Mellow UI* now uses logger markers instead of appending the logger name on creation.
@@ -159,8 +168,8 @@ This is a new class in some of my mods that controls the behavior of dev-only fe
 - Renamed the `main_menu_gradient` texture from *Mellomedley* to `title_screen_gradient_light`.
 - Clearing the current shader no longer saves the `selectedEffect` option if it's already the default.
 - **(1.16)** The non-translated version of the flair logger messages now use "flair" instead of "mod list flair".
-- Panoramas with more or less than 6 `cube_map` textures now fail to parse.
-- Panoramas with a negative `blur_strength` now fail to parse.
+- Panoramas with more or less than 6 ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **cube_map** textures now fail to parse.
+- Panoramas with a negative ![*(integer)*](/Revaried/Docs/Tags/integer_tag.png)  **blur_strength** now fail to parse.
 - Auto-generated panoramas are now blocked if any loaded panorama has the same hash code as its textures.
 
 #### Classes and Methods
@@ -190,3 +199,4 @@ This is a new class in some of my mods that controls the behavior of dev-only fe
 [^1]: **(1.16)** ["5.0.0 (B-III P-I): Panorama Transition Fixes"](https://github.com/isabellawoods/Mellow-UI/commit/24eed3627dd55711b51d5372c7fd2c4bdcc3a5d8) (Commit `24eed36`) – GitHub, December 13, 2025.
 [^2]: **(1.16)** ["5.0.0 (B-III P-II): Hex Flairs & Translation Fixes"](https://github.com/isabellawoods/Mellow-UI/commit/0600e38f0c8b746fdb58904d7a250a3d05e634f4) (Commit `0600e38`) – GitHub, December 16, 2025.
 [^3]: **(1.16)** ["5.0.0 (B-III P-III): Themes & RP Post Effects"](https://github.com/isabellawoods/Mellow-UI/commit/01b0f430a5f92c7497c0ba873de6902e1e4f6f43) (Commit `01b0f43`) – GitHub, December 21, 2025.
+[^4]: **(1.18)** ["5.0.0 (B-III P-II): Themes & RP Post Effects"](https://github.com/isabellawoods/Mellow-UI/commit/b42532d22ccbf08539660ee16c9082e5bd4e3dd3) (Commit `b42532d`) – GitHub, January, 24, 2026.

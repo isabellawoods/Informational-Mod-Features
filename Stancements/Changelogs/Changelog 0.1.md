@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Stancements 0.1 -</h1>
 
-> **Written On:** 24-12-25 - **Last Updated:** 24-12-25
+> **Written On:** 24-12-25 - **Last Updated:** 01-02-26
 
 **0.1** is a first release of *Stancements*, released on February 5, 2025[^1], with an extra update on February 14, 2025[^2]. It adds shelves, many backports ported from the discontinued *Melony Lib*, and updated iron block sounds.
 
@@ -11,14 +11,14 @@
 - Added shelves.
   - Shelves are decorative blocks that span half a block. Small blocks, such as flower pots and torches, can be placed on top of them, but hanging off on one side.
   - Places itself attached to nearby blocks, like a ladder.
-  - Are crafted using 3 planks and 2 sticks, similar to a helmet, and gives 3 shelves.
+  - Are crafted using 3 planks and 2 sticks in the shape of a helmet, and gives 3 shelves.
   - Can be waterlogged.
 
 ### Miscellaneous
 - Added a common config file, containing the following **6** configs:
   - `populatePaintingVariants`: Whether to add all painting variants to the creative tabs;
-  - `populateFireworkRocketDuration`: Whether to all all 3 flight durations to the creative tabs;
-  - `addOminousBannerToTab`: Adds the ominous banner after black banners in the "Decoration" tab. This banners has a yellow name, unlike 1.16's which has a gold name;
+  - `populateFireworkRocketDuration`: Whether to add all 3 flight durations of firework rockets to the creative tabs;
+  - `addOminousBannerToTab`: Adds the ominous banner after black banners in the "Decoration" tab. This banner has a yellow name, unlike 1.16's which has an orange name;
   - `addTermianEmpireBannerToTab`: Adds the Termian Empire banner after ominous banners in the "Decoration" tab. Only added if *Back Math* is loaded;
   - `addBeehiveTooltips`: Adds the honey level and bees tooltips to bee nests and beehives;
   - `removePotionGlint`: Removes the enchantment glint from potions, splash potions and lingering potions.
@@ -46,11 +46,11 @@
 - Renamed "Spawner" to "Monster Spawner", from 1.19.3.
 
 ### Items
-- Paintings now have tooltips showing their name, authors and size, like in newer versions.
-  - Displays "Random variant" if none is present.
+- Paintings now have tooltips showing their name, author and size, like in newer versions.
+  - Displays "Random variant" if the ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **Motive** tag is absent.
 - Items with durability no longer have the `"Damage": 0` tag always present.
-- Shears now use the `#melony:mineable/shears` block tag for which blocks it can break.
-- Moved all spawn eggs from the "Miscellaneous" tab to the "Spawn Eggs" tab.
+- Shears now use the `#melony:mineable/shears` block tag for which blocks they can break.
+- Moved all spawn eggs from the "Miscellaneous" tab to the new "Spawn Eggs" tab.
 - Renamed "Scute" to "Turtle Scute", from 1.20.5.
 - Renamed "Minecart with Spawner", added by *Revaried*, to "Minecart with Monster Spawner".
 - Changed the axe stripping subtitle from "Axe scrapes" to "Axe strips", from 1.17.
@@ -62,18 +62,18 @@
   - Contains `#forge:storage_blocks/iron`, iron bars, doors, trapdoors, heavy weighted pressure plates, cauldrons and hoppers.
   - Blocks in this tag use the updated iron sounds from [25w02a](https://minecraft.wiki/w/Java_Edition_25w02a).
 - Added the `#melony:mineable/shears` block tag.
-  - Contains `#minecraft:leaves`, `#minecraft:wool`, cobwebs, grass, ferns, dead bushes, vines, tripwire and redstone wire.
+  - Contains `#minecraft:leaves`, `#minecraft:wool`, cobwebs, short grass, ferns, dead bushes, vines, tripwire and redstone wire.
   - Blocks in this tag can be mined faster using shears.
 - Added the `#stancements:shelves` block and item tags, containing all shelves.
 - Added the `#melony:with_rarity/common` item tag.
   - Contains End crystals and golden apples.
   - Items in this tag use the "Common" rarity.
 - Added the `#melony:with_rarity/uncommon` item tag.
-  - Contains snout banner patterns, chainmail armor, nautilus shells, conduits, and the following music discs:
+  - Contains "snout" banner patterns, chainmail armor, nautilus shells, conduits, and the following music discs:
     - 13, cat, blocks, chirp, far, mall, mellohi, stal, strad, ward, 11 and wait.
   - Items in this tag use the "Uncommon" rarity.
 - Added the `#melony:with_rarity/rare` item tag.
-  - Contains enchanted golden apples, tridents, Nether stars, wither skeleton skulls, and skull charge and thing banner patterns.
+  - Contains enchanted golden apples, tridents, Nether stars, wither skeleton skulls, and "skull charge" and "thing" banner patterns.
   - Items in this tag use the "Rare" rarity.
 - Added the `#melony:with_rarity/epic` item tag.
   - Contains elytra, dragon heads, barriers, structure voids, command block minecarts, debug sticks and knowledge books.

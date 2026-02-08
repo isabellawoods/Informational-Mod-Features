@@ -2,11 +2,26 @@
   "collapse-filter": false,
   "search": "",
   "showTags": false,
-  "showAttachments": false,
+  "showAttachments": true,
   "hideUnresolved": false,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": true,
-  "colorGroups": [],
+  "colorGroups": [
+    {
+      "query": "path:/Changelogs/",
+      "color": {
+        "a": 1,
+        "rgb": 13770730
+      }
+    },
+    {
+      "query": "path:/Docs/",
+      "color": {
+        "a": 1,
+        "rgb": 11965134
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": true,
   "textFadeMultiplier": 0,
@@ -14,9 +29,9 @@
   "lineSizeMultiplier": 0.993229166666667,
   "collapse-forces": true,
   "centerStrength": 0.5,
-  "repelStrength": 12.8125,
+  "repelStrength": 12.5463652362258,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.25883865621815644,
+  "scale": 0.2726860283480465,
   "close": true
 }

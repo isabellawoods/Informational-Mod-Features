@@ -10,7 +10,7 @@ Used to determine which items go into the mainhand when equipping an entity from
 
 **Added in**: [*June 12th, 2024* (*Back Math* 8.0)](Changelog%2012-06-24.md)
 
-![list_tag](list_tag.png) **#melony:allowed_in_mainhand** *(4 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:allowed_in_mainhand** *(4 values)*
 - [`#melony:bows`](#bows)
 - [`#melony:crossbows`](#crossbows)
 - `backmath:aljameed_shovel`
@@ -21,7 +21,7 @@ Used to determine which items go into the offhand when equipping an entity from 
 
 **Added in**: [*June 12th, 2024* (*Back Math* 8.0)](Changelog%2012-06-24.md)
 
-![list_tag](list_tag.png) **#melony:allowed_in_offhand** *(1 value)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:allowed_in_offhand** *(1 value)*
 - `#backmath:squids`
 
 ### books
@@ -31,7 +31,7 @@ Replaced with `#minecraft:bookshelf_books` in 1.21.
 
 **Added in**: *Revaried* 6.1.0, *Edits* 1.4.3.7
 
-![list_tag](list_tag.png) **#melony:books** *(8 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:books** *(8 values)*
 - `#minecraft:lectern_books`
 - `minecraft:book`
 - `minecraft:enchanted_book`
@@ -46,7 +46,7 @@ Replaced with `#c:bookshelves` in 1.21.
 
 **Added in**: *Revaried* 6.1.0
 
-![list_tag](list_tag.png) **#melony:bookshelves** *(4 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:bookshelves** *(4 values)*
 - `minecraft:bookshelf`
 - `edits:styled_bookshelf`
 - `variants:enderwood_bookshelf`
@@ -57,7 +57,7 @@ Grouping tag.
 
 **Added in**: [*Revaried* 6.14.0](Changelog%201.6.14.md)
 
-![list_tag](list_tag.png) **#melony:bowls** *(2 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:bowls** *(2 values)*
 - [`#melony:bowls/wooden`](#bowls/wooden)
 - [`#melony:bowls/obtainable_through_fishing`](#bowls/obtainable_through_fishing)
 
@@ -66,7 +66,7 @@ Can be obtained from the junk fishing loot table.
 
 **Added in**: [*Revaried* 6.14.0](Changelog%201.6.14.md)
 
-![list_tag](list_tag.png) **#melony:bowls/obtainable_through_finishing** *(8 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:bowls/obtainable_through_finishing** *(8 values)*
 - `minecraft:bowl`
 - `variants:oak_bowl`
 - `variants:spruce_bowl`
@@ -81,7 +81,7 @@ Can be used to craft (end) fungi and exponential suspicious stew and melting bee
 
 **Added in**: [*Revaried* 6.14.0](Changelog%201.6.14.md)
 
-![list_tag](list_tag.png) **#melony:bowls/wooden** *(11 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:bowls/wooden** *(11 values)*
 - `minecraft:bowl`
 - `variants:oak_bowl`
 - `variants:spruce_bowl`
@@ -106,7 +106,7 @@ Replaced with `#c:tools/bow` in 1.21.
 - *Project Alcook* 1.3
 - *Mob Taker* 1.3
 
-![list_tag](list_tag.png) **#melony:bows** *(9 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:bows** *(9 values)*
 - `minecraft:bow`
 - `backmath:devil_bow`
 - `backmath:angelic_bow`
@@ -122,7 +122,7 @@ Used in the `#create:upright_on_belt` item tag.
 
 **Added in**: *Edits* 1.4.3.7
 
-![list_tag](list_tag.png) **#melony:cakes** *(5 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:cakes** *(5 values)*
 - `minecraft:cake`
 - `backmath:hillary_cake`
 - `backmath:milkllary_cake`
@@ -136,7 +136,7 @@ Replaced with `#minecraft:cat_food` in 1.21.
 
 **Added in**: [*Revaried* 6.14.0](Changelog%201.6.14.md)
 
-![list_tag](list_tag.png) **#melony:catlike_tame_items** *(4 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:catlike_tame_items** *(4 values)*
 - `minecraft:cod`
 - `minecraft:salmon`
 - `minecraft:tropical_fish`
@@ -147,7 +147,7 @@ Items which cannot be picked up by *Back Math* chicken jockeys.
 
 **Added in**: [*May 25th, 2024* (*Back Math* 8.0)](Changelog%2025-05-24.md)
 
-![list_tag](list_tag.png) **#melony:chicken_jockey_cannot_pickup** *(1 value)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:chicken_jockey_cannot_pickup** *(1 value)*
 - `minecraft:egg`
 
 ### clears_mob_effects
@@ -155,7 +155,7 @@ Items that can be used to clear the effects of a queen lucy pet.
 
 **Added in**: [*Back Math* 9.0.4](Changelog%201.9.0.4-beta.md)
 
-![list_tag](list_tag.png) **#melony:clears_mob_effects** *(1 value)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:clears_mob_effects** *(1 value)*
 - `#forge:milk`
 
 ### completes_find_tree_tutorial
@@ -165,7 +165,7 @@ Replaced with `#minecraft:completes_find_tree_tutorial` in 1.21.
 
 **Added in**: [*Revaried* 7.0.0 Pre-Release 2](Changelog%201.7.0%20Pre-Release%202.md), [Snapshot 22w15a](https://minecraft.wiki/w/Java_Edition_22w15a)
 
-![list_tag](list_tag.png) **#melony:completes_find_tree_tutorial** *(3 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:completes_find_tree_tutorial** *(3 values)*
 - `#minecraft:logs`,
 - `#minecraft:leaves`,
 - `#minecraft:wart_blocks`
@@ -179,7 +179,7 @@ Replaced with `#c:tools/crossbow` in 1.21.
 
 **Added in**: *January 2nd, 2024* (*Back Math* 8.0), *Mob Taker* 1.3, *Project Alcook* 1.3
 
-![list_tag](list_tag.png) **#melony:crossbows** *(5 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:crossbows** *(5 values)*
 - `minecraft:crossbow`
 - `#backmath:railguns`
 - `backmath:devil_crossbow`
@@ -191,7 +191,7 @@ Can be smelted into *Rimcraft* slate bricks.
 
 **Added in**: *Rimcraft* 1.1.2
 
-![list_tag](list_tag.png) **#melony:deepslate_smeltables** *(4 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:deepslate_smeltables** *(4 values)*
 - `minecraft:cobbled_deepslate`
 - `cavesandcliffs:cobbled_deepslate`
 - `quark:cobbled_deepslate`
@@ -202,7 +202,7 @@ Replaced with `#c:logos` in 1.21, added by *Reutilities*.
 
 **Added in**: [*Revaried* 6.19.1](Changelog%201.6.19.1.md)
 
-![list_tag](list_tag.png) **#melony:icon_items** *(2 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:icon_items** *(2 values)*
 - `variants:infinity_sweaters_tab_icon`
 - `variants:shulker_spectrum_icon`
 
@@ -211,7 +211,7 @@ Can be used to craft beacons.
 
 **Added in**: [*Revaried* 6.19.1](Changelog%201.6.19.1.md), *Edits* 1.4.3.7, *F10 Elements* 1.4.3
 
-![list_tag](list_tag.png) **#melony:nether_stars** *(2 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:nether_stars** *(2 values)*
 - `minecraft:nether_star`
 - `edits:lucium_star`
 
@@ -220,7 +220,7 @@ Piglins can use these items to barter.
 
 **Added in**: *Edits* 1.4.3.8
 
-![list_tag](list_tag.png) **#melony:piglin_currency** *(2 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:piglin_currency** *(2 values)*
 - `#forge:ingots/gold`
 - `#forge:ingots/shadegold`
 
@@ -229,7 +229,7 @@ Grouping tag.
 
 **Added in**: *February 12th, 2024* (*Back Math* 8.0)
 
-![list_tag](list_tag.png) **#melony:provides_effect** *(2 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:provides_effect** *(2 values)*
 - [`#melony:provides_effect/resistance`](#provides_effect/resistance)
 - [`#melony:provides_effect/water_breathing`](#provides_effect/water_breathing)
 
@@ -238,7 +238,7 @@ When worn by *Back Math* mobs, they get Resistance for 10 seconds when not under
 
 **Added in**: *February 12th, 2024* (*Back Math* 8.0), *Creeper Edits* 1.3
 
-![list_tag](list_tag.png) **#melony:provides_effect/resistance** *(1 value)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:provides_effect/resistance** *(1 value)*
 - `#creeperedits:creeper_lord_helmet`
 
 ### provides_effect/water_breathing
@@ -246,7 +246,7 @@ When worn by *Back Math* mobs or players, they get Water Breathing for 10 second
 
 **Added in**: *February 12th, 2024* (*Back Math* 8.0)
 
-![list_tag](list_tag.png) **#melony:provides_effect/water_breathing** *(3 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:provides_effect/water_breathing** *(3 values)*
 - `minecraft:turtle_helmet`
 - `backmath:candy_pink_turtle_helmet`
 - `backmath:candy_yellow_turtle_helmet`
@@ -259,7 +259,7 @@ Replaced with `#c:tools/shield` in 1.21.
 
 **Added in**: *February 12th, 2024* (*Back Math* 8.0), [*Revaried* 6.8.0](Changelog%201.6.8.md)
 
-![list_tag](list_tag.png) **#melony:shields** *(7 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:shields** *(7 values)*
 - `minecraft:shield`
 - `backmath:devil_shield`
 - `backmath:angelic_shield`
@@ -275,7 +275,7 @@ Replaced with `#minecraft:villager_plantable_seeds` in 1.21.
 
 **Added in**: *May 18th, 2024* (*Back Math* 8.0), [Snapshot 23w16a](https://minecraft.wiki/w/Java_Edition_23w16a)
 
-![list_tag](list_tag.png) **#melony:villager_plantable_seeds** *(7 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:villager_plantable_seeds** *(7 values)*
 - `minecraft:wheat_seeds`
 - `minecraft:carrot`
 - `minecraft:potato`
@@ -287,9 +287,11 @@ Replaced with `#minecraft:villager_plantable_seeds` in 1.21.
 ### villager_wanted_items
 Items in this tag can be picked up by villagers.
 
-**Added in**: [*Revaried* 7.0.0 Pre-Release 2](Changelog%201.7.0%20Pre-Release%202.md)
+Replaced with `#minecraft:villager_picks_up` in 1.21.2.
 
-![list_tag](list_tag.png) **#melony:villager_wanted_items** *(5 values)*
+**Added in**: [*Revaried* 7.0.0 Pre-Release 2](Changelog%201.7.0%20Pre-Release%202.md), [Snapshot 24w33a](https://minecraft.wiki/w/Java_Edition_24w33a)
+
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:villager_wanted_items** *(5 values)*
 - [`#melony:villager_plantable_seeds`](#villager_plantable_seeds)
 - `minecraft:wheat`
 - `minecraft:bread`
@@ -301,7 +303,7 @@ Items in this tag have their rarity switched to "common".
 
 **Added in**: *Stancements* 0.1.0
 
-![list_tag](list_tag.png) **#melony:with_rarity/common** *(2 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:with_rarity/common** *(2 values)*
 - `minecraft:end_crystal`
 - `minecraft:golden_apple`
 
@@ -310,7 +312,7 @@ Items in this tag have their rarity switched to "uncommon".
 
 **Added in**: *Stancements* 0.1.0
 
-![list_tag](list_tag.png) **#melony:with_rarity/uncommon** *(19 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:with_rarity/uncommon** *(19 values)*
 - `minecraft:piglin_banner_pattern`
 - `minecraft:chainmail_helmet`
 - `minecraft:chainmail_chestplate`
@@ -336,7 +338,7 @@ Items in this tag have their rarity switched to "rare".
 
 **Added in**: *Stancements* 0.1.0
 
-![list_tag](list_tag.png) **#melony:with_rarity/rare** *(6 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:with_rarity/rare** *(6 values)*
 - `minecraft:enchanted_golden_apple`
 - `minecraft:trident`
 - `minecraft:nether_star`
@@ -349,7 +351,7 @@ Items in this tag have their rarity switched to "epic".
 
 **Added in**: *Stancements* 0.1.0
 
-![list_tag](list_tag.png) **#melony:with_rarity/epic** *(10 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:with_rarity/epic** *(10 values)*
 - `minecraft:elytra`
 - `minecraft:dragon_head`
 - `minecraft:barrier`
@@ -366,5 +368,5 @@ Items in this tag have their rarity switched to "potato", from [snapshot 24w14po
 
 **Added in**: *Stancements* 0.1.0
 
-![list_tag](list_tag.png) **#melony:with_rarity/potato** *(0 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:with_rarity/potato** *(0 values)*
 - *Empty.*

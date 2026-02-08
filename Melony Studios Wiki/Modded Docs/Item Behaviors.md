@@ -1,11 +1,11 @@
 # Item Behaviors
-***Last Updated**: 7-7-25*
+> **Last Updated**: 06-02-26
 
-Item behaviors (formerly tool behaviors) are *Back Math*'s copy of *Revaried*'s [consume behaviors](/Revaried/Docs/Consumables%20(1.8.0.2%20Onwards).md), which instead of acting when the item is consumed, it's instead when the item is used.
+**Item behaviors** (formerly **tool behaviors**) are *Back Math*'s copy of *Revaried*'s [consume behaviors](/Revaried/Docs/Consumables%20(1.8.0.2%20Onwards).md), which instead of acting when the item is consumed, it's instead when the item is used.
 
 In code, these are two different registries: **item behaviors** are a group of *item behavior effect types*, that are all ran at the same time, and these **effect types** are the individual effects an item has.
 
-While item behaviors are hardcoded in 1.16, they may become [data components](https://minecraft.wiki/w/Data_component_format) in 1.21 due to the mod being remade from the ground up.
+While item behaviors are hardcoded in 1.16, in 1.21 they'll become part of *Reutilities*' unified item behavior system, which was copied from *Revaried* and adapted to work with data components.
 
 ## List of behaviors
 
@@ -42,7 +42,7 @@ This effect adds this tooltip to the item:
 Damages the entity with a pre-existing damage source.
 
 This effects adds this tooltip to the item:
-> <d style="color: #555555">[☒]</d> <d style="color: #AAAAAA">Deals \<amount> damage to you using source "\<source>"</d>
+> <d style="color: #555555">[☒]</d> <d style="color: #AAAAAA">Deals [amount] damage to you using source "[source]"</d>
 
 - *(DamageSource)* **source**: The source to damage the entity with. Defaults to `GENERIC`.
 - *(int)* **amount**: How much damage to apply to the entity. Defaults to `0`.
@@ -51,14 +51,14 @@ This effects adds this tooltip to the item:
 Gives a milk bucket (by default) when hitting an entity.
 
 This effects adds this tooltip to the item:
-> <d style="color: #7C979E">[☐]</d> <d style="color: #BDDCE4">Gives you \<amount> \<item name></d> 
+> <d style="color: #7C979E">[☐]</d> <d style="color: #BDDCE4">Gives you [amount] [item name]</d> 
 
 - *(ItemStack)* **bucketStack**: The item stack to give the attacker. Defaults to one milk bucket.
 
 #### NBT Format
 - ![](/Revaried/Docs/Tags/compound_tag.png) Root tag for this item.
   - ![](/Revaried/Docs/Tags/string_tag.png)![](/Revaried/Docs/Tags/compound_tag.png) **milked_sword_item**: An item stack to give the player. Can be defined as both a compound and string, with the string being an item id that's automatically converted into a compound.
-    > **Tags common to all items saved by Revaried:**
+    > **Tags common to all items saved by *Revaried*:**
     > - ![](/Revaried/Docs/Tags/string_tag.png) **id**: The id of the item.
     > - ![](/Revaried/Docs/Tags/integer_tag.png) **count**: *(optional)* How many items there are in this stack. Effectively capped at 127 due to the default count tag being a ![](/Revaried/Docs/Tags/byte_tag.png) byte.
     > - ![](/Revaried/Docs/Tags/compound_tag.png) **tags**: *(optional)* The tags this item stack has.
@@ -67,7 +67,7 @@ This effects adds this tooltip to the item:
 Gives the player a specific amount of experience points when either hitting an entity or eating the item.
 
 This effects adds this tooltip to the item:
-> <d style="color: #588039">[☑]</d> <d style="color: #80FF20">Gives \<amount> experience when eaten</d>
+> <d style="color: #588039">[☑]</d> <d style="color: #80FF20">Gives [amount] experience when eaten</d>
 
 - *(int)* **defaultAmount**: Amount of experience points to give. Defaults to `500`.
 
@@ -130,7 +130,7 @@ This effects adds these tooltips to the item:
   - ![](/Revaried/Docs/Tags/string_tag.png) **prohibition_weakness_effect**: An effect id for the prohibition weakness effect.
 
 ## Issues
-Issues relating to "Item behaviors" are maintained on [Back Math's bug tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
+Issues relating to "Item behaviors" are maintained on [*Back Math*'s bug tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
 
 ## History
 | Version | Changes |

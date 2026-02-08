@@ -7,7 +7,7 @@ Trim materials in this tag glow at light level 15 when rendered as part of an ar
 
 **Added in**: *Reutilities* 1.1.0
 
-![list_tag](list_tag.png) **#c:emissive_lighting** *(3 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#c:emissive_lighting** *(3 values)*
 - `backmath:warmterm`
 - `backmath:mid_term`
 - `backmath:coldterm`

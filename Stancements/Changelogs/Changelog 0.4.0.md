@@ -1,6 +1,6 @@
 <h1 style="text-align: center;">- Stancements 0.4.0 -</h1>
 
-> **Written On:** 23-12-25 - **Last Updated:** 09-01-26
+> **Written On:** 23-12-25 - **Last Updated:** 04-02-26
 
 **0.4.0** is an upcoming major release for *Stancements*.[^1][^2][^3] It adds a faster variant of powered rails, and the ability to tag minecarts with different color that tagging rails can detect.
 
@@ -28,7 +28,7 @@
   - The disc has an "epic" rarity, and is marked as a copy, so only one can be obtained per player.
   - Required for the "Miner's Music Group" advancement.
   - Always has the same color and label.
-- Added a background for *Catalogue*, using the same location as the new banner.
+- Added a background for *Catalogue*, taken in the same location as the new banner.
 
 ## Changes
 ### Blocks
@@ -53,10 +53,10 @@
   - **Format**: a ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **colors** field containing 1-16 dye color names (with no duplicates), which may not exist.
 - Added the `minecart_tag_color` data component.
   - **Format**: a string representing a dye color.
- - Items with this component can be used on minecarts to tag them.
- - Displays a tooltip showing how to use the tag. It can be disabled using *Reutilities*' "hide components" component.
- - *Stancements* now has an update checker at [this location](https://raw.githubusercontent.com/isabellawoods/Informational-Mod-Features/refs/heads/main/.versioncheck/stancements.json). It's disabled by default in the development environment.
- - Updated the README to include the a banner.
+  - Items with this component can be used on minecarts to tag them.
+  - Displays a tooltip showing how to use the tag. It can be disabled using *Reutilities*' "hide components" component.
+- *Stancements* now has an update checker at [this location](https://raw.githubusercontent.com/isabellawoods/Informational-Mod-Features/refs/heads/main/.versioncheck/stancements.json). It's disabled by default in the development environment.
+- Updated the README to include the new banner.
 
 ### Changes
 - Renamed the `/melonystudios stancements update_recorded_disc` command to `/melonystudios stancements:update_recorded_disc`, to match *Reutilities*.

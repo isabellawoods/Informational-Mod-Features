@@ -1,4 +1,6 @@
 # Item Tags
+> **Last Updated:** 08-02-26
+
 This file lists all item tags under the `c` (common) namespace added by *Reutilities*.
 
 ## List of tags
@@ -9,7 +11,7 @@ The equivalent in 1.16 is `#backmath:dual_wielded`, added by *Back Math*.
 
 **Added in**: [*Back Math* 9.0.1](Changelog%201.9.0.1-beta.md), *Reutilities* 1.1.0
 
-![list_tag](list_tag.png) **#c:dual_wielded** *(2 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#c:dual_wielded** *(2 values)*
 - `backmath:mid_term_longsword`
 - `backmath:carewni`
 
@@ -32,7 +34,7 @@ As of 1.2.0, items are **not** emissive in the following places:
 
 **Added in**: *Reutilities* 1.1.0
 
-![list_tag](list_tag.png) **#c:emissive_lighting** *(8 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#c:emissive_lighting** *(8 values)*
 - `#c:dusts/glowstone`
 - `#c:rods/blaze`
 - `minecraft:blaze_powder`
@@ -49,7 +51,7 @@ The equivalent tag in 1.16 is `#forge:flint`, added by *Back Math*.
 
 **Added in**: *Reutilities* 1.2.0
 
-![list_tag](list_tag.png) **#c:flint** *(1 value)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#c:flint** *(1 value)*
 - `minecraft:flint`
 
 ### logos
@@ -59,5 +61,9 @@ The equivalent tag in 1.16 is `#melony:icon_items`.
 
 **Added in**: *Reutilities* 1.3.0
 
-![list_tag](list_tag.png) **#c:logos** *(0 values)*
-- *Empty.*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#c:logos** *(5 values)*
+- `creeperedits:creeper_edits_logo`
+- `edits:edits_logo`
+- `outfitted:tab_icon`
+- `revaried:shulker_spectrum_icon`
+- `stancements:stancements_logo`

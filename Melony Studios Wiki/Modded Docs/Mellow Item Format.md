@@ -1,5 +1,5 @@
 # Mellow Item Format
-***Last Updated**: 9-7-25*
+**Last Updated**: 06-02-26
 
 This file is an attempt to document all item tags (NBT) across all my mods, showing their uses, quirks, examples, and more.
 
@@ -76,8 +76,9 @@ All items in the game, when using *Revaried*, can be turned into consumables, al
     - Wooden railbeds;
     - Coal shears.
   - ![](/Revaried/Docs/Tags/string_tag.png) **wood_type**: A string overriding the wood type of a *Revaried* boat. Can be one of `painting`, `crimson`, `warped` or `enderwood`.
-    > [!NOTE]
-    > While this tag is also used in *Back Math*'s boats, the wood types can't be exchanged.
+
+> [!NOTE]
+> While the ![](/Revaried/Docs/Tags/string_tag.png) **wood_type** tag is also used in *Back Math*'s boats, the wood types can't be exchanged.
 
 ## Mob Taker
 ### No-Releasing Crossbow
@@ -86,9 +87,9 @@ All items in the game, when using *Revaried*, can be turned into consumables, al
   - ![](/Revaried/Docs/Tags/list_tag.png) **charged_projectiles**: A list of 1 or 3 item stacks (usually arrows) to shoot.
     - ![](/Revaried/Docs/Tags/compound_tag.png) A single item stack entry.
       > **Tags common to all items saved by vanilla:**
-      > - ![](/Revaried/Docs/Tags/string_tag.png) **id**: The id of the item.
-      > - ![](/Revaried/Docs/Tags/byte_tag.png) **Count**: How many items there are in this stack.
-      > - ![](/Revaried/Docs/Tags/compound_tag.png) **tag**: *(optional)* The tags this item stack has.
+      > - ![](/Revaried/Docs/Tags/string_tag.png) **id**: *(required)* The id of the item.
+      > - ![](/Revaried/Docs/Tags/byte_tag.png) **Count**: *(required)* How many items there are in this stack.
+      > - ![](/Revaried/Docs/Tags/compound_tag.png) **tag**: The tags this item stack has.
 
 ## Stancements
 ### Recorded Disc

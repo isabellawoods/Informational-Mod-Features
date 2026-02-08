@@ -1,16 +1,16 @@
 # The Mato Music Pack
 **The Mato Music Pack** is a resource pack that backports all of the newer *Minecraft* music into 1.16 for my mods to use.
 
-This pack exists due to the music bloating the jar file to nearly *X*MB.
+This pack exists due to the music bloating the jar file to nearly 360MB (estimate).
 
-| | |
-|-|-|
-| **Pack maker(s)** | [isabellawoods](https://github.com/isabellawoods) |
-| **Edition(s)** | *Java Edition* |
-| **Size** | ~352.2MB |
-| **Latest version** | 1.5 |
-| **Target(s)** | *The Mato*, *Back Math*, *Revaried*, etc. |
-| **Pack version** | 6 *(1.16.2 - 1.16.5)* |
+|                    |                                                   |
+| ------------------ | ------------------------------------------------- |
+| **Pack maker(s)**  | [isabellawoods](https://github.com/isabellawoods) |
+| **Edition(s)**     | *Java Edition*                                    |
+| **Size**           | ~353.4MB                                          |
+| **Latest version** | 1.5                                               |
+| **Used by**        | *The Mato*, *Back Math*, *Revaried*, etc.         |
+| **Pack version**   | 6 *(1.16.2 - 1.16.5)*                             |
 
 ## Music
 ### Caves & Cliffs: Part II (1.18)
@@ -61,6 +61,20 @@ This pack exists due to the music bloating the jar file to nearly *X*MB.
 — **`pack.mcmeta` description.**</div>
 
 ## History
+### The Mato
+| Version       | Changes                                                                                                                                                                                                                                            |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.16.5-v0.3.1 | Added "Stand Tall", "Left to Bloom", "Wending", "Infinite Amethyst", "One More Day" and "Comforting Memories" to the mod's assets.                                                                                                                 |
+| 1.16.5-v0.3.2 | <li>Added "Floating Dream", "An Ordinary Day" and "A Familiar Room" to the mod's assets.</li> <li>Music files are now split into folders. Now, Caves & Cliffs music is under `caves_and_cliffs`, and Trails & Tales under `trails_and_tales`.</li> |
+| 1.16.5-v0.3.3 | <li>Removed all music files from the mod's assets. Instead, they're now located in this resource pack.</li> <li>The mod now uses music from the Wild Update and the Tricky Trials update, under `wild_update` and `tricky_trials`.</li>            |
+| 1.16.5-v0.3.5 | The mod now uses the Chase the Skies music, under the `drop_2_2025` folder.                                                                                                                                                                        |
+| 1.16.5-v0.3.6 | Chase the Skies music is under the `chase_the_skies` folder for this mod.                                                                                                                                                                          |
+| 3.6.1         | A template of this resource pack is now included in the mod's repository, for version 1.21.1.                                                                                                                                                      |
+
+### Resource pack
+| Version | Changes                                     |
+| ------- | ------------------------------------------- |
+| 1.5     | The pack's description is now translatable. |
 
 ## Gallery
 > <div style="text-align: center;"> <img src=Files/themato_music_pack_rev1.png width="300">

@@ -1,0 +1,48 @@
+# Debugging Flags
+> [!WARNING]
+> These features are for debugging purposes only, and **should not be used during regular gameplay**.
+
+> **Written On:** 07-02-26 - **Last Updated:** 07-02-26
+
+**Debugging flags** or **debug flags** are JVM arguments that toggle certain debug features in some of my mods.
+
+As of the last update, only *Back Math* and *Reutilities* support enabling flags through the JVM.
+
+## Usage
+To enable these flags, the JVM arguments must be set when launching the game. Flags here can be enabled using `-D<prefix>debug.<name>` or `-D<prefix>debug.<name>=<value>`.
+
+## List of flags
+| Name                                                                    | Default value | Mod (Prefix)         | Description                                                                                                                                                                                                                                                                                                                                                                  |
+| ----------------------------------------------------------------------- | ------------- | -------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ![](/Revaried/Docs/Tags/boolean_tag.png) `revariedItemTagDisplay`       | `false`       | *Back Math* (`bm`)   | Displays an item's NBT/tag on its tooltip. This was copied over from *Revaried*. The tooltip isn't the same as the original.                                                                                                                                                                                                                                                 |
+| ![](/Revaried/Docs/Tags/boolean_tag.png) `apsPlacementCommand`          | `false`       | *Back Math* (`bm`)   | Adds the `/backmath-aps_placement` command, used for testing the placement of Aljan portal stands. The separation of the teleportation logic was made for this reason.<p>**Arguments:**</p><li>`[pos]`: Where the player would be teleported to;</li><li>`[place_with_jantical]`: Whether the stand should already have a jantical. Defaults to the `safeAljan` config.</li> |
+| ![](/Revaried/Docs/Tags/boolean_tag.png) `spawnWandererTermiansCommand` | `false`       | *Back Math* (`bm`)   | Adds the `/backmath-spawn_wanderer_sophies` command, which spawns all wanderer termian variants in a row.<p>**Arguments:**</p><li>`[only_naturally_spawned]`: Whether variants that don't spawn naturally should be included, like "green hoodie" and "Round 6".</li>                                                                                                        |
+| ![](/Revaried/Docs/Tags/boolean_tag.png) `spawnQueenLuciesCommand`      | `false`       | *Back Math* (`bm`)   | Adds the `/backmath-spawn_queen_lucies` command, which spawns all queen lucy variants in a row.                                                                                                                                                                                                                                                                              |
+| ![](/Revaried/Docs/Tags/boolean_tag.png) `spawnQLPsCommand`             | `false`       | *Back Math* (`bm`)   | Adds the `/backmath-spawn_qlps` command, which spawns all queen lucy pet variants in a row.                                                                                                                                                                                                                                                                                  |
+| ![](/Revaried/Docs/Tags/boolean_tag.png) `worldTimesCommand`            | `false`       | *Back Math* (`bm`)   | Adds the `/backmath-world_times` command, which prints the current world/game time in the different formats the game uses. This was used for making the nighttime fog in the Aljan. <blockquote>Day Time: [`getDayTime`] \| Game Time: [`getGameTime`] \| Time of Day: [`getTimeOfDay(0)`] \| /time query daytime: [`getDayTime % 24000L`]</blockquote>                      |
+| ![](/Revaried/Docs/Tags/boolean_tag.png) `boobRendering`                | `false`       | *Back Math* (`bm`)   | Allows breast rendering on termians and alcalytes even if *Female Gender Mod* isn't loaded. This still requires the `renderBreasts` config to be `true`.                                                                                                                                                                                                                     |
+| ![](/Revaried/Docs/Tags/float_tag.png) `termianTittySize`               | `0.0`         | *Back Math* (`bm`)   | Controls the breast size of wanderer termians and queen lucies spawned using the debug commands.                                                                                                                                                                                                                                                                             |
+| ![](/Revaried/Docs/Tags/boolean_tag.png) `oopsAllTextures`              | `false`       | *Mellow UI* (`mui`)  | Allows themes to override ***any*** texture being loaded, including dynamic textures like the light map. *Use at your own risk!*                                                                                                                                                                                                                                             |
+| ![](/Revaried/Docs/Tags/boolean_tag.png) `constantMusicToast`           | `false`       | *Mellow UI* (`mui`)  | Displays the music toast from the start to finish of the song. Used to easting the changelog photoshoot process.                                                                                                                                                                                                                                                             |
+| ![](/Revaried/Docs/Tags/boolean_tag.png) `fakeLoadingErrors`            | `false`       | *Mellow UI* (`mui`)  | Fakes a mod loading error to test the UI change rollback.                                                                                                                                                                                                                                                                                                                    |
+| ![](/Revaried/Docs/Tags/boolean_tag.png) `logSecretSettingsSounds`      | `false`       | *Mellow UI* (`mui`)  | Logs the sound played in the Super Secret Settings screen.                                                                                                                                                                                                                                                                                                                   |
+| ![](/Revaried/Docs/Tags/boolean_tag.png) `rectangleRave`                | `false`       | *Mellow UI* (`mui`)  | Draws a colored box around every scissor rectangle. Has this name due to a bug during development.                                                                                                                                                                                                                                                                           |
+| ![](/Revaried/Docs/Tags/boolean_tag.png) `lightEmissionDisplay`         | `false`       | *Reutilities* (`re`) | Displays information about the emitted block light and the provided light from the item being held on the player's action bar: <blockquote>emitted light: `emittedBlockLight` // light emission (sky/block): `skylight`/`ambientBlockLight`</blockquote>                                                                                                                     |
+| ![](/Revaried/Docs/Tags/boolean_tag.png) `dumpCommands`                 | `true`        | *Reutilities* (`re`) | Enables the `/melonystudios reutilities:dump_<locations> <alphabetical_sort>` command.                                                                                                                                                                                                                                                                                       |
+
+## History
+### Back Math
+| Version                                              | Changes                |
+| ---------------------------------------------------- | ---------------------- |
+| [9.0.9](Back%20Math/Changelogs/Changelog%209.0.9.md) | Added debugging flags. |
+
+### Mellow UI
+| Version                                                          | Changes                                                 |
+| ---------------------------------------------------------------- | ------------------------------------------------------- |
+| [5.0.0-beta3](Mellow%20UI/Changelogs/Changelog%205.0.0-beta3.md) | Added debugging flags.                                  |
+| [5.0.0-beta4](Mellow%20UI/Changelogs/Changelog%205.0.0-beta4.md) | Debugging flags can now be toggled using JVM arguments. |
+
+### Reutilities
+| Version | Changes                |
+| ------- | ---------------------- |
+| 1.5.0   | Added debugging flags. |

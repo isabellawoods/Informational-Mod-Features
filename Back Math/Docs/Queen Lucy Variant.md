@@ -2,14 +2,14 @@
 > [!NOTE]
 > This feature is exclusive to *Back Math*.
 >
-> ***Last Updated**: 1.9.0.7 (26-7-25)*
+> ***Last Updated**: 9.0.9 (06-02-26)*
 
 > [!WARNING]
 > In my current implementation of data-driven "registries", it **doesn't work in multiplayer** due to the server not sending them to the client. Loading them beforehand may be a possible workaround.
 
 A **queen lucy variant** is an individual variant used for queen lucy's textures. Queen lucy variants can be defined using JSON files in a data pack at the path `data/<namespace>/mob_variant/queen_lucy/`.
 
-Queen lucy variants can have tags defined at the path `data/<namespace>/tags/queen_lucy_variant/`.
+Queen lucy variants can have tags defined at the path `data/<namespace>/tags/mob_variant/queen_lucy/`.
 
 ## JSON Format
 Queen lucy variants are defined using the following format:
@@ -28,13 +28,14 @@ Queen lucy variants are defined using the following format:
     - ![](/Revaried/Docs/Tags/compound_tag.png) **name**: A text component for a custom name to apply to the bossbar. Defaults to a translatable component (`entity.backmath.queen_sophie` / "Queen Lucy").
 
 ## History
-| Version | Changes |
-|---------|---------|
-| [1.9.0.5](/Back%20Math/Changelogs/Changelog%201.9.0.5-beta.md) | Added queen lucy variants to data packs. |
-| [1.9.0.7](/Back%20Math/Changelogs/Changelog%201.9.0.7-beta.md) | Moved the variants folder to `/mob_variant/queen_lucy`, from `/queen_lucy_variant`. |
+| Version                                                        | Changes                                                                                                                                                        |
+| -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [1.9.0.5](/Back%20Math/Changelogs/Changelog%201.9.0.5-beta.md) | Added queen lucy variants to data packs.                                                                                                                       |
+| [1.9.0.7](/Back%20Math/Changelogs/Changelog%201.9.0.7-beta.md) | Moved the variants folder to `/mob_variant/queen_lucy`, from `/queen_lucy_variant`.                                                                            |
+| [9.0.9](Back%20Math/Changelogs/Changelog%209.0.9.md)           | <li>Renamed the *Forge* registry to `mob_variant/queen_lucy`, from `queen_lucy_variant`.</li> <li>Moved the tags folder to `tags/mob_variant/queen_lucy`.</li> |
 
 ## Issues
-Issues relating to "Queen lucy variant" are maintained on [Back Math's bug tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
+Issues relating to "Queen lucy variant" are maintained on [*Back Math*'s bug tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
 
 ## Navigation
 ### Data pack definitions

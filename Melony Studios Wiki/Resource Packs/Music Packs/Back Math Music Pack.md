@@ -5,14 +5,14 @@ Only some of these songs are in mono, meaning that most discs will play in the w
 
 This pack exists due to the music bloating the jar file to ~30MB.
 
-| | |
-|-|-|
-| **Pack maker(s)** | [isabellawoods](https://github.com/isabellawoods) |
-| **Edition(s)** | *Java Edition* |
-| **Size** | ~22.5MB |
-| **Latest version** | 1.1 |
-| **Target(s)** | *Back Math* |
-| **Pack version** | 6 *(1.16.2 - 1.16.5)*; 34 *(1.21 - 1.21.1)* |
+|                    |                                                   |
+| ------------------ | ------------------------------------------------- |
+| **Pack maker(s)**  | [isabellawoods](https://github.com/isabellawoods) |
+| **Edition(s)**     | *Java Edition*                                    |
+| **Size**           | ~22.5MB                                           |
+| **Latest version** | 1.1                                               |
+| **Used by**        | *Back Math*                                       |
+| **Pack version**   | 6 *(1.16.2 - 1.16.5)*; 34 *(1.21 - 1.21.1)*       |
 
 ## Music
 > [!NOTE]
@@ -47,3 +47,11 @@ This pack exists due to the music bloating the jar file to ~30MB.
 | Version | Changes |
 |---------|---------|
 | [*August 5th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2005-08-24/Changelog%2005-08-24.md) (1.8.0) | Moved all music files to this music pack. |
+
+## Gallery
+> <div style="text-align: center;">
+>
+> ![](/Textures/packicons/backmath_music_pack.png)
+>
+> The pack icon for this resource pack.</div>
+---

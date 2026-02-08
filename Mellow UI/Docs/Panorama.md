@@ -1,6 +1,6 @@
 # Panorama
 > [!NOTE]
-> **Last Updated**: 03-01-26 (5.0.0-beta3)
+> **Last Updated**: 31-01-26 (5.0.0-beta3)
 
 A **panorama** is a set of textures  and properties that are rendered on the background of nearly all screens. Panoramas can be defined using JSON files in a resource pack at the path `assets/<namespace>/panorama/`.
 
@@ -68,11 +68,11 @@ Panoramas are defined using the following format:
 - `minecraft:wobble`.
 
 ## History
-| Version                                                           | Changes                                                                                                                             |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
-| [4.5.0](/Mellow%20UI/Changelogs/Changelog%204.5.0.md)             | Added panoramas to resource packs.                                                                                                  |
-| [4.6.0](/Mellow%20UI/Changelogs/Changelog%204.6.0.md)             | Added the ![](/Revaried/Docs/Tags/integer_tag.png) **blur_strength** field.                                                         |
-| [5.0.0-beta3](/Mellow%20UI/Changelogs/Changelog%205.0.0-beta3.md) | <li>Added the ![list_tag](list_tag.png) **used_in** field.</li> <li>Added the `minecraft:transparency` post-processing effect.</li> |
+| Version                                                           | Changes                                                                                                                                                 |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [4.5.0](/Mellow%20UI/Changelogs/Changelog%204.5.0.md)             | Added panoramas to resource packs.                                                                                                                      |
+| [4.6.0](/Mellow%20UI/Changelogs/Changelog%204.6.0.md)             | Added the ![](/Revaried/Docs/Tags/integer_tag.png) **blur_strength** field.                                                                             |
+| [5.0.0-beta3](/Mellow%20UI/Changelogs/Changelog%205.0.0-beta3.md) | <li>Added the ![list_tag](/Revaried/Docs/Tags/list_tag.png) **used_in** field.</li> <li>Added the `minecraft:transparency` post-processing effect.</li> |
 
 ## Issues
 Issues relating to "panorama" are maintained on [*Mellow UI*'s bug tracker](https://github.com/isabellawoods/Mellow-UI/issues). Issues should reported and viewed there.

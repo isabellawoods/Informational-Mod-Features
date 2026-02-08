@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Mellow UI 5.0.0 Beta 4 -</h1>
 
-> **Written On:** 04-01-26 - **Last Updated:** 04-01-26
+> **Written On:** 04-01-26 - **Last Updated:** 06-02-26 - **1.18 Changelog:** [5.0.0-beta.4](Changelog%205.0.0-beta.4.md)
 
 **5.0.0 Beta 4** is a minor upcoming release for *Mellow UI*.[^1][^2] It updates most of the screens that weren't yet updated, and shifts all lists and separators to match vanilla.
 
@@ -12,7 +12,7 @@
   - `languageStyle`: Controls the style of the language selection screen.
 
 ### Screens
-### Language
+#### Language
 - Backported the language screen from the newer versions of the game.
   - The **Force Unicode Font** option is now in the "Font Settings" subscreen.
   - Added a search box to easily find languages.
@@ -48,6 +48,7 @@
 ### Additions
 - Added `RenderComponents.drawTitle()` to render the titles of screens. Subtitles still use the regular `drawCenteredString()` method.
 - Added `WidgetComponents`, "a utility class that provides instances of widgets that are used more than once throughout the codebase".
+  - Moved `switchStyle()`, `customize()`, `enablePacks()` and `disablePacks()`, from `RenderComponents`, here.
 - Added `WidgetLocations`, which has methods for opening/getting the screen to open depending on the style options.
   - Moved `MellowUtils.openLink()` here.
 - Moved the title y-offset fields from `MellowUtils` to `RenderComponents`.
