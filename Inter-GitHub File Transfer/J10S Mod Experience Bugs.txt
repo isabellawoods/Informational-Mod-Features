@@ -1,66 +1,152 @@
 J10S Mod Experience Bugs:
 26/08/2023:
-- Sweet Berry Cake recipe doesn't include sugar. [done]
-- Light Nuggets have no recipe, and can't be crafted into Light Ingots. [done]
-- Be able to craft Beacons with Lucium Stars. [done]
+- [FIXED] Sweet Berry Cake recipe doesn't include sugar.
+- [FIXED] Light Nuggets have no recipe, and can't be crafted into Light Ingots.
+- [FIXED] Be able to craft Beacons with Lucium Stars.
+
 27/08/2023:
-- Add Bete Elytras to the "forge:elytra" and "curios:back" item tags. [done]
+- [FIXED] Add Bete Elytras to the "forge:elytra" and "curios:back" item tags.
+
 24/10/2023:
-- Mobs are able to suffocate inside Back Math leaves.
-- Make the Styled Oak Leaves use the biome's leaf color instead of the grass color. [done]
-- Change the color of the Inno Wool Sweatchest to be clearer which color it is. [done]
+- [FIXED] Mobs are able to suffocate inside Back Math leaves.
+- [FIXED] Make the Styled Oak Leaves use the biome's leaf color instead of the grass color.
+- [FIXED] Change the color of the Inno Wool Sweatchest to be clearer which color it is.
+
 Survival Test with Sophie:
 - Balance ore generation (parkisteel, baby yoda [disabled], magentic crystal).
+
 04/12/2023:
-- Golden Caundrons render transparent inside water. [Iris issue maybe]
-- Horse Armor descriptions don't work. [why? well, now they do]
-- Cauldrons generate waterlogged naturally in Villages (Leatherworker House, for example) [done]
-- Add Fish (Old Cod) to the fishing loot tables. [done]
-- Add water lakes to the Ipe Forest (no lava lakes for obvious reasons). [done]
+- Golden and quart cauldrons render transparent inside water (Rubidium issue).
+- [FIXED] Horse Armor descriptions don't work. [why? well, now they do]
+- [FIXED] Cauldrons generate waterlogged naturally in Villages (Leatherworker House, for example)
+- [FIXED] Add Fish (Old Cod) to the fishing loot tables.
+- [FIXED] Add water lakes to the Ipe Forest (no lava lakes for obvious reasons).
+  -> Fixed, but water lakes were removed by The Mato, so no changes here.
 - Balance Sophie Tower chest loot table.
-- Space Sophie Tower out more (they're too common). [done]
-- Balance back fields' tree generation -- Modified Back Fields is a little too cramped with trees + the jabuticaba ones.
+- [FIXED] Space Sophie Tower out more, as they're too common.
+  -> Fixed, but they still seem too close and too much in a square pattern.
+- Balance back fields' tree generation — Modified Back Fields is a little too cramped with trees plus the jabuticaba ones.
 - Items enchanted with curses should be named "Cursed <item>" instead of "Enchanted <item>"
+
 05/12/2023:
-- Shy Fabricios run from each other. [fixed]
-- Add all elytras to "#forge:elytra" and "#curios:back" item tags. [done]
+- [FIXED] Shy Fabricios run from each other.
+- [FIXED] Add all elytras to "#forge:elytra" and "#curios:back" item tags.
   -> Fast Elytra, Blaze Elytra, Bat Wings, Bee Wings, Ender Dragon Wings, Red Parrot Wings and Vex Wings.
-- Add item textures for: Bamboo Bow & Crossbow, Blaze Bow & Crossbow, Ender Crossbow and Diamond Crossbow. [done]
-- Add unique item textures for: "First Date" and "Omae wa Mu" Music Discs [done] and Archer Insomnia Sophie Spawn Eggs. [done]
-- Add status effect textures for: Enderbreath, Voided and Watery. [done]
+- [FIXED] Add item textures for: Bamboo Bow & Crossbow, Blaze Bow & Crossbow, Ender Crossbow and Diamond Crossbow.
+- [FIXED] Add unique item textures for: "First Date" and "Omae wa Mu" Music Discs and Archer Insomnia Sophie Spawn Eggs.
+- [FIXED] Add status effect textures for: Enderbreath, Voided and Watery.
 - Add entity textures for: Bat Wings, Bee Wings and Red Parrot Wings.
+
 23/01/2024:
-- "Hold <Shift> for description" on teas is broken. [done]
+- [FIXED] "Hold <Shift> for description" on teas is broken.
 - Fix Amaids and Dark Alexes from crashing the game when viewed/spawned in.
-- "Adventurer of the Seven Voids" is granted when entering any End biome. [done]
+- [FIXED] "Adventurer of the Seven Voids" is granted when entering any End biome.
 - Firing a Charred Bow crashes the game (line 79, at releaseUsing)
    - IllegalAccessError: Tried to access method net.minecraft.item.BowItem.releaseUsing(ItemStack, World, LivingEntity, int)
+
 24/01/2024:
-- Wood/Hyphaes don't rotate properly (from The Mato, at least).
+- [FIXED] Wood/Hyphaes don't rotate properly (from The Mato, at least).
+
 25/01/2024:
 - Rename the Bamboo Bow to Bambow. [nope]
 - Make Other's music discs mono.
-- Make Project Alcooks' discs mono.
+- [FIXED] Make Project Alcooks' discs mono.
+
 03/02/2024:
 - Inno Flowers from Others can generate with the "enableDiscontinuedItems" toggle off.
-- The QSP Daycare advancement is granted by taming any Queen Lucy Pet. [done]
-   - Rename the advancement to QLP Daycare. [done]
-- Add Ender Nylium and Farmland to "#backmath:ender_dragon_fried_egg_flower_plantable_on" block tag. [done]
+- [FIXED] The QSP Daycare advancement is granted by taming any Queen Lucy Pet.
+   - [DONE] Rename the advancement to QLP Daycare.
+- [FIXED] Add Ender Nylium and Farmland to "#backmath:ender_dragon_fried_egg_flower_plantable_on" block tag.
+
 10/02/2024:
 - Flowering Azalea Trees don't generate as often as regular Azalea Trees.
-- Ender Leashes can phase through blocks and teleport mobs inside caves.
-- Back Math mobs still use the old method for registering entity attributes. Use EntityAttributeCreationEvent instead. [cannot be fixed]
-- Block of Raw Nether cannot drop because loot table points to "raw_nether_block" instead of "raw_purple_block". [fixed]
-- Vegetably Singularity (Variants) cannot be crafted because Soul Carrots are missing.
+- [FIXED] Ender Leashes can phase through blocks and teleport mobs inside caves.
+- [FIXED] Back Math mobs still use the old method for registering entity attributes. Use EntityAttributeCreationEvent instead.
+- [FIXED] Block of Raw Nether cannot drop because loot table points to "raw_nether_block" instead of "raw_purple_block". [fixed]
+- [FIXED] Vegetably Singularity (Revaried) cannot be crafted because Soul Carrots are missing.
 - Bat Wings cannot be crafted because recipe points to "bat_wings" instead of "bat_wing".
 - Cannot load tag "#forge:cores" because references to it are missing (*/inno and */nether).
 - Aljan Dungeons are not registered properly. [nope]
 - Loot table for Devil Urns still exist.
 
+21/02/2026:
+- Styled oak leaves look slightly different from oak leaves (both in block and inventory forms).
+- [TEST] Quartz cauldrons are culled when submerged in water (Rubidium issue solved by removing culling).
+- Stony peaks from The Mato don't seem to generate anymore.
+- Luciums and styled oak trees only generate in biomes with >=1.9 temperature (instead of the opposite).
+- Update the durability prefix on items:
+  > 100-67% = nothing
+  > 66-34% = "Chipped"
+  > 33-0% = "Damaged"
+- [FIXED] Shy alcalytes run from target dummies.
+- Leather armor on mobs should be colored to fit the mob (light blue for shy alcalytes, red for termians, etc.).
+- Add a model for shying boots.
+- [FIXED] Backport options from Reutilities into Back Math.
+- Make crates wearable in the Curios back slot (with full compatibility).
+- Midterm bows draw animation is the same duration as regular bows.
+- Back Math bows don't zoom in when used.
+- Debug arrows don't have an enchantment glint.
+- [FIXED] Midterm bows override the arrow entity just to add Slowness.
+- [FIXED] Devil and angelic crossbows don't grant the "Ol' Betsy" advancement.
+- Charred, stray and mason iron bows (still) crash the game.
+  -> "Tried to access BowItem.func_220009_a_() from CharredBowItem"
+- Punching with a midterm bow applies Slowness for only a few ticks.
+- Debug arrows get an empty NBT tag when used.
+- Remove the "Requires <[Mod]> to be available" tooltip from vanity clothes if the mod is loaded.
+- Fiery arrows don't work.
+- [FIXED] EDFEFs cannot be placed on ender nylium quartz ore.
+- Players are teleported to 0, 0, 0 temporarily when using ender leashes on themselves.
+- Some blocks from F10 Elements drop when mined by hand (like blocks of raw nether).
+- Midterm bows cannot hurt the ender dragon (??).
+- [FIXED] The "Adventurer of the Seven Voids" advancement seems to be broken.
+- Queen lucy pets all sit in unison when one sits in a boat/minecart/horse/etc.
+- Enderlucies have z-fighting on their wings.
+- Queen lucy pet ponchos are affected by their emissive layer (Rubidium issue).
+- Music recorders don't work in a dedicated server.
+- Recorded discs don't play to other players in the server.
+- Heads don't render their emissive layer when using Rubidium (only from certain angles).
+- [FIXED] Aljan ores look weird with the Complemetary Shaders emissive feature.
+- Tooltips that are too long render to the left of the statistics screen.
+- Leaf block suffocation (✓ = suffocates, ✕ = doesn't suffocate):
+  - Fixed for: Back Math;
+  - [✓] Styled oak;
+  - [✓] Dead;
+  - [✕] Pink ipe;
+  - [✕] Purple ipe;
+  - [✕] Red ipe;
+  - [✕] Yellow ipe;
+  - [✕] Junium;
+  - [✕] Poplar;
+  - [✕] Crystalline birch;
+  - [✕] Goldenwood;
+  - [✕] Enchanted goldenwood;
+  - [✕] Guava;
+  - [✕] Jabuticaba;
+  - [✕] Cork oak;
+  - [✕] Aljanwood;
+  - [✕] Aljancap;
+  - [✕] Amaracap;
+  - [✕] Insomnian;
+  - [✕] Avondalic willow;
+  - [✕] Guarana oak;
+  - [✓] Mango oak;
+  - [✕] Mangaed mango oak;
+  - [✓] Grape vine;
+  - [✓] Lemon oak;
+  - [✓] Pineapple oak;
+  - [✓] Orange oak;
+  - [✓] Banana jungle;
+  - [✓] Aljame birch;
+  - [✕] Azure bluet;
+  - [✕] Painting;
+
+03/03/2026:
+- Right-clicking a music recorder with a disc inside with a vinyl disc while a song is playing shows the "Recording song" message but only pops the disc out of the recorder.
+- [FIXED] Queen lucy heads without the "variant" tag don't have glowing eyes.
+
 Cool Seed in J10SME (Test World 7): -1631670494141347816
 
 Upcoming Biomes:
-- Paintingwood Forest (Variants)
 - All The Mato biomes (minus the Ipe Forest and The Woods)
 - Temperate Swamp (Rimcraft)
 - Sakura Grove (Decorativelary)

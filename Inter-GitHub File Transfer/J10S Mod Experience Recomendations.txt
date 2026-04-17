@@ -96,3 +96,9 @@ Mod Fixes / Additions:
 - Rimcraft: Add Potted Poplar Saplings.
 - Back Math: Aljame Birch Saplings are not in the "#minecraft:saplings" item and block tags. [done]
 - Back Math: Fix the transparency on Red Yellow Glasses.
+
+21/02/2026:
+- Mob Taker: Show what effects the custom arrows apply in their tooltips.
+- Mob Taker: Enderbreath lanterns are not animated.
+- Back Math: (Midterm) Hillary lanterns are not animated.
+- Back Math: Make the queen lucy relic use a block entity renderer for Queen Lucy.

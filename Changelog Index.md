@@ -133,6 +133,7 @@
 
 ## Stancements
 ### 1.21.1
+- [0.4.1](Stancements/Changelogs/Changelog%200.4.1.md)
 - [0.4.0](Stancements/Changelogs/Changelog%200.4.0.md)
 - [0.3.4](Stancements/Changelogs/Changelog%200.3.4.md)
 - [0.3.3](Stancements/Changelogs/Changelog%200.3.3.md)
