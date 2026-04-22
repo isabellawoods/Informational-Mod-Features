@@ -1,10 +1,16 @@
 {
   "homepage": "https://github.com/isabellawoods/Stancements/tree/neoforge-1.21.1",
   "promos": {
+    "26.1.2-latest": "0.4.1.1",
+    "26.1.2-recommended": "0.4.1.1",
     "1.21.1-latest": "0.4.1",
     "1.21.1-recommended": "0.4.1",
     "1.16.5-latest": "1.16.5-0.2.1",
     "1.16.5-recommended": "1.16.5-0.2.1"
+  },
+  "26.1.2": {
+    "0.4.1.1": "Pale Oak Shelves & Chase the Skies Song Definitions",
+    "0.4.1": "Initial Commit for 26.1.2"
   },
   "1.21.1": {
     "0.4.1": "Networked Music Recording & Modded Song Recording",
