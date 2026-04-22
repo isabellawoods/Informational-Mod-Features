@@ -3,5 +3,6 @@
   "useMarkdownLinks": true,
   "showLineNumber": false,
   "readableLineLength": true,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "absolute",
+  "alwaysUpdateLinks": true
 }

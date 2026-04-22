@@ -1,6 +1,8 @@
+![Stancements 0.4.1 changelog photo, taken with Flashback](Assets/0.4.1-1.21.png)
+
 <h1 style="text-align: center;">- Stancements 0.4.1 -</h1>
 
-> **Written On:** 17-04-26 - **Last Updated:** 17-04-26
+> **Written On:** 17-04-26 - **Last Updated:** 22-04-26
 
 **0.4.1** is a minor version of *Stancements* released on April 11, 2026.[^1] It makes music recording work properly in multiplayer, and adds compatibility for modded songs.
 
@@ -8,7 +10,7 @@
 ### Blocks
 - The music recording process now uses packets. This means it works properly in multiplayer now.
 - The "Recording song..." text now reads "Recording "\[song name]", by \[Author]...".
-  - This text now only shows up if the recorder player is within 16 blocks of the recorder block.
+  - This text now only shows up if the recorder player is within 4 blocks of the recorder block.
 
 ### Miscellaneous
 - Added the "Music Discs Copied" statistic, tracking exactly that.
@@ -29,7 +31,7 @@
 
 ## Changes
 ### Miscellaneous
-- Song translation keys no longer include `minecraft` as the default namespace, to match 1.21.9.
+- Song translation keys no longer include `minecraft` as the default namespace, to match 1.21.6.
 - The word "ID" in translation keys is now consistently uppercase.
 - **\[Bra. Portuguese]** Command translations are now worded a bit different.
 

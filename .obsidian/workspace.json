@@ -4,24 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "33f2416de2cc9635",
+        "id": "ed4b4fabf0b58ff8",
         "type": "tabs",
         "children": [
           {
-            "id": "c9555da9fa8f1a40",
+            "id": "834d1528e4965ed0",
             "type": "leaf",
-            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Stancements/Changelogs/Changelog 0.4.1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "pinned": true,
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Changelog 0.4.1"
+              "title": "New tab"
             }
           }
         ]
@@ -180,26 +173,34 @@
       "bases:Create new base": false
     }
   },
-  "active": "c9555da9fa8f1a40",
+  "active": "834d1528e4965ed0",
   "lastOpenFiles": [
+    "Changelog Index.md",
     "Stancements/Changelogs/Changelog 0.4.0.md",
-    "Stancements/Changelogs/Changelog 0.4.1.md",
+    "Stancements/Changelogs/Changelog 0.4.1 (1.21).md",
+    "Stancements/Changelogs/Changelog 0.4.1 (26.1).md",
+    "Stancements/Changelogs/Changelog 0.4.1.1.md",
+    "Stancements/Changelogs/Changelog 0.1.md",
+    "Stancements/Changelogs/Changelog 0.2.md",
+    "Stancements/Changelogs/Changelog 0.2.0.md",
+    "Stancements/Changelogs/Changelog 0.2.1.md",
+    "Stancements/Changelogs/Changelog 0.3.0.md",
+    "Stancements/Changelogs/Changelog 0.3.1.md",
+    "Stancements/Changelogs/Changelog 0.3.2.md",
+    "Stancements/Changelogs/Changelog 0.3.3.md",
+    "Stancements/Changelogs/Changelog 0.3.4.md",
+    "Stancements/Changelogs/Assets/0.4.1.1.png",
+    "Stancements/Changelogs/Assets/2026-04-22_19.48.45.png",
+    "Stancements/Changelogs/Assets/0.4.1-26.1.png",
+    "Stancements/Changelogs/Assets/2026-04-22_19.40.12.png",
+    "Stancements/Changelogs/Assets/0.4.1-1.21.png",
+    "README.md",
+    "Stancements/Changelogs/Assets/0.4.1.png",
+    "Stancements/Changelogs/Assets/2026-04-22T17_02_14.png",
     "Stancements/Changelogs/Assets/0.4.0.png",
     "Stancements/Changelogs/Assets/2026-04-17_17.53.52.png",
-    "Stancements/Changelogs/Changelog 0.3.0.md",
     "Stancements/Changelogs/Assets/0.3.0.png",
-    "Stancements/Changelogs/Assets/0.2.1.png",
-    "Stancements/Changelogs/Assets/0.2.0.png",
-    "Stancements/Changelogs/Assets/0.2.png",
-    "Stancements/Changelogs/Assets/0.1.png",
-    "Stancements/Changelogs/Assets/0.3.1.png",
-    "Stancements/Changelogs/Assets/0.3.2.png",
-    "Stancements/Changelogs/Assets/0.3.3.png",
-    "Stancements/Changelogs/Changelog 0.3.4.md",
-    "Stancements/Changelogs/Changelog 0.3.2.md",
     "Mellow UI/Changelogs/Changelog 4.5.0.md",
-    "Stancements/Changelogs/Changelog 0.2.0.md",
-    "Changelog Index.md",
     "April Fools Update Mod.md",
     "Melony Studios Wiki/Debugging Flags.md",
     "Back Math/Changelogs/Changelog 9.0.9.md",
@@ -211,14 +212,7 @@
     "Revaried/Changelogs/Changelog 8.0.11.md",
     "The Mato/Docs/Assets",
     "The Mato/Docs",
-    "README.md",
     "Melony Studios Wiki/Modded Docs/World Generation Tags.md",
-    "Melony Studios Wiki/Modded Docs/Mellow Item Format.md",
-    "Melony Studios Wiki/Modded Docs/Item Behaviors.md",
-    "Melony Studios Wiki/Modded Docs/Historical Mellow Item Format.md",
-    "Melony Studios Wiki/Modded Docs/Forge 1.16.5.md",
-    "Melony Studios Wiki/Modded Docs/Block Entity Tags (1.16).md",
-    "Melony Studios Wiki/Resource Packs/Music Packs/Back Math Music Pack.md",
     "Reutilities/Changelogs/Assets",
     "Reutilities/Changelogs",
     "Revaried/Changelogs/1.16.5 - 1.8.0",

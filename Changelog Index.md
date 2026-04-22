@@ -132,8 +132,12 @@
 - [1.0.0](Reutilities/Changelogs/Changelog%201.0.0.md)
 
 ## Stancements
+### 26.1
+- [0.4.1.1](Stancements/Changelogs/Changelog%200.4.1.1.md)
+- [0.4.1](Stancements/Changelogs/Changelog%200.4.1%20(26.1).md)
+
 ### 1.21.1
-- [0.4.1](Stancements/Changelogs/Changelog%200.4.1.md)
+- [0.4.1](Stancements/Changelogs/Changelog%200.4.1%20(1.21).md)
 - [0.4.0](Stancements/Changelogs/Changelog%200.4.0.md)
 - [0.3.4](Stancements/Changelogs/Changelog%200.3.4.md)
 - [0.3.3](Stancements/Changelogs/Changelog%200.3.3.md)

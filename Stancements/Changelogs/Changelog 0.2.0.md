@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Stancements 0.2.0 -</h1>
 
-> **Written On:** 23-12-25 - **Last Updated:** 01-02-26
+> **Written On:** 23-12-25 - **Last Updated:** 22-04-26
 
 **0.2.0** is a major release for *Stancements*, released on August 30, 2025.[^1][^2] This is the first version released for *NeoForge* 1.21.1. This changelog will document the differences between this 1.21.1 release and the **0.2.1** release from 1.16.5.
 
@@ -25,8 +25,8 @@
   - "Broken Clocks" has been erroneously saved as `broken_blocks`.
 - Hoppers (and other things that access inventories) can no longer interact with the music recorder.
 - The following mixins have been removed as they were ports of now existing vanilla features:
-  - Ominous banners coming after black banners;
-  - Termian Empire banners coming after ominous banners (*Back Math* now does this);
+  - Ominous banners in the creative inventory;
+  - Termian Empire banners in the creative inventory (*Back Math* now does this);
   - Block sound backports;
   - Honey level and amount of bees in bee nests and beehives (from 1.21.4).
 
