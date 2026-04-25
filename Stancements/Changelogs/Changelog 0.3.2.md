@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Stancements 0.3.2 -</h1>
 
-> **Written On:** 23-12-25 - **Last Updated:** 05-01-26
+> **Written On:** 23-12-25 - **Last Updated:** 25-04-26
 
 **0.3.2** is a major release for *Stancements*, released on November 9, 2025.[^1] It makes music recorder able to record from adjacent jukeboxes, and adds compatibility with [*Jade*](https://modrinth.com/mod/jade).
 
@@ -61,7 +61,7 @@
 
 ## Technical
 ### Additions
-- Added the `recorded_disc_styles` jukebox song data map.
+- Added the [`recorded_disc_styles`](Stancements/Docs/Recorded%20Song%20Styles.md) jukebox song data map.
   - This map controls defines a label color and style for any jukebox songs that are recorded.
   - By default, all vanilla music discs have their styles set. Modded discs will be randomized.
 - Added the `music_data` data component.
@@ -84,7 +84,7 @@
 - Renamed `PotPlantable` to `PotPlantables`.
 
 ## Tags
-### Additions
+### Changes
 - Added the *Stancements* logo item to the `#c:logos` item tag.
 
 ### References

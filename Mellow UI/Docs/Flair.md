@@ -1,5 +1,5 @@
 # Flair
-> **Last Updated**: 03-01-26 (5.0.0-beta3)
+> **Last Updated**: 24-04-26 (5.0.0-beta3)
 
 A **flair** is per-mod customization options for their own entry on *Mellow UI*'s mod list and configuration screens. Flairs can be defined using JSON files in a resource pack at the path `assets/<namespace>/flair/<mod_id>.json`.
 
@@ -15,7 +15,7 @@ Currently, they can only change the accent color of the mod's entry on the mod l
 Flairs are defined using the following format:
 
 - ![](/Revaried/Docs/Tags/compound_tag.png) The root object.
-  - ![](/Revaried/Docs/Tags/integer_tag.png) **accent_color**: An integer (decimal or hexadecimal) defining the color used to accentuate the mod's entry on the mod list. Uncapped, but recommended to stay within **0** and **16777215**.
+  - ![*(int or string)*](/Revaried/Docs/Tags/integer_tag.png)![](/Revaried/Docs/Tags/string_tag.png) **accent_color**: An integer (decimal or hexadecimal) defining the color used to accentuate the mod's entry on the mod list. Uncapped, but recommended to stay within **0** and **16777215** (`#ffffff`).
 
 ## Flair selection
 If a flair is not defined for a mod, the `mellowui:default` flair is used instead, and if the *"High Contrast"* resource pack is enabled, it overrides the default to have its own color.

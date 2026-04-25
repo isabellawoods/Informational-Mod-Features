@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Stancements 0.3.1 -</h1>
 
-> **Written On:** 23-12-25 - **Last Updated:** 23-12-25
+> **Written On:** 23-12-25 - **Last Updated:** 25-04-26
 
 **0.3.1** is a major release for *Stancements*, released on September 21, 2025.[^1] It adds crop pots from *JTW Labs* with a fresh new coat of paint, as well as the cauldrons from *The Mato*.
 
@@ -49,8 +49,8 @@
 
 ## Technical
 ### Additions
-- Added the `pot_plantable` item data map.
-  - Maps the seed items to their respective crop pots (`crop_pot`) and placing sounds (`planting_sounds`).
+- Added the [`pot_plantable`](Stancements/Docs/Pot%20Plantables.md) item data map.
+  - Maps the seed items to their respective crop pots (![*(string)*](/Revaried/Docs/Tags/string_tag.png) **crop_pot**) and placing sounds (![*(string)*](/Revaried/Docs/Tags/string_tag.png) **planting_sound**).
 - Added the `dyed_water_cauldron` block entity, with the following field:
   - ![*(integer)*](/Revaried/Docs/Tags/integer_tag.png) **dyed_water_color**: The color of the water on this cauldron.
 

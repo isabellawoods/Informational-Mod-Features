@@ -1,7 +1,7 @@
 ![Back Math 9.0.9](Assets/9.0.9.png)
 <h1 style="text-align: center;">- Back Math - 9.0.9 -</h1>
 
-> **Written On:** 06-02-26 - **Last Updated:** 07-02-26
+> **Written On:** 06-02-26 - **Last Updated:** 25-04-26
 
 **9.0.9** is the ninth version for *Back Math* 9.0, released on January 9, 2026.[^1] It adds three new capes for termians, and exposes many of this mod's debugging utilities as JVM arguments.
 
@@ -33,7 +33,7 @@
 - Added descriptions to all 1.9.X versions in the update checker file.
 - Added "1.8.0-beta" to the update checker file.
 
-#### [`BMDebuggingFlags`](Melony%20Studios%20Wiki/Debugging%20Flags.md)
+#### [`BMDebuggingFlags`](/Melony%20Studios%20Wiki/Debugging%20Flags.md)
 This is a new class in some of my mods that controls the behavior of dev-only features, replacing the old `melony-studios-dev` version check. This mod includes the following flags:
 - `-Dbmdebug.revariedItemTagDisplay` (bool): Displays an item's NBT/tag on its tooltip. This was copied over from *Revaried*;
 - `-Dbmdebug.apsPlacementCommand` (bool): Adds the `/backmath-aps_placement` debug command, for testing the placement of Aljan portal stands;
