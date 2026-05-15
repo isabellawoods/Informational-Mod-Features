@@ -1,16 +1,16 @@
 # The Mato Music Pack
-**The Mato Music Pack** is a resource pack that backports all of the newer *Minecraft* music into 1.16 for my mods to use.
+**The Mato Music Pack** is a resource pack that backports all of the newer *Minecraft* music into 1.16 and 1.21 for my mods to use.
 
-This pack exists due to the music bloating the jar file to nearly 360MB (estimate).
+This pack exists due to the music bloating the jar file to about 380MB.
 
 |                    |                                                   |
 | ------------------ | ------------------------------------------------- |
 | **Pack maker(s)**  | [isabellawoods](https://github.com/isabellawoods) |
 | **Edition(s)**     | *Java Edition*                                    |
-| **Size**           | ~353.4MB                                          |
-| **Latest version** | 1.5                                               |
+| **Size**           | 381.7MB (1.16), 34.3MB (1.21, with songs)         |
+| **Latest version** | 1.6                                               |
 | **Used by**        | *The Mato*, *Back Math*, *Revaried*, etc.         |
-| **Pack version**   | 6 *(1.16.2 - 1.16.5)*                             |
+| **Pack version**   | 6 *(1.16.2 - 1.16.5)*, 34 *(1.21 - 1.21.1)*       |
 
 ## Music
 ### Caves & Cliffs: Part II (1.18)
@@ -54,8 +54,15 @@ This pack exists due to the music bloating the jar file to nearly 360MB (estimat
 4. Amos Roddy - Broken Clocks
 5. Amos Roddy - Fireflies
 
+### Chaos Cubed (26.2)
+1. fingerspit - Memories
+2. fingerspit - Ebb
+3. fingerspit - Home
+4. fingerspit - Shores
+5. fingerspit - Nightly
+
 ## Quotes
-- *"Music Pack for The Mato (V1.5)."*
+- *"Music Pack for The Mato (V1.6)."*
 <div style="text-align: right;">
 
 — **`pack.mcmeta` description.**</div>
@@ -72,9 +79,11 @@ This pack exists due to the music bloating the jar file to nearly 360MB (estimat
 | 3.6.1         | A template of this resource pack is now included in the mod's repository, for version 1.21.1.                                                                                                                                                      |
 
 ### Resource pack
-| Version | Changes                                     |
-| ------- | ------------------------------------------- |
-| 1.5     | The pack's description is now translatable. |
+| Version    | Changes                                                                                                                                                                                                                                                                                                                                                                                            |
+| ---------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1.5        | The pack's description is now translatable.                                                                                                                                                                                                                                                                                                                                                        |
+| 1.6 (1.16) | <li>Added songs from the [Chaos Cubed](https://minecraft.wiki/w/Minecraft:_Chaos_Cubed_(Original_Game_Soundtrack)) drop under the `chaos_cubed` folder: "Memories", "Ebb", "Home", "Shores" and "Nightly".</li> <li>Songs in Brazilian Portuguese now use an em dash ("—") as a separator instead of a hyphen ("-").</li> <li>Updated the pack icon to reflect the updates to the mod's logo.</li> |
+| 1.6 (1.21) | <li>Instead of simply providing music files, the pack will now play these songs in the appropriate biomes.</li> <li>Updated the pack icon to reflect the updates to the mod's logo.</li>                                                                                                                                                                                                           |
 
 ## Gallery
 > <div style="text-align: center;"> <img src=Files/themato_music_pack_rev1.png width="300">
@@ -92,3 +101,9 @@ This pack exists due to the music bloating the jar file to nearly 360MB (estimat
 > ![](/Textures/packicons/themato_music_pack_rev3.png)
 >
 > The third pack icon for this resource pack.</div>
+---
+> <div style="text-align: center;">
+>
+> ![](/Textures/packicons/themato_music_pack_rev4.png)
+>
+> The fourth pack icon for this resource pack.</div>

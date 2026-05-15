@@ -2,7 +2,7 @@
 > [!WARNING]
 > These features are for debugging purposes only, and **should not be used during regular gameplay**.
 
-> **Written On:** 07-02-26 - **Last Updated:** 28-03-26
+> **Written On:** 07-02-26 - **Last Updated:** 15-05-26
 
 **Debugging flags** or **debug flags** are JVM arguments that toggle certain debug features in some of my mods.
 
@@ -32,15 +32,15 @@ To enable these flags, the JVM arguments must be set when launching the game. Fl
 
 ## History
 ### Back Math
-| Version                                              | Changes                |
-| ---------------------------------------------------- | ---------------------- |
-| [9.0.9](Back%20Math/Changelogs/Changelog%209.0.9.md) | Added debugging flags. |
+| Version                                               | Changes                |
+| ----------------------------------------------------- | ---------------------- |
+| [9.0.9](/Back%20Math/Changelogs/Changelog%209.0.9.md) | Added debugging flags. |
 
 ### Mellow UI
-| Version                                                          | Changes                                                 |
-| ---------------------------------------------------------------- | ------------------------------------------------------- |
-| [5.0.0-beta3](Mellow%20UI/Changelogs/Changelog%205.0.0-beta3.md) | Added debugging flags.                                  |
-| [5.0.0-beta4](Mellow%20UI/Changelogs/Changelog%205.0.0-beta4.md) | Debugging flags can now be toggled using JVM arguments. |
+| Version                                                           | Changes                                                 |
+| ----------------------------------------------------------------- | ------------------------------------------------------- |
+| [5.0.0-beta3](/Mellow%20UI/Changelogs/Changelog%205.0.0-beta3.md) | Added debugging flags.                                  |
+| [5.0.0-beta4](/Mellow%20UI/Changelogs/Changelog%205.0.0-beta4.md) | Debugging flags can now be toggled using JVM arguments. |
 
 ### Reutilities
 | Version | Changes                |

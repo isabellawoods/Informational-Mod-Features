@@ -2,7 +2,7 @@
 > [!NOTE]
 > This feature is exclusive to *Revaried*, and was ported over from *Minecraft Unofficial Documentation - MUD*.
 >
-> **Last Updated**: 8.0.9 (25-04-26)
+> **Last Updated**: 15-05-26 (8.0.9)
 
 > [!WARNING]
 > In my current implementation of data-driven "registries", it **doesn't work in multiplayer** due to the server not sending them to the client. Loading them beforehand may be a possible workaround.
@@ -16,25 +16,25 @@ Damage sources added by the vanilla game and my own mods can be applied using th
 ## JSON format
 Damage sources are defined using the following format:
 
-- ![(compound)](compound_tag.png) The root object.
-  - ![(string)](string_tag.png) **message_id**: The message identifier for this damage source. Used for the death message translation.
-  - ![(float)](float_tag.png) **food_exhaustion**: How much exhaustion this damage source should cause when applied.
-  - ![(string)](string_tag.png) **scaling**: How this damage source should [scale](#Scaling) when in different difficulties.
-  - ![(string)](string_tag.png) **death_message_type**: Which type of [death message builder](#Death%20Message%20Types) this damage source should use.
-  - ![(boolean)](boolean_tag.png) **is_explosion**: *(optional)* Marks this damage source as coming from an explosion. Makes blast protection protect against this.
-  - ![(boolean)](boolean_tag.png) **is_projectile**: *(optional)* Marks this damage source as being from a projectile. Makes projectile protection protect against this.
-  - ![(boolean)](boolean_tag.png) **is_magic**: *(optional)* Marks this damage source as being from a magic source. Makes magic protection protect against this.
-  - ![(boolean)](boolean_tag.png) **is_fire**: *(optional)* Marks this damage source as being from fire or lava. Makes fire protection protect against this.
-  - ![(boolean)](boolean_tag.png) **is_thorns**: *(optional)* Marks this damage source as being from thorns. Produces the thorns hit sound when an entity takes damage from this source.
+- ![*(compound)*](Tags/compound_tag.png) The root object.
+  - ![*(string)*](Tags/string_tag.png) **message_id**: The message identifier for this damage source. Used for the death message translation.
+  - ![*(float)*](Tags/float_tag.png) **food_exhaustion**: How much exhaustion this damage source should cause when applied.
+  - ![*(string)*](Tags/string_tag.png) **scaling**: How this damage source should [scale](#Scaling) when in different difficulties.
+  - ![*(string)*](Tags/string_tag.png) **death_message_type**: Which type of [death message builder](#Death%20Message%20Types) this damage source should use.
+  - ![*(boolean)*](Tags/boolean_tag.png) **is_explosion**: *(optional)* Marks this damage source as coming from an explosion. Makes Blast Protection protect against this.
+  - ![*(boolean)*](Tags/boolean_tag.png) **is_projectile**: *(optional)* Marks this damage source as being from a projectile. Makes Projectile Protection protect against this.
+  - ![*(boolean)*](Tags/boolean_tag.png) **is_magic**: *(optional)* Marks this damage source as being from a magic source. Makes Magic Protection protect against this.
+  - ![*(boolean)*](Tags/boolean_tag.png) **is_fire**: *(optional)* Marks this damage source as being from fire or lava. Makes Fire Protection protect against this.
+  - ![*(boolean)*](Tags/boolean_tag.png) **is_thorns**: *(optional)* Marks this damage source as being from Thorns. Produces the "Thorns pricks" sound when an entity takes damage from this source.
     - **This is only available when `death_message_type` is `direct_entity` or `indirect_entity`.** 
-  - ![(boolean)](boolean_tag.png) **bypasses_armor**: Makes this damage source bypass any armor the target may be wearing.
-  - ![(boolean)](boolean_tag.png) **bypasses_invulnerability**: Makes this damage source bypass any kind of invulnerability, like the ![(boolean)](boolean_tag.png) **Invulnerable** tag or a creative mode player.
-  - ![(boolean)](boolean_tag.png) **bypasses_magic**: Makes this damage source bypass any enchantments (like protection) the target may have.
+  - ![*(boolean)*](Tags/boolean_tag.png) **bypasses_armor**: Makes this damage source bypass any armor the target may be wearing.
+  - ![*(boolean)*](Tags/boolean_tag.png) **bypasses_invulnerability**: Makes this damage source bypass any kind of invulnerability, like the ![*(boolean)*](Tags/boolean_tag.png) **Invulnerable** tag or a creative mode player.
+  - ![*(boolean)*](Tags/boolean_tag.png) **bypasses_magic**: Makes this damage source bypass any enchantments (like Protection) the target may have.
 
 ## Usage
 Here's an example implementation for the `minecraft:out_of_world` damage source within a data pack.
 ```json
-// Contents of "data/minecraft/damage_source/out_of_world.json".
+// data/minecraft/damage_source/out_of_world.json
 {
   "message_id": "outOfWorld",
   "food_exhaustion": 0.0,
@@ -48,13 +48,13 @@ Here's an example implementation for the `minecraft:out_of_world` damage source 
 ### In consume behaviors
 Damage sources can be used in consume behaviors via the "damage entity" behavior:
 
-- <img src=Tags/compound_tag.png> The behavior tag.
-  - <img src=Tags/float_tag.png> **amount**: How much damage should be applied to the entity. Defaults to `0`.
-  - <img src=Tags/string_tag.png><img src=Tags/compound_tag.png> **source**: The damage source to hurt the entity with.
+- ![*(compound)*](Tags/compound_tag.png) The behavior tag.
+  - ![*(float)*](Tags/float_tag.png) **amount**: How much damage should be applied to the entity. Defaults to `0`.
+  - ![*(string or compound)*](Tags/string_tag.png)![](Tags/compound_tag.png) **source**: The damage source to hurt the entity with.
     > **If defined as a string:** A resource location of a damage source to be used.
-    > **If defined as a compound:** same as the [JSON format](#JSON%20format).
+    > **If defined as a compound:** Same as the [JSON format](#JSON%20format).
 
-When defining the `source` field as a compound, the resulting source will be temporarily added to *Revaried*'s list of damage sources, using the `damage_behavior` namespace if none is present. Since it uses a static field, these sources will exist as long as the game is running.
+When defining the **source** field as a compound, the resulting source will be temporarily added to *Revaried*'s list of damage sources, using the `damage_behavior` namespace if none is present. Since it uses a static field, these sources will exist as long as the game is running.
 
 ## Scaling
 Damage sources control how damage scales with difficulty.<sup>*[more information needed]*</sup>
@@ -81,7 +81,7 @@ On consumables, this is defined by the "damage entity" consume behavior.
 | `chocoglued`                 | A chocoglue projectile hitting something                                      |
 | `hot_and_cold_meal`          | Finishing to eat a hot sophie and cold fabricio meal                          |
 | `mid_term_armor_instability` | Any mid-term armor piece reaching `0` or `1` durability                       |
-| `patience_tea`               | Ticking damage from a patience tea effect                                     |
+| `patience_tea`               | Ticking damage from a Patience tea effect                                     |
 | `poison_rose`                | A poison rose checking if it can poison its bystander, but technically unused |
 | `water_talc_powder`          | Finishing to eat a water talc powder                                          |
 
@@ -134,16 +134,16 @@ On consumables, this is defined by the "damage entity" consume behavior.
 | 1.5.0   | Added `enderbreath`, `voided` and `watery`. |
 
 ## Issues
-Issues relating to "Damage source" are maintained on [*Revaried*'s issue tracker](https://github.com/isabellawoods/Revaried/issues). Issues should be reported and viewed there.
+Issues relating to "Damage source" or "Damage type" are maintained on [*Revaried*'s issue tracker](https://github.com/isabellawoods/Revaried/issues). Issues should be reported and viewed there.
 
 ## Navigation
 ### Data pack definitions
 |                   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Back Math**     | ![](/Textures/navbox/crystallizer_recipes.png) [Crystallizer Recipes](Back%20Math/Docs/Crystallizer%20Recipes.md) ▪ ![](/Textures/navbox/outfit_definition_bm.png) [Outfit Definition](/Back%20Math/Docs/Outfit%20Definition.md) ▪ ![](/Textures/navbox/queen_lucy_variant.png) [Queen Lucy Variant](/Back%20Math/Docs/Queen%20Lucy%20Variant.md) ▪ ![](/Textures/navbox/queen_lucy_pet_variant.png) [Queen Lucy Pet Variant](/Back%20Math/Docs/Queen%20Lucy%20Pet%20Variant.md) ▪ ![](/Textures/navbox/wanderer_sophie_variant.png) [Wanderer Sophie Variant](/Back%20Math/Docs/Wanderer%20Sophie%20Variant.md) |
-| **Mellotech**     | ![](/Textures/navbox/cluster_material.png) [Cluster Material](Mellotech/Docs/Cluster%20Material.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| **Back Math**     | ![](/Textures/navbox/crystallizer_recipes.png) [Crystallizer Recipes](/Back%20Math/Docs/Crystallizer%20Recipes.md) ▪ ![](/Textures/navbox/outfit_definition_bm.png) [Outfit Definition](/Back%20Math/Docs/Outfit%20Definition.md) ▪ ![](/Textures/navbox/queen_lucy_variant.png) [Queen Lucy Variant](/Back%20Math/Docs/Queen%20Lucy%20Variant.md) ▪ ![](/Textures/navbox/queen_lucy_pet_variant.png) [Queen Lucy Pet Variant](/Back%20Math/Docs/Queen%20Lucy%20Pet%20Variant.md) ▪ ![](/Textures/navbox/wanderer_sophie_variant.png) [Wanderer Sophie Variant](/Back%20Math/Docs/Wanderer%20Sophie%20Variant.md) |
+| **Mellotech**     | ![](/Textures/navbox/cluster_material.png) [Cluster Material](/Mellotech/Docs/Cluster%20Material.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
 | **Melony Lib**    | ![](/Textures/navbox/banner_pattern.png) [Banner Pattern](/Melony%20Lib/Docs/Banner%20Pattern.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| **Reutilities**   | ![](/Textures/navbox/outfit_definition_re.png) [Outfit Definition](Reutilities/Docs/Outfit%20Definition.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| **Reutilities**   | ![](/Textures/navbox/outfit_definition_re.png) [Outfit Definition](/Reutilities/Docs/Outfit%20Definition.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Revaried**      | ![](/Textures/navbox/bowl_type.png) [Bowl Type](/Revaried/Docs/Bowl%20Type.md) ▪ ![](/Textures/navbox/damage_source.png) **Damage Source** ▪ ![](/Textures/navbox/wool_armor_color.png) [Wool Armor Color](/Revaried/Docs/Wool%20Armor%20Color.md)                                                                                                                                                                                                                                                                                                                                                               |
-| **Stacked Goods** | ![](/Textures/navbox/mossifiables.png) [Mossifiables](Stacked%20Goods/Docs/Mossifiables.md) ▪ ![](/Textures/navbox/mineral_extraction.png) [Mineral Extraction](/Stacked%20Goods/Docs/Mineral%20Extraction.md)  ▪ ![](/Textures/navbox/scrapables.png) [Scrapables](Stacked%20Goods/Docs/Scrapables.md)                                                                                                                                                                                                                                                                                                          |
-| **Stancements**   | ![](/Textures/navbox/pot_plantables.png) [Pot Plantables](Stancements/Docs/Pot%20Plantables.md)  ▪ ![](/Textures/navbox/recorded_song_styles.png) [Recorded Song Styles](Stancements/Docs/Recorded%20Song%20Styles.md)                                                                                                                                                                                                                                                                                                                                                                                           |
+| **Stacked Goods** | ![](/Textures/navbox/mossifiables.png) [Mossifiables](/Stacked%20Goods/Docs/Mossifiables.md) ▪ ![](/Textures/navbox/mineral_extraction.png) [Mineral Extraction](/Stacked%20Goods/Docs/Mineral%20Extraction.md)  ▪ ![](/Textures/navbox/scrapables.png) [Scrapables](/Stacked%20Goods/Docs/Scrapables.md)                                                                                                                                                                                                                                                                                                          |
+| **Stancements**   | ![](/Textures/navbox/pot_plantables.png) [Pot Plantables](/Stancements/Docs/Pot%20Plantables.md)  ▪ ![](/Textures/navbox/recorded_song_styles.png) [Recorded Song Styles](/Stancements/Docs/Recorded%20Song%20Styles.md)                                                                                                                                                                                                                                                                                                                                                                                           |

@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Stancements 0.3.2 -</h1>
 
-> **Written On:** 23-12-25 - **Last Updated:** 25-04-26
+> **Written On:** 23-12-25 - **Last Updated:** 15-05-26
 
 **0.3.2** is a major release for *Stancements*, released on November 9, 2025.[^1] It makes music recorder able to record from adjacent jukeboxes, and adds compatibility with [*Jade*](https://modrinth.com/mod/jade).
 
@@ -61,11 +61,11 @@
 
 ## Technical
 ### Additions
-- Added the [`recorded_disc_styles`](Stancements/Docs/Recorded%20Song%20Styles.md) jukebox song data map.
+- Added the [`recorded_disc_styles`](/Stancements/Docs/Recorded%20Song%20Styles.md) jukebox song data map.
   - This map controls defines a label color and style for any jukebox songs that are recorded.
   - By default, all vanilla music discs have their styles set. Modded discs will be randomized.
 - Added the `music_data` data component.
-  - Stores the music id (`id`, optional), and whether this disc is a copy (`copied`, optional).
+  - Stores the music id (![*(string)*](/Revaried/Docs/Tags/string_tag.png) **id**, optional), and whether this disc is a copy (![*(boolean)*](/Revaried/Docs/Tags/boolean_tag.png) **copied**, optional).
   - The `music_id` component still exists for discs that already had it, but it is no longer used by the code.
   - Adds the "Copied can't be recorded" tooltip.
 - Added the `record_song` criteria trigger for the "Miner's Music Group" advancement:

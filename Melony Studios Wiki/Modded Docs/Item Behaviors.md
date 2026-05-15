@@ -1,5 +1,5 @@
 # Item Behaviors
-> **Last Updated**: 06-02-26
+> **Last Updated**: 15-05-26
 
 **Item behaviors** (formerly **tool behaviors**) are *Back Math*'s copy of *Revaried*'s [consume behaviors](/Revaried/Docs/Consumables%20(1.8.0.2%20Onwards).md), which instead of acting when the item is consumed, it's instead when the item is used.
 
@@ -35,8 +35,8 @@ This effect adds this tooltip to the item:
 - *(int)* **seconds**: How long to set the entity on fire for. Defaults to `5` seconds.
 
 #### NBT Format
-- ![](/Revaried/Docs/Tags/compound_tag.png) Root tag for this item.
-  - ![](/Revaried/Docs/Tags/integer_tag.png) **seconds_on_fire**: An integer overriding how many seconds the target entity will be set on fire for. Defaults to `5` if not defined.
+- ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) Root tag for this item.
+  - ![*(int)*](/Revaried/Docs/Tags/integer_tag.png) **seconds_on_fire**: An integer overriding how many seconds the target entity will be set on fire for. Defaults to `5` if not defined.
 
 ### Damage Entity (`DamageEntityEffectType`)
 Damages the entity with a pre-existing damage source.
@@ -56,12 +56,12 @@ This effects adds this tooltip to the item:
 - *(ItemStack)* **bucketStack**: The item stack to give the attacker. Defaults to one milk bucket.
 
 #### NBT Format
-- ![](/Revaried/Docs/Tags/compound_tag.png) Root tag for this item.
-  - ![](/Revaried/Docs/Tags/string_tag.png)![](/Revaried/Docs/Tags/compound_tag.png) **milked_sword_item**: An item stack to give the player. Can be defined as both a compound and string, with the string being an item id that's automatically converted into a compound.
+- ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) Root tag for this item.
+  - ![*(string or compound)*](/Revaried/Docs/Tags/string_tag.png)![](/Revaried/Docs/Tags/compound_tag.png) **milked_sword_item**: An item stack to give the player. Can be defined as both a compound and string, with the string being an item id that's automatically converted into a compound.
     > **Tags common to all items saved by *Revaried*:**
-    > - ![](/Revaried/Docs/Tags/string_tag.png) **id**: The id of the item.
-    > - ![](/Revaried/Docs/Tags/integer_tag.png) **count**: *(optional)* How many items there are in this stack. Effectively capped at 127 due to the default count tag being a ![](/Revaried/Docs/Tags/byte_tag.png) byte.
-    > - ![](/Revaried/Docs/Tags/compound_tag.png) **tags**: *(optional)* The tags this item stack has.
+    > - ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **id**: The ID of the item.
+    > - ![*(int)*](/Revaried/Docs/Tags/integer_tag.png) **count**: *(optional)* How many items there are in this stack. Effectively capped at 127 due to the default count tag being a ![](/Revaried/Docs/Tags/byte_tag.png) byte.
+    > - ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) **tags**: *(optional)* The tags this item stack has.
 
 ### Add Experience (`AddExperienceEffectType`)
 Gives the player a specific amount of experience points when either hitting an entity or eating the item.
@@ -72,8 +72,8 @@ This effects adds this tooltip to the item:
 - *(int)* **defaultAmount**: Amount of experience points to give. Defaults to `500`.
 
 #### NBT Format
-- ![](/Revaried/Docs/Tags/compound_tag.png) Root tag for this item.
-  - ![](/Revaried/Docs/Tags/integer_tag.png) **stored_experience**: Amount of experience points to give.
+- ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) Root tag for this item.
+  - ![*(int)*](/Revaried/Docs/Tags/integer_tag.png) **stored_experience**: Amount of experience points to give.
 
 ### Add Bakugou Outfit (`AddBakugouOutfitEffectType`)
 Puts the entity in a full Bakugou outfit (or partial if they're wearing something).
@@ -106,12 +106,12 @@ Applies effects to the attacker when hitting an entity, based on said entity:
 This effects adds these tooltips to the item:
 
 #### NBT Format
-- ![](/Revaried/Docs/Tags/compound_tag.png) Root tag for this item.
-  - ![](/Revaried/Docs/Tags/string_tag.png) **effective_entities**: A hashtagged entity type tag defining which entities count as "effective".
-  - ![](/Revaried/Docs/Tags/string_tag.png) **prohibited_entities**: A hashtagged entity type tag defining which entities count as "prohibited".
-  - ![](/Revaried/Docs/Tags/string_tag.png) **strength_effect**: An effect id for the effectives strength effect.
-  - ![](/Revaried/Docs/Tags/string_tag.png) **weakness_effect**: An effect id for the non-effectives weakness effect.
-  - ![](/Revaried/Docs/Tags/string_tag.png) **prohibition_weakness_effect**: An effect id for the prohibition weakness effect.
+- ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) Root tag for this item.
+  - ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **effective_entities**: A hashtagged entity type tag defining which entities count as "effective".
+  - ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **prohibited_entities**: A hashtagged entity type tag defining which entities count as "prohibited".
+  - ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **strength_effect**: An effect id for the effectives strength effect.
+  - ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **weakness_effect**: An effect id for the non-effectives weakness effect.
+  - ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **prohibition_weakness_effect**: An effect id for the prohibition weakness effect.
 
 ### Apply Devil Sparey Effects (`ApplyDevilSpareyEffectsType`)
 Applies effects to the attacker when hitting an entity, based on said entity.
@@ -122,19 +122,19 @@ Applies effects to the attacker when hitting an entity, based on said entity.
 This effects adds these tooltips to the item:
 
 #### NBT Format
-- ![](/Revaried/Docs/Tags/compound_tag.png) Root tag for this item.
-  - ![](/Revaried/Docs/Tags/string_tag.png) **effective_entities**: A hashtagged entity type tag defining which entities count as "effective".
-  - ![](/Revaried/Docs/Tags/string_tag.png) **prohibited_entities**: A hashtagged entity type tag defining which entities count as "prohibited".
-  - ![](/Revaried/Docs/Tags/string_tag.png) **strength_effect**: An effect id for the effectives strength effect.
-  - ![](/Revaried/Docs/Tags/string_tag.png) **weakness_effect**: An effect id for the non-effectives weakness effect.
-  - ![](/Revaried/Docs/Tags/string_tag.png) **prohibition_weakness_effect**: An effect id for the prohibition weakness effect.
+- ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) Root tag for this item.
+  - ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **effective_entities**: A hashtagged entity type tag defining which entities count as "effective".
+  - ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **prohibited_entities**: A hashtagged entity type tag defining which entities count as "prohibited".
+  - ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **strength_effect**: An effect id for the effectives strength effect.
+  - ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **weakness_effect**: An effect id for the non-effectives weakness effect.
+  - ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **prohibition_weakness_effect**: An effect id for the prohibition weakness effect.
 
 ## Issues
 Issues relating to "Item behaviors" are maintained on [*Back Math*'s bug tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
 
 ## History
-| Version | Changes |
-|---------|---------|
+| Version                                                                                                        | Changes               |
+| -------------------------------------------------------------------------------------------------------------- | --------------------- |
 | [*August 14th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2014-08-24/Changelog%2014-08-24.md) (1.8.0) | Added tool behaviors. |
 
 ### Footnotes

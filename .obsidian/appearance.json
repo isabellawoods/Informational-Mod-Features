@@ -2,8 +2,9 @@
   "enabledCssSnippets": [
     "markdown-dark-mode"
   ],
-  "textFontFamily": "Kantumruy Pro",
+  "textFontFamily": "Inter",
   "accentColor": "#bec086",
-  "interfaceFontFamily": "Kantumruy Pro",
-  "baseFontSize": 16
+  "interfaceFontFamily": "Inter",
+  "baseFontSize": 16,
+  "cssTheme": ""
 }

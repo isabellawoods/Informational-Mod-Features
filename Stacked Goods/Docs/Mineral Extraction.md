@@ -2,7 +2,7 @@
 > [!NOTE]
 > This feature is exclusive to *Stacked Goods*.
 >
-> **Last Updated**: 25-04-26 (4.0.2)
+> **Last Updated**: 15-05-26 (4.0.2)
 
 **Mineral extractions** define which blocks use which loot table when right-clicking a mineral extractor with a hammer. Mineral extractions can be defined using JSON files in a data pack at the path `data/<namespace>/stackedgoods/mineral_extraction/`.
 

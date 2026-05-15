@@ -1,23 +1,24 @@
 # Informational Mod Features
-This repository mainly includes changelogs, documentation, and some miscellaneous things (like some textures and logos) related to my mods.
+This repository mainly includes changelogs, documentation, and some miscellaneous things like some textures and logos related to my mods.
 
 ## Changelogs
 Changelogs documenting most versions of my mods. See the [index](Changelog%20Index.md) for a list of all changelogs.
-- [Back Math](/Back%20Math/Changelogs);
-- [Mellow UI](/Mellow%20UI/Changelogs);
-- [Revaried](/Revaried/Changelogs): for nearly all 1.16 versions;
-- [Reutilities](Reutilities/Changelogs/);
-- [Stancements](/Stancements/Changelogs).
+- [*Back Math*](/Back%20Math/Changelogs);
+- [*Mellow UI*](/Mellow%20UI/Changelogs);
+- [*Revaried*](/Revaried/Changelogs): for nearly all 1.16 versions;
+- [*Reutilities*](Reutilities/Changelogs/);
+- [*Stancements*](/Stancements/Changelogs).
 
 ## Docs
-Documentation of data-driven registries and their formats and history.
-- [Back Math](/Back%20Math/Docs);
-- [Revaried](/Revaried/Docs);
-- [Reutilities](/Reutilities/Docs);
-- [Stacked Goods](/Stacked%20Goods/Docs);
-- [Mellow UI](/Mellow%20UI/Docs);
-- [Melony Lib](/Melony%20Lib/Docs);
-- [Mellotech](/Mellotech/Docs).
+Documentation of data-driven content and their formats and history. See the [navigation box](Navbox%20Templates.md) for the individual registries.
+- [*Back Math*](/Back%20Math/Docs);
+- [*Revaried*](/Revaried/Docs);
+- [*Reutilities*](/Reutilities/Docs);
+- [*Stacked Goods*](/Stacked%20Goods/Docs);
+- [*Stancements*](/Stancements/Docs);
+- [*Mellow UI*](/Mellow%20UI/Docs);
+- [*Melony Lib*](/Melony%20Lib/Docs);
+- [*Mellotech*](/Mellotech/Docs).
 
 ## Melony Studios Wiki
 Documentation for various things of mine, not exclusively related to my mods.

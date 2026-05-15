@@ -1,12 +1,12 @@
 # Theme
 > [!NOTE]
-> **Last Updated**: 03-01-26 (5.0.0-beta3)
+> **Last Updated**: 15-05-26 (5.0.0-beta3)
 
 A **theme** overrides various aspects of *Mellow UI*, such as panoramas, flairs and textures. Themes can be defined using JSON files in a resource pack at the path `assets/<namespace>/theme/`.
 
 <div style="text-align: center;">
 
-![](Assets/theme_example.png)
+![Theme example picture, showing Mellow UI in its mod list screen.](Assets/theme_example.png)
 
 *The "Programmer Art" theme with its resource pack applied.*
 </div>
@@ -17,7 +17,7 @@ Themes are defined using the following format:
   - ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **panorama**: *(optional)* A resource location pointing to a [panorama](/Mellow%20UI/Docs/Panorama.md). If defined, you can't switch panoramas while this theme is selected.
     - **Examples**: `mellowui:beta`, `melonystudios:mellomedley/dark`.
   - ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) **flairs**: *(optional)* A map of flair ids to accent colors, which overrides the existing flairs provided by other resource packs.
-    - ![*(integer)*](/Revaried/Docs/Tags/integer_tag.png)![*(string)*](/Revaried/Docs/Tags/string_tag.png) ***Flair id***: An integer (either decimal or hexadecimal) overriding the accent color of the flair used as the key.
+    - ![*(int or string)*](/Revaried/Docs/Tags/integer_tag.png)![](/Revaried/Docs/Tags/string_tag.png) ***Flair id***: An integer (either decimal or hexadecimal) overriding the accent color of the flair used as the key.
     - **Example**: `"mellowui:builtin/default": "#ffff55"`.
   - ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) **configs**: *(optional)* Overrides entries of *Forge* configs. ***TO BE ADDED, below is how this field should work***:
     - ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) ***Config file resource location***: path of the config file relative to the `configs` folder, plus the mod's namespace.
@@ -43,7 +43,7 @@ Themes are defined using the following format:
 | [5.0.0-beta3](/Mellow%20UI/Changelogs/Changelog%205.0.0-beta3.md) | Added themes to resource packs. |
 
 ## Issues
-Issues relating to "theme" are maintained on [_Mellow UI_'s bug tracker](https://github.com/isabellawoods/Mellow-UI/issues). Issues should reported and viewed there.
+Issues relating to "theme" are maintained on [*Mellow UI*'s bug tracker](https://github.com/isabellawoods/Mellow-UI/issues). Issues should reported and viewed there.
 
 ## Navigation
 ### Resource pack definitions

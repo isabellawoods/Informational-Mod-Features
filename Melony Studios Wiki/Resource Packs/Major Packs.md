@@ -4,9 +4,7 @@
 
 > *"Transforms inventory block models to item models!" - `pack.mcmeta` description*
 
-Flat Blocks is a resource pack that makes block item models into flat textures, which is currently updated to release **1.21.8** (as of 26/07/2025).
-
-Currently, most blocks are accounted for, with some exceptions like coral and magma blocks.
+Flat Blocks is a resource pack that makes block item models into flat textures, which is currently updated to release **26.2 Snapshot 3** (as of 15-05-2026).
 
 > <center> <img src="Screenshots/building_blocks_flat_blocks.png" width=500> </center>
 >

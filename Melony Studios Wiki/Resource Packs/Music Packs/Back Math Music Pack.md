@@ -44,8 +44,8 @@ This pack exists due to the music bloating the jar file to ~30MB.
 — **`pack.mcmeta` description.**</div>
 
 ## History
-| Version | Changes |
-|---------|---------|
+| Version                                                                                                       | Changes                                   |
+| ------------------------------------------------------------------------------------------------------------- | ----------------------------------------- |
 | [*August 5th, 2024*](/Back%20Math/Changelogs/1.8%20Beta%20Dev%20-%2005-08-24/Changelog%2005-08-24.md) (1.8.0) | Moved all music files to this music pack. |
 
 ## Gallery
