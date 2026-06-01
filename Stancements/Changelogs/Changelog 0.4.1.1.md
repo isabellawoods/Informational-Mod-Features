@@ -14,7 +14,7 @@
 - Songs from the "Chase the Skies" update are now included in *Stancements*' assets by default.
   - These songs are: "Lilypad", "Below and Above", "O's Piano", "Broken Clocks" and "Fireflies".
   - However, I forgot to include them in the "Miner's Music Group" advancement.
-- The "Tears" and "Lava Chicken" music discs now have recorded disc styles included in the mod's assets by default.
+- The "Tears" and "Lava Chicken" music discs now have recorded song styles included in the mod's assets by default.
 
 ## Technical
 ### Changes

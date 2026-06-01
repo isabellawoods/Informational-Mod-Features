@@ -2,7 +2,7 @@
 > [!NOTE]
 > This feature is exclusive to *Mellotech*.
 >
-> **Last Updated**: 15-05-26 (1.1.0)
+> **Last Updated**: 31-05-26 (1.1.0)
 
 > [!WARNING]
 > In my 1.16 implementation of data-driven "registries", it **doesn't work in multiplayer** due to the server not sending them to the client. Loading them beforehand may be a possible workaround.
@@ -33,7 +33,7 @@ Cluster materials are defined using the following format.
 | 1.1.0   | <li> Removed the ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **asset_id** field. </li> <li> The **target_ores** and **target_blocks** fields now support having single blocks and lists of blocks (tags now need to be hashtagged). </li> <li> Changed the folder to `mellotech/cluster_material`, as *NeoForge* prepends the mod id to registries. </li> <li> The growth rate formula is now ***n* = 5 * growth_multiplier**. </li> |
 
 ## Issues
-Issues relating to "Cluster material" are maintained on [*Mellotech*'s issue tracker](https://hithub.com/isabellawoods/Mellotech/issues). Issus should be reported and viewed there.
+Issues relating to "Cluster material" are maintained on [*Mellotech*'s issue tracker](https://hithub.com/isabellawoods/Mellotech/issues). Issues should be reported and viewed there.
 
 ## Navigation
 ### Data pack definitions
@@ -45,4 +45,4 @@ Issues relating to "Cluster material" are maintained on [*Mellotech*'s issue tra
 | **Reutilities**   | ![](/Textures/navbox/outfit_definition_re.png) [Outfit Definition](/Reutilities/Docs/Outfit%20Definition.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Revaried**      | ![](/Textures/navbox/bowl_type.png) [Bowl Type](/Revaried/Docs/Bowl%20Type.md) ▪ ![](/Textures/navbox/damage_source.png) [Damage Source](/Revaried/Docs/Damage%20Source.md) ▪ ![](/Textures/navbox/wool_armor_color.png) [Wool Armor Color](/Revaried/Docs/Wool%20Armor%20Color.md)                                                                                                                                                                                                                                                                                                                               |
 | **Stacked Goods** | ![](/Textures/navbox/mossifiables.png) [Mossifiables](/Stacked%20Goods/Docs/Mossifiables.md) ▪ ![](/Textures/navbox/mineral_extraction.png) [Mineral Extraction](/Stacked%20Goods/Docs/Mineral%20Extraction.md)  ▪ ![](/Textures/navbox/scrapables.png) [Scrapables](/Stacked%20Goods/Docs/Scrapables.md)                                                                                                                                                                                                                                                                                                         |
-| **Stancements**   | ![](/Textures/navbox/pot_plantables.png) [Pot Plantables](/Stancements/Docs/Pot%20Plantables.md)  ▪ ![](/Textures/navbox/recorded_song_styles.png) [Recorded Song Styles](/Stancements/Docs/Recorded%20Song%20Styles.md)                                                                                                                                                                                                                                                                                                                                                                                          |
+| **Stancements**   | ![](/Textures/navbox/pot_plantables.png) [Pot Plantables](/Stancements/Docs/Pot%20Plantables.md)  ▪ ![](/Textures/navbox/recorded_song_styles.png) [Recorded Song Styles](/Stancements/Docs/Recorded%20Song%20Styles.md) ▪ ![](/Textures/navbox/recorded_disc_style.png) [Recorded Disc Style](/Stancements/Docs/Recorded%20Disc%20Style.md)                                                                                                                                                                                                                                                                      |
