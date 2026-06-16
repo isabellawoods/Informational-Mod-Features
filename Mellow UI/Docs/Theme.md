@@ -1,6 +1,6 @@
 # Theme
 > [!NOTE]
-> **Last Updated**: 15-05-26 (5.0.0-beta3)
+> **Last Updated**: 15-06-26 (5.0.0-beta3)
 
 A **theme** overrides various aspects of *Mellow UI*, such as panoramas, flairs and textures. Themes can be defined using JSON files in a resource pack at the path `assets/<namespace>/theme/`.
 
@@ -43,10 +43,11 @@ Themes are defined using the following format:
 | [5.0.0-beta3](/Mellow%20UI/Changelogs/Changelog%205.0.0-beta3.md) | Added themes to resource packs. |
 
 ## Issues
-Issues relating to "theme" are maintained on [*Mellow UI*'s bug tracker](https://github.com/isabellawoods/Mellow-UI/issues). Issues should reported and viewed there.
+Issues relating to "theme" are maintained on [*Mellow UI*'s issue tracker](https://github.com/isabellawoods/Mellow-UI/issues). Issues should reported and viewed there.
 
 ## Navigation
 ### Resource pack definitions
-|               |                                                                                                                                                                                                |
-| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Mellow UI** | ![](/Textures/navbox/flair.png) [Flair](/Mellow%20UI/Docs/Flair.md) ▪ ![](/Textures/navbox/panorama.png) [Panorama](/Mellow%20UI/Docs/Panorama.md) ▪ ![](/Textures/navbox/theme.png) **Theme** |
+|                     |                                                                                                                                                                                                |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Forged Mod Menu** | ![](/Textures/navbox/metadata_overrides.png) [Mod Menu Metadata Overrides](/Forged%20Mod%20Menu/Docs/Mod%20Menu%20Metadata%20Overrides.md)                                                     |
+| **Mellow UI**       | ![](/Textures/navbox/flair.png) [Flair](/Mellow%20UI/Docs/Flair.md) ▪ ![](/Textures/navbox/panorama.png) [Panorama](/Mellow%20UI/Docs/Panorama.md) ▪ ![](/Textures/navbox/theme.png) **Theme** |

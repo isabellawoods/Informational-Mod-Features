@@ -1,5 +1,5 @@
 # Item Behaviors
-> **Last Updated**: 15-05-26
+> **Last Updated**: 15-06-26
 
 **Item behaviors** (formerly **tool behaviors**) are *Back Math*'s copy of *Revaried*'s [consume behaviors](/Revaried/Docs/Consumables%20(1.8.0.2%20Onwards).md), which instead of acting when the item is consumed, it's instead when the item is used.
 
@@ -130,7 +130,7 @@ This effects adds these tooltips to the item:
   - ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **prohibition_weakness_effect**: An effect id for the prohibition weakness effect.
 
 ## Issues
-Issues relating to "Item behaviors" are maintained on [*Back Math*'s bug tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
+Issues relating to "Item behaviors" are maintained on [*Back Math*'s issue tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
 
 ## History
 | Version                                                                                                        | Changes               |

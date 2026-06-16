@@ -5,6 +5,7 @@
   "textFontFamily": "Inter",
   "accentColor": "#bec086",
   "interfaceFontFamily": "Inter",
-  "baseFontSize": 16,
-  "cssTheme": ""
+  "baseFontSize": 17,
+  "cssTheme": "",
+  "monospaceFontFamily": "JetBrains Mono"
 }

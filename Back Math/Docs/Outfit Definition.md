@@ -2,7 +2,7 @@
 > [!NOTE]
 > This feature is exclusive to *Back Math*.
 >
-> **Last Updated**: 31-05-26 (1.9.0.8)
+> **Last Updated**: 15-06-26 (1.9.0.8)
 
 > [!WARNING]
 > In my current implementation of data-driven "registries", it **doesn't work in multiplayer** due to the server not sending them to the client. Loading them beforehand may be a possible workaround.
@@ -35,7 +35,7 @@ Outfit definitions are defined using the following format.
 | [1.9.0.8](/Back%20Math/Changelogs/Changelog%201.9.0.8-beta.md) | Added the ![*(boolean)*](/Revaried/Docs/Tags/boolean_tag.png) **hides_skin_layers** field.                                                                                                      |
 
 ## Issues
-Issues relating to "Outfit definition" are maintained on [*Back Math*'s bug tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
+Issues relating to "Outfit definition" are maintained on [*Back Math*'s issue tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
 
 ## Navigation
 ### Data pack definitions

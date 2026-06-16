@@ -2,14 +2,14 @@
 
 <h1 style="text-align: center;">- Stancements 0.3.1 -</h1>
 
-> **Written On:** 23-12-25 - **Last Updated:** 15-05-26
+> **Written On:** 23-12-25 - **Last Updated:** 15-06-26
 
 **0.3.1** is a major release for *Stancements*, released on September 21, 2025.[^1] It adds crop pots from *JTW Labs* with a fresh new coat of paint, as well as the cauldrons from *The Mato*.
 
 ## Additions
 ### Blocks
 - Added crop pots.
-  - Crop pots can hold one plant. It doesn't need water to grow, and it grows faster than regular farmland (1/15 versus 1/25).
+  - Crop pots can hold one plant. It doesn't need water to grow, and it grows faster than regular farmland (1/15 compared to 1/25).
   - Can hold any of these crops: wheat, carrots, potatoes, beetroot and Nether wart.
   - Crops can be removed by shift-right-clicking a filled crop pot.
   - Has a hopping variant that automatically harvests the crop, and puts the dropped items into the container below (if possible).
@@ -35,8 +35,8 @@
 
 ### Miscellaneous
 - Added a common config file, with these **2** configs:
-  - `populateDyedWaterBuckets`: Whether to all all colors of dyed water buckets to the mod's creative tab. Defaults to `true`;
-  - `cropPotGrowthChance`: Defines the chance of a filled crop pot advancing its growth stage. Defaults to `15` for crop pots and `25` for vanilla farmland.
+  - **Populate Dyed Water Buckets** (`populateDyedWaterBuckets`): Whether to add all colors of dyed water buckets to the mod's creative tab. Defaults to `true`;
+  - **Crop Pot Growth Chance** (`cropPotGrowthChance`): Defines the chance of a filled crop pot advancing its growth stage. Defaults to `15` for crop pots and `25` for vanilla farmland.
 - Added the "Seeds Planted in Crop Pots" statistic, tracking exactly that.
 - Added a new sound event: `item.cauldron.dye` ("Water splashes").
 
@@ -56,17 +56,17 @@
 
 ### Changes
 - The `label` component's error message is now translatable.
-- The recording logic is now handled entirely by the `MusicRecorderBlock` class.
+- The recording logic is now handled entirely by the *MusicRecorderBlock* class.
 
 ### Removals
-- Removed the ![*(boolean)*](/Revaried/Docs/Tags/boolean_tag.png) **recording** tag from the music recorder block entity, as it only uses the block state now.
+- Removed the ![*(boolean)*](/Revaried/Docs/Tags/boolean_tag.png) **recording** tag from the music recorder block entity, as it only uses the `recording` block state now.
 
 ## Tags
 ### Additions
 - Added the `#stancements:crop_pots` block tag, containing all crop pots.
 - Added the `#stancements:recordable_discs` item tag.
   - Contains vinyl discs.
-  - Items in this tag can be used on music recorder to record ambient songs.
+  - Items in this tag can be used on music recorders to record ambient songs.
 - Added the `#c:buckets/dyed_water` item tag, containing dyed water buckets.
 
 ### Changes

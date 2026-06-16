@@ -2,9 +2,9 @@
 
 <h1 style="text-align: center;">- Stancements 0.4.1 -</h1>
 
-> **Written On:** 22-04-26 - **Last Updated:** 22-04-26
+> **Written On:** 22-04-26 - **Last Updated:** 15-06-26
 
-**0.4.1** is a major version of *Stancements* released on April 20, 2026.[^1] This is the first version released on *NeoForge* 26.1.2. This changelog will document the differences between **0.4.1** on 1.21 and 26.1.
+**0.4.1** is a major version of *Stancements* released on April 20, 2026.[^1] This is the first version released on *NeoForge* 26.1.2. This changelog will document the differences between **0.4.1** on 1.21 and on 26.1.
 
 ## Changes
 ### Blocks
@@ -13,14 +13,14 @@
 
 ### Items
 - Recorded discs now use the `minecraft:tooltip_display` component to hide its label color.
-- Blocks breakable by shears is no longer controlled by the `#c:mineable/shears` block tag (it still exists though).
+- Blocks breakable by shears is no longer controlled by the `#c:mineable/shears` block tag (the tag still exists though).
 
 ### Miscellaneous
 - Updated the README to say "26.1.X" instead of "1.21.1".
 
 ## Removals
 ### Miscellaneous
-- Removed the translations for all vanilla ambient songs, as *Minecraft* now has them.
+- Removed the translation keys for all vanilla ambient songs, as *Minecraft* now has them.
 
 ## Technical
 ### Additions
@@ -31,9 +31,11 @@
 ### Changes
 - Jukebox song definitions for vanilla songs are now located in the `minecraft` namespace, rather than in `stancements`.
   - Unfortunately, there's no fixer for this change, so discs from older versions will be removed.
+  - Due to an oversight, "C418 - Alpha" cannot be obtained properly in this version (gives disc with `music_data.id` instead and doesn't count towards the advancement).
+  - This change only affects the location of the jukebox songs — the sound events still use the `stancements` namespace.
 - Crop pots now use less block models for their growth stages.
 - The models of crafting table cloths now render using forced translucency.
-  - This was an accidental change and, visually, is the same as in 1.21.
+  - This was an accidental change and, visually, is the same as 1.21.
 - The data map generator is now called "Stancements — DataProvider Maps" (accidental change).
 - Updated *NeoForge* to `26.1.2.20-beta`, from `21.1.209`.
   - This mod should still be compatible with all 26.1 versions.

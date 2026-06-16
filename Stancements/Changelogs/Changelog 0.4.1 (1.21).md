@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Stancements 0.4.1 -</h1>
 
-> **Written On:** 17-04-26 - **Last Updated:** 22-04-26
+> **Written On:** 17-04-26 - **Last Updated:** 15-06-26
 
 **0.4.1** is a minor version of *Stancements* released on April 11, 2026.[^1] It makes music recording work properly in multiplayer, and adds compatibility for modded songs.
 
@@ -10,39 +10,39 @@
 ### Blocks
 - The music recording process now uses packets. This means it works properly in multiplayer now.
 - The "Recording song..." text now reads "Recording "\[song name]", by \[Author]...".
-  - This text now only shows up if the recorder player is within 4 blocks of the recorder block.
+  - This text now only shows up if the player recording is within 4 blocks of the recorder block.
 
 ### Miscellaneous
 - Added the "Music Discs Copied" statistic, tracking exactly that.
 - Added the "Recorder Modded Songs" resource- and data pack.
-  - This pack includes jukebox song definitions for many environmental songs added by other mods, including the Chase the Skies soundtrack.
+  - This pack includes jukebox song definitions for many ambient songs added by other mods, including the Chase the Skies soundtrack.
   - The reason for this being a resource pack is so the game doesn't keep logging errors for non-existent sounds.
   - The data pack seems to always be enabled by default.
   - The pack includes music for these mods:
-    - *Enderscape*
-    - *Galosphere*
-    - *The Aether*
-    - *TerraFirmaCraft*
-    - *Vanilla Backport*
-    - *Oh The Biomes We've Gone*
-    - *Nature's Spirit*
-    - *The Bumblezone*
+    - *Enderscape*;
+    - *Galosphere*;
+    - *The Aether*;
+    - *TerraFirmaCraft*;
+    - *Vanilla Backport*;
+    - *Oh The Biomes We've Gone*;
+    - *Nature's Spirit*;
+    - *The Bumblezone*.
   - The pack also includes recorded song styles for modded music discs.
 
 ## Changes
 ### Miscellaneous
 - Song translation keys no longer include `minecraft` as the default namespace, to match 1.21.6.
 - The word "ID" in translation keys is now consistently uppercase.
-- **\[Bra. Portuguese]** Command translations are now worded a bit different.
+- **\[Bra. Portuguese]** Command translations are now worded differently.
 
 ## Technical
 ### Additions
 - Added the `recording_turns_into` data component.
-  - **Format**: a ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **when_recorded** field defining what item the base item will become when used for music recording.
+  - **Format**: a ![*(string)*](/Revaried/Docs/Tags/string_tag.png) **when_recorded** field defining which item the base item will become when used to record music.
   - The music recorder requires that the base item has this component.
   - By default, vinyl discs have it set to `stancements:recorded_disc`.
 - Added the `gameplay/convert_disc_to_jukebox_song` Melony subcommand.
-  - Attempts to converts discs using the updated `music_id` field (from recording songs with no related jukebox song) into jukebox songs.
+  - Attempts to converts discs using the `music_data.id` field (from recording songs with no related jukebox song) into jukebox songs.
 - Added the *StartRecordingAttemptEvent*, which fires when the music recorder starts to record a song (ambient or jukebox).
 
 ### Changes

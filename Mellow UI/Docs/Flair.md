@@ -1,5 +1,6 @@
 # Flair
-> **Last Updated**: 15-05-26 (5.0.0-beta3)
+> [!NOTE]
+> **Last Updated**: 15-06-26 (5.0.0-beta3)
 
 A **flair** is per-mod customization options for their own entry on *Mellow UI*'s mod list and configuration screens. Flairs can be defined using JSON files in a resource pack at the path `assets/<namespace>/flair/<mod_id>.json`.
 
@@ -33,10 +34,11 @@ If a flair is not defined for a mod, the `mellowui:default` flair is used instea
 | [5.0.0-beta3](/Mellow%20UI/Changelogs/Changelog%205.0.0-beta3.md) | The ![*(int)*](/Revaried/Docs/Tags/integer_tag.png) **accent_color** field now accepts hexadecimal integers (prefixed with "#"). |
 
 ## Issues
-Issues relating to "flair" are maintained on [*Mellow UI*'s bug tracker](https://github.com/isabellawoods/Mellow-UI/issues). Issues should reported and viewed there.
+Issues relating to "flair" are maintained on [*Mellow UI*'s issue tracker](https://github.com/isabellawoods/Mellow-UI/issues). Issues should reported and viewed there.
 
 ## Navigation
 ### Resource pack definitions
-|               |                                                                                                                                                                                                |
-| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Mellow UI** | ![](/Textures/navbox/flair.png) **Flair** ▪ ![](/Textures/navbox/panorama.png) [Panorama](/Mellow%20UI/Docs/Panorama.md) ▪ ![](/Textures/navbox/theme.png) [Theme](/Mellow%20UI/Docs/Theme.md) |
+|                     |                                                                                                                                                                                                |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Forged Mod Menu** | ![](/Textures/navbox/metadata_overrides.png) [Mod Menu Metadata Overrides](/Forged%20Mod%20Menu/Docs/Mod%20Menu%20Metadata%20Overrides.md)                                                     |
+| **Mellow UI**       | ![](/Textures/navbox/flair.png) **Flair** ▪ ![](/Textures/navbox/panorama.png) [Panorama](/Mellow%20UI/Docs/Panorama.md) ▪ ![](/Textures/navbox/theme.png) [Theme](/Mellow%20UI/Docs/Theme.md) |

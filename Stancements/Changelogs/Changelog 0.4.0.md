@@ -2,9 +2,9 @@
 
 <h1 style="text-align: center;">- Stancements 0.4.0 -</h1>
 
-> **Written On:** 23-12-25 - **Last Updated:** 17-04-26
+> **Written On:** 23-12-25 - **Last Updated:** 15-06-26
 
-**0.4.0** is a major release for *Stancements*, released on February 23, 2026.[^1][^2][^3][^4] It adds a faster variant of powered rails, and the ability to tag minecarts with different color that tagging rails can detect.
+**0.4.0** is a major release for *Stancements*, released on February 23, 2026.[^1][^2][^3][^4] It adds a faster variant of powered rails, and the ability to tag minecarts with different colors that tagging rails can detect.
 
 ## Additions
 ### Blocks
@@ -15,8 +15,8 @@
 - Added gilded rails.
   - Gilded rails are a new type of rail crafted using gold, replacing the existing powered rail.
   - These rails are roughly 105% faster than powered rails. However, minecarts may get stuck going up slopes or turning corners.
-  - Coming off of a gilded rail maintains the speed slightly for up to 5 seconds.
-  - The speed of gilded rails is controlled by the `gildedRail.speedMultiplier` option, and it's shown on the item's tooltip.
+  - Coming off of a gilded rail slightly maintains the minecart's speed for up to 5 seconds.
+  - The speed of gilded rails is controlled by the **Gilded Rail Speed Multiplier** option, and it's shown on the item's tooltip.
   - When *Railcraft Reborn* is loaded, the recipe uses advanced rails instead of gold ingots.
 
 ### Items
@@ -32,11 +32,11 @@
   - `item.tag.latch` ("Tag latches onto minecart");
   - `entity.minecart.shear` ("Shears click").
 - Added **2** new options:
-  - **Gilded Rail > Speed Multiplier**: Controls the maximum speed of gilded rails.
-  - **Gilded Rail > Acceleration Time**: How many ticks it takes for minecarts to accelerate to maximum speed.
+  - **Gilded Rail > Speed Multiplier** (`gildedRail.speedMultiplier`): Controls the maximum speed of gilded rails.
+  - **Gilded Rail > Acceleration Time** (`gildedRail.accelerationTime`): How many ticks it takes for minecarts to accelerate to maximum speed.
 - A copy of "Alpha", by C418, is now given to the player when viewing the credits for the first time.
   - The disc has an "epic" rarity, and is marked as a copy, so only one can be obtained per player.
-  - Required for the "Miner's Music Group" advancement.
+  - Required for the `Miner's Music Group` advancement.
   - Always has the same color and label.
 - Added a background for *Catalogue*, taken in the same location as the new banner.
 - *Stancements* now has links and a proper icon when using *Forged Mod Menu*.
@@ -48,6 +48,7 @@
   - They're now crafted using copper ingots, instead of gold, and their texture was updated accordingly.
   - When *Railcraft Reborn* is loaded, the recipe uses electric rails instead of copper ingots.
 - Milk cauldrons now have fluid container capabilities, like other cauldrons.
+  - Basically, this means the contents are now registered as milk for other mods, allowing it to be extracted using modded pumps.
 
 ### Items
 - Vinyl and recorded discs now appear after the music recorder in *Stancements*' creative tab.
@@ -66,7 +67,7 @@
 ## Technical
 ### Additions
 - Added the `minecart_tags` entity attachment type.
-  - **Format**: a ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **colors** field containing 1-16 dye color names (with no duplicates), which may not exist.
+  - **Format**: a ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **colors** field containing 1-16 dye color names (with no duplicates); may not exist.
 - Added the `minecart_tag_color` data component.
   - **Format**: a string representing a dye color.
   - Items with this component can be used on minecarts to tag them.
@@ -79,8 +80,8 @@
 - Renamed the `/melonystudios stancements update_recorded_disc` command to `/melonystudios stancements:gameplay/update_recorded_disc`, to match *Reutilities*.
 - *Reutilities* `1.4.0` is now properly required to run the mod.
 - The mixin file now has a compatibility level of `JAVA_17`, from `JAVA_21`.
-- Renamed `STClientEventBus` to `STClientEvents`.
-- Renamed `STConfigs` to `STOptions`.
+- Renamed *STClientEventBus* to *STClientEvents*.
+- Renamed *STConfigs* to *STOptions*.
 
 ## Tags
 ### Additions

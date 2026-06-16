@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Stancements 0.4.1.1 -</h1>
 
-> **Written On:** 22-04-26 - **Last Updated:** 22-04-26
+> **Written On:** 22-04-26 - **Last Updated:** 15-06-26
 
 **0.4.1.1** is a minor version of *Stancements* released on April 20, 2026.[^1] It makes features from newer versions of *Minecraft* compatible with this mod.
 
@@ -11,9 +11,9 @@
 - Added pale oak shelves, crafted from pale oak planks and sticks.
 
 ### Miscellaneous
-- Songs from the "Chase the Skies" update are now included in *Stancements*' assets by default.
+- Songs from the "Chase the Skies" soundtrack are now bundled with *Stancements*' default data pack.
   - These songs are: "Lilypad", "Below and Above", "O's Piano", "Broken Clocks" and "Fireflies".
-  - However, I forgot to include them in the "Miner's Music Group" advancement.
+  - However, I forgot to include them in the `Miner's Music Group` advancement.
 - The "Tears" and "Lava Chicken" music discs now have recorded song styles included in the mod's assets by default.
 
 ## Technical

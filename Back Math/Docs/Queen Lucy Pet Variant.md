@@ -2,7 +2,7 @@
 > [!NOTE]
 > This feature is exclusive to *Back Math*.
 >
-> **Last Updated**: 31-05-26 (9.0.9)
+> **Last Updated**: 15-06-26 (9.0.9)
 
 > [!WARNING]
 > In my current implementation of data-driven "registries", it **doesn't work in multiplayer** due to the server not sending them to the client. Loading them beforehand may be a possible workaround.
@@ -32,7 +32,7 @@ Queen lucy pet variants are defined using the following format:
 | [9.0.9](/Back%20Math/Changelogs/Changelog%209.0.9.md)                                                          | <li>Renamed the *Forge* registry to `mob_variant/queen_lucy_pet`, from `queen_lucy_pet_variant`.</li> <li>Moved the tags folder to `tags/mob_variant/queen_lucy_pet`.</li>                                                                                                                                           |
 
 ## Issues
-Issues relating to "Queen lucy pet variant" are maintained on [*Back Math*'s bug tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
+Issues relating to "Queen lucy pet variant" are maintained on [*Back Math*'s issue tracker](https://github.com/isabellawoods/Back-Math/issues). Issues should be reported and viewed there.
 
 ## Navigation
 ### Data pack definitions
