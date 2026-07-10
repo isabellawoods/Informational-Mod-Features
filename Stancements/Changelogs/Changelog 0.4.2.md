@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Stancements 0.4.2 -</h1>
 
-> **Written On:** 21-05-26 - **Last Updated:** 15-06-26
+> **Written On:** 21-05-26 - **Last Updated:** 08-07-26
 
 **0.4.2** is a minor version of *Stancements* released on May 19, 2026 on 1.21[^1], and on June 5, 2026 on 26.1[^2]. It adds compatibility with more modded songs, and allows copying songs playing on backpacks from [*Sophisticated Backpacks*](https://modrinth.com/mod/sophisticated-backpacks).
 
@@ -25,7 +25,7 @@
 ### Recorder Modded Songs Pack
 - Added jukebox song definitions for:
   - **\[1.21]** *Create: Aeronautics*, and for the Chaos Cubed songs from *Vanilla Backport*.
-  - **\[26.1]** *The Aether II*
+  - **\[26.1]** *The Aether II*.
 - Added defined styles for these modded music discs:
 
 | Mod                           | Music Disc                                                            |
