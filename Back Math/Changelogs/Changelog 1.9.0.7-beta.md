@@ -1,13 +1,13 @@
 ![Back Math 9.0.7 changelog photo](Assets/1.9.0.7-beta.png)
 <h1 style="text-align: center;">- Back Math - 9.0.7 -</h1>
 
-> **Written On:** 01-07-25 - **Last Updated:** 03-01-26
+> **Written On:** 01-07-25 - **Last Updated:** 19-08-26
 
 **9.0.7** is the seventh version for *Back Math* 9.0, released on June 18, 2025.[^1][^2][^3]
 
 ## Additions
 ### Items
-- **[Aljan Tex. Update]** Updated the jantical texture to better resemble a crystal.
+- **[[Aljan Texture Update](/Melony%20Studios%20Wiki/Resource%20Packs/Aljan%20Texture%20Update.md)]** Updated the jantical texture to better resemble a crystal.
 
 ### Entities
 - Added the "Home", "Menace" and "Yearn" capes to the cape pool of termians.

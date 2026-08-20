@@ -2,9 +2,13 @@
 
 <h1 style="text-align: center;">- Stancements 0.4.4 -</h1>
 
-> **Written On:** 08-07-26 - **Last Updated:** 09-07-26
+> **Written On:** 08-07-26 - **Last Updated:** 19-08-26 - **Download**: [`1.21.1`](https://github.com/isabellawoods/Stancements/releases/download/0.4.4/stancements-neoforge-0.4.4+1.21.1.jar)
 
 **0.4.4** is a major update of *Stancements* released on July 7, 2026.[^1] It makes the music recording process fully data-driven using **vinyl modifiers**, and adds some easter eggs for "creepy" music discs.
+
+> [!WARNING] Known issues
+> - **\[Fixed in `5.0.0-beta.1`]** Jukebox songs in the `minecraft` namespace will search for disc styles in the `stancements` namespace (disc styles for vanilla discs don't work).
+> - **\[Fixed in `5.0.0-beta.1`]** The ![*(string or list)*](/Revaried/Docs/Tags/string_tag.png)![](/Revaried/Docs/Tags/list_tag.png) **targets** field on vinyl modifiers can now target non-existent jukebox songs.
 
 ## Additions
 ### Items
@@ -12,7 +16,7 @@
   - Obtained by trying to copy disc "11" with the recorder.
 - Added sculk-infested vinyl, recorded and shattered discs, which work exactly like their non-infested counterparts.
   - The vinyl discs are obtained when trying to copy disc "5" with the recorder.
-  - Vinyl discs can be obtained by clearing recorded discs in the crafting table.
+  - Vinyl discs can also be obtained by clearing recorded discs in the crafting table.
 - Recorded discs with an unrecognized song (`music_data.id` but no `jukebox_playable`) will now have a tooltip showing how to re-record it, and to report it as a bug to *Stancements*.
 
 ### Miscellaneous
@@ -38,12 +42,12 @@
 - If a song has 2 or more authors, it now shows an "and" at the end instead of always using a comma.
 
 ### Items
-- Updated the recorded disc style for music disc "11" to actually look like 11 instead of "stal".
+- Updated the recorded disc style of music disc "11" to actually look like 11 instead of "stal".
 
 ### Miscellaneous
 - Renamed the sound event `item.cauldron.dye` to `block.cauldron.dye`.
 
-### Recorder Modded Songs
+### [Recorder Modded Songs](/Melony%20Studios%20Wiki/Resource%20Packs/Recorder%20Modded%20Songs.md) Pack
 - "Bounce" by fingerspit (from *Vanilla Backport*) now uses the label `14.0`, added in the last version.
 
 ## Removals
@@ -58,16 +62,16 @@
 - Added the `-Dstdebug.logging` debugging flag, which enables some debug logs for vinyl modifiers.
 
 #### Vinyl modifiers
-- Added **vinyl modifiers** to data packs.
+- Added [**vinyl modifiers**](/Stancements/Docs/Vinyl%20Modifier.md) to data packs.
   - Vinyl modifiers allow modifying the inserted disc when the recording starts and ends. This makes part of the music recording process data-driven.
   - New modifier *components* can be added using the `stancements:vinyl_modifier_component_type` built-in registry. These components are what actually makes the modifier do things.
   - By default, the "creepy" music discs in vanilla (13, 11 and 5) apply modifications to the inserted disc and eject it after 10-15 seconds.
   - The only parts that are still hardcoded are writing the music ID onto the inserted disc (the `music_data` and `jukebox_playable` components), and the initial "Recording \<song>, by \<artist>..." message.
   - **Attributes of the current modifiers:**
 
-| Modifier                    | Effects                                                                                                                                                                                                                                             | Recording Text                                  | Applies on | Modifies Copies? |
+| Modifier                    | Effects                                                                                                                                                                                                                                             | Recording text                                  | Applies on | Modifies copies? |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ---------- | ---------------- |
-| `music_disc_11`             | Ejects the disc after 10-15 seconds, and plays a cave sound when inserted.                                                                                                                                                                          | Something broke in the recorder...              | Start      | Yes              |
+| `music_disc_11`             | Ejects the disc after 10-15 seconds, and plays a disc shattering sound when inserted.                                                                                                                                                               | Something broke in the recorder...              | Start      | Yes              |
 | `music_disc_13`             | Ejects the disc after 10-15 seconds, and plays a cave sound when inserted.                                                                                                                                                                          | A strange sound fills the recorder...           | Start      | Yes              |
 | `music_disc_5`              | Ejects the disc after 10-15 seconds, and replaces the vinyl disc with a sculk-infested version.                                                                                                                                                     | A mysterious darkness surrounds the recorder... | Start      | Yes              |
 | `pipeline/finish_recording` | Converts the vinyl disc into a recorded disc (based on its `recording_turns_into` component), and applies the disc style from the *recorded disc styles* registry. If that's not available, it falls back to randomizing the label style and color. | Finished recording!                             | Finish     | Yes              |

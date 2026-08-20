@@ -130,7 +130,7 @@
 - Removed the files from `assets/backmath/texts`.
 - Removed the *"recipe_groups.txt"* file.
 
-## *"Aljan Texture Update"* Pack
+## [Aljan Texture Update](/Melony%20Studios%20Wiki/Resource%20Packs/Aljan%20Texture%20Update.md) Pack
 ### Additions
 - Added an updated texture for the insomnia arrow model.
 

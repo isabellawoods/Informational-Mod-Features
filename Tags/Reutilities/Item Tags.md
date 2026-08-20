@@ -1,5 +1,6 @@
 # Item Tags
-> **Last Updated:** 08-02-26
+> [!NOTE]
+> **Last Updated:** 17-08-26 (1.2.0)
 
 This file lists all item tags under the `c` (common) namespace added by *Reutilities*.
 
@@ -9,7 +10,7 @@ Items in this tag are held using the "crossbow charge" animation. This does have
 
 The equivalent in 1.16 is `#backmath:dual_wielded`, added by *Back Math*.
 
-**Added in**: [*Back Math* 9.0.1](Changelog%201.9.0.1-beta.md), *Reutilities* 1.1.0
+**Added in**: [*Back Math* `9.0.1`](/Back%20Math/Changelogs/Changelog%201.9.0.1-beta.md), *Reutilities* `1.1.0`
 
 ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#c:dual_wielded** *(2 values)*
 - `backmath:mid_term_longsword`
@@ -27,12 +28,11 @@ If an item is considered emissive, that applies to the following places:
 - Items in item frames;
 - Items in the player's hands;
 - Regular item rendering, but only if a block position is specified.
-As of 1.2.0, items are **not** emissive in the following places:
+As of `1.5.2`, items are **not** emissive in the following places:
 - Placed blocks;
-- Worn elytra;
-- Worn outfits.
+- Worn elytra.
 
-**Added in**: *Reutilities* 1.1.0
+**Added in**: *Reutilities* `1.1.0`
 
 ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#c:emissive_lighting** *(8 values)*
 - `#c:dusts/glowstone`
@@ -49,17 +49,17 @@ Currently used for nothing other than a grouping tag. In 1.16, this is used to c
 
 The equivalent tag in 1.16 is `#forge:flint`, added by *Back Math*.
 
-**Added in**: *Reutilities* 1.2.0
+**Added in**: *Reutilities* `1.2.0`
 
 ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#c:flint** *(1 value)*
 - `minecraft:flint`
 
 ### logos
-Grouping tag that contains items used for tab/mod icons.
+Grouping tag that contains items used for creative mode tabs and/or mod icons.
 
 The equivalent tag in 1.16 is `#melony:icon_items`.
 
-**Added in**: *Reutilities* 1.3.0
+**Added in**: *Reutilities* `1.3.0`
 
 ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#c:logos** *(5 values)*
 - `creeperedits:creeper_edits_logo`

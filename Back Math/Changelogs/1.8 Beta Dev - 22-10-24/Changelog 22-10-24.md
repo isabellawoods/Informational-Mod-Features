@@ -76,7 +76,7 @@ The **October 22nd** update is a version for *Back Math* 1.8.0, released on Octo
     - As a result of this, the stand no longer gets moved up when inside a block. This is fixed next version.
   - The log messages from `logAljanTeleporterDebugging` are now outputted into chat and above the hotbar.
 
-## *"Aljan Texture Update"* Pack
+## [Aljan Texture Update](/Melony%20Studios%20Wiki/Resource%20Packs/Aljan%20Texture%20Update.md) Pack
 ### Additions
 - Added texture for insomnia arrows (item only), sleepish bones and sleepish fertilizer.
 
@@ -100,7 +100,7 @@ The **October 22nd** update is a version for *Back Math* 1.8.0, released on Octo
 - Sparey effects now read using "any numeric" instead of only "byte" and "any".
 - Moved *VSUtils* to the Back Math package as it was causing issues with variants.
   - Now it can properly save an empty stack.
-```
+```log
 NoSuchMethodError: melonystudios.variants.util.VSUtils.minecraft(Ljava/lang/String;)Lnet/minecraft/util/ResourceLocation;
     at melonystudios.variants.item.custom.armor.color.WoolArmorColor.<clinit>(WoolArmorColor.java:21) ~[variants:1.16.5-1.8.0.3-14-09-2024] {re:classloading}
     at melonystudios.variants.item.custom.armor.WoolArmorItem.fillItemCategory(WoolArmorItem.java:101) ~[variants:1.16.5-1.8.0.3-14-09-2024] {re:classloading}

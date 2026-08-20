@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Stancements 0.4.2 -</h1>
 
-> **Written On:** 21-05-26 - **Last Updated:** 08-07-26
+> **Written On:** 21-05-26 - **Last Updated:** 19-08-26 - **Download**: [`1.21.1`](https://github.com/isabellawoods/Stancements/releases/download/0.4.2-1.21.1/stancements-neoforge-0.4.2+1.21.1.jar) | [`26.1.2`](https://github.com/isabellawoods/Stancements/releases/download/0.4.2-1.21.1/stancements-neoforge-0.4.2+26.1.2.jar)
 
 **0.4.2** is a minor version of *Stancements* released on May 19, 2026 on 1.21[^1], and on June 5, 2026 on 26.1[^2]. It adds compatibility with more modded songs, and allows copying songs playing on backpacks from [*Sophisticated Backpacks*](https://modrinth.com/mod/sophisticated-backpacks).
 
@@ -22,7 +22,7 @@
   - This isn't an issue in-game as the disc should only ever exist as a copy.
 - **\[26.1]** Readded the *Railcraft Reborn* recipes for gilded and powered rails (even though this mod isn't on 26.1 yet).
 
-### Recorder Modded Songs Pack
+### [Recorder Modded Songs](/Melony%20Studios%20Wiki/Resource%20Packs/Recorder%20Modded%20Songs.md) Pack
 - Added jukebox song definitions for:
   - **\[1.21]** *Create: Aeronautics*, and for the Chaos Cubed songs from *Vanilla Backport*.
   - **\[26.1]** *The Aether II*.
@@ -36,7 +36,7 @@
 | *Apothic Enchanting*          | Firel - Eterna, Quanta, Arcana                                        |
 | *Brazilian Delight*           | Nação Sururu - Aria Math (Forró Version)                              |
 | *Create: Aeronautics*         | Starlotte - Cloud Skipper                                             |
-| *Iron's Spells n' Spellbooks* | Caner Crebes - King's Lullaby, Whispers of Ice, The Flame Still Burns |
+| *Iron's Spells 'n Spellbooks* | Caner Crebes - King's Lullaby, Whispers of Ice, The Flame Still Burns |
 | *Oh The Biomes We've Gone*    | AOCAWOL - Better Days, Pixie Club                                     |
 | *Supplementaries*             | Hlzfss - Heave Ho!, Pancake Music                                     |
 | *The Aether II*               | Emile van Krieken - Approaches, Ascending Dawn                        |
@@ -63,7 +63,7 @@
 - **\[26.1]** "C418 - Alpha" is now given correctly to players once again.
 - **\[26.1]** Chase the Skies songs are now required for the `Miner's Music Group` advancement.
 
-### Recorder Modded Songs Pack
+### [Recorder Modded Songs](/Melony%20Studios%20Wiki/Resource%20Packs/Recorder%20Modded%20Songs.md) Pack
 - All songs from *The Aether* mod now play when the resource pack is loaded.
 - "Emile van Krieken - Moa's Song" (`aether4`) now shows the correct name when recording and on the item's tooltip.
 - "Amos Roddy - Lilypad" (from *Vanilla Backport*) now plays in-game when the resource pack is applied.

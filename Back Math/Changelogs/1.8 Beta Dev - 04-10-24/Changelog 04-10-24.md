@@ -23,7 +23,7 @@ The **October 4th** update is a version for *Back Math* 1.8.0, released on Octob
   - They can form groups of up to 4 collectors.
     - This is chosen at random at startup, like cod and salmon.
   - Can automatically open and close doors, like villagers or piglins.
-  - They have a 75% chance of spawning with armor, and wear it from helmet to boots (as per [MC-182478](https://bugs.mojang.com/browse/MC-182478)). They also always have an aljameed blade.
+  - They have a 75% chance of spawning with armor, and wear it from helmet to boots (as per [MC-182478](https://mojira.dev/MC-182478)). They also always have an aljameed blade.
     - Their armor can be jantskin, archer fabricio, aljameed, moonering and jantiquified moonering.
   - Most Aljan hostile mobs attack them.
   - They currently don't spawn naturally.
@@ -33,10 +33,10 @@ The **October 4th** update is a version for *Back Math* 1.8.0, released on Octob
   - Generates grass and ferns in high quantities.
 
 ### Miscellaneous
-- Added a work-in-progress Aljan texture update resource pack.
-  > <div style="text-align: center;"> <img src=https://raw.githubusercontent.com/isabellawoods/Back-Math/refs/heads/main/src/main/resources/assets/backmath/resourcepacks/aljan_texture_update/pack.png width="128"> </div>
+- Added a work-in-progress [Aljan Texture Update](/Melony%20Studios%20Wiki/Resource%20Packs/Aljan%20Texture%20Update.md) resource pack.
+  > <div style="text-align: center;"> <img src="/Textures/packicons/aljan_texture_update.png" width="128"> </div>
   >
-  > *"Texture update for the Aljan. [Made on 29-9-24]"*
+  > *"Texture update for the Aljan. \[Made on 29-9-24]"*
   >
   > <div style="text-align: right">
   >

@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Stancements 0.4.3 -</h1>
 
-> **Written On:** 08-07-26 - **Last Updated:** 08-07-26
+> **Written On:** 08-07-26 - **Last Updated:** 19-08-26 - **Download**: [`1.21.1`](https://github.com/isabellawoods/Stancements/releases/download/0.4.3/stancements-neoforge-0.4.3+1.21.1.jar) | [`26.1.2`](https://github.com/isabellawoods/Stancements/releases/download/0.4.3/stancements-neoforge-0.4.3+26.1.2.jar)
 
 **0.4.3** is a minor version of *Stancements* released on June 19, 2026.[^1] It allows ambient recorded discs to stop the game's music for it to play, and fixes various small bugs.
 
@@ -28,7 +28,7 @@
     - This also controls the comparator output of the recorder, since that doesn't follow the recorder's actual recording duration.
 - The mod's display URL now points to its [Modrinth page](https://modrinth.com/mod/stancements), with its GitHub page only being shown when *Forged Mod Menu* is loaded, appearing as "Sources".
 
-### Recorder Modded Songs
+### [Recorder Modded Songs](/Melony%20Studios%20Wiki/Resource%20Packs/Recorder%20Modded%20Songs.md) Pack
 - Added Brazilian Portuguese translations for the Chaos Cubed songs.
 - Added jukebox song definitions for:
   - **\[1.21]** *Biomes O' Plenty*, *Paradise Lost*
@@ -58,7 +58,7 @@
 - Updated the mod's logo when viewed from *Forged Mod Menu*.
 - **\[1.21]** When recording songs outside of the `sounds/music/` folder, the "Recording \<song>" text should now be properly translated.
 
-### Recorder Modded Songs
+### [Recorder Modded Songs](/Melony%20Studios%20Wiki/Resource%20Packs/Recorder%20Modded%20Songs.md) Pack
 - "Welcome to Paradise" (`aether1`) by Emile van Krieken has been pitched down slightly to match the album version.
 - "Crag Gardens" by AOCAWOL (from *Oh The Biomes We've Gone*) is now recorded properly (ID was `craig_gardens` before).
 - "The Flame Still Burns" by Caner Crebes (from *Iron's Spells n' Spellbooks*) now uses the label `7.0`, from `10.0`.

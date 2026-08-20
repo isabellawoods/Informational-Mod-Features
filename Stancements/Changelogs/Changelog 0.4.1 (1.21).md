@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Stancements 0.4.1 -</h1>
 
-> **Written On:** 17-04-26 - **Last Updated:** 15-06-26
+> **Written On:** 17-04-26 - **Last Updated:** 18-08-26
 
 **0.4.1** is a minor version of *Stancements* released on April 11, 2026.[^1] It makes music recording work properly in multiplayer, and adds compatibility for modded songs.
 
@@ -14,7 +14,7 @@
 
 ### Miscellaneous
 - Added the "Music Discs Copied" statistic, tracking exactly that.
-- Added the "Recorder Modded Songs" resource- and data pack.
+- Added the "[Recorder Modded Songs](/Melony%20Studios%20Wiki/Resource%20Packs/Recorder%20Modded%20Songs.md)" resource- and data pack.
   - This pack includes jukebox song definitions for many ambient songs added by other mods, including the Chase the Skies soundtrack.
   - The reason for this being a resource pack is so the game doesn't keep logging errors for non-existent sounds.
   - The data pack seems to always be enabled by default.

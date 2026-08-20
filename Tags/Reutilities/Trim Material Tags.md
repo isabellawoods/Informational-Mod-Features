@@ -1,11 +1,14 @@
 # Trim Material Tags
+> [!NOTE]
+> **Last Updated**: 17-08-26 (1.2.0)
+
 This file lists all trim material tags under the `c` (common) namespace added by *Reutilities*.
 
 ## List of tags
 ### emissive_lighting
-Trim materials in this tag glow at light level 15 when rendered as part of an armor piece. As of 1.2.0, the **Light Emitting Emissives** option does not affect this.
+Trim materials in this tag glow at light level 15 when rendered as part of an armor piece. As of `1.2.0`, the **Light Emitting Emissives** option does not affect this.
 
-**Added in**: *Reutilities* 1.1.0
+**Added in**: *Reutilities* `1.1.0`
 
 ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#c:emissive_lighting** *(3 values)*
 - `backmath:warmterm`

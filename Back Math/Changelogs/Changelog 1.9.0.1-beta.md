@@ -73,7 +73,7 @@
 ## Removals
 - Removed translations for aljancap and insomnian barrels.
 
-## *"Aljan Texture Update"* Pack
+## [Aljan Texture Update](/Melony%20Studios%20Wiki/Resource%20Packs/Aljan%20Texture%20Update.md) Pack
 ### Additions
 - Added updated textures for aljancap blocks and items.
 
