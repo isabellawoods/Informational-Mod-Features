@@ -1,6 +1,6 @@
 # Vinyl Modifier Tag
 > [!NOTE]
-> **Last Updated**: 17-08-26 (5.0.0-beta.1 - 1.21.1)
+> **Last Updated**: 20-08-26 (5.0.0-beta.1 - 1.21.1)
 
 A **vinyl modifier tag** is a collection of [vinyl modifiers](/Stancements/Docs/Vinyl%20Modifier.md). Currently, their only use is to prioritize certain modifiers to ensure the consistency of the outputted disc.
 
@@ -24,8 +24,8 @@ Vinyl modifiers in this tag run before all other modifiers when a recording begi
 
 ## Navigation
 ### Tags
-|                 |                                                                                                        |
-| --------------- | ------------------------------------------------------------------------------------------------------ |
-| **`melony`**    | [Item](Tags/Melony%20Convention/Item%20Tags.md)                                                        |
-| **Reutilities** | [Item](/Tags/Reutilities/Item%20Tags.md) ▪ [Trim Material](Tags/Reutilities/Trim%20Material%20Tags.md) |
-| **Stancements** | [Vinyl Modifier](/Tags/Stancements/Vinyl%20Modifier%20Tag.md)                                          |
+|                 |                                                                                                                                                                                          |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`melony`**    | ![](/Textures/navbox/tags/item.png) [Item](/Tags/Melony%20Convention/Item%20Tags.md)                                                                                                     |
+| **Reutilities** | ![](/Textures/navbox/tags/item.png) [Item](/Tags/Reutilities/Item%20Tags.md) ▪ ![](/Textures/navbox/tags/trim_material.png) [Trim Material](/Tags/Reutilities/Trim%20Material%20Tags.md) |
+| **Stancements** | ![](/Textures/navbox/tags/vinyl_modifier.png) **Vinyl Modifier**                                                                                                                         |

@@ -73,7 +73,7 @@
   - The text position on these menus is lower than before, and now shows the tab you're in.
     - If you're inside the world generation tab, the title will show *"[Variants] Settings > World Generation"*.
 - Increased the character limit of anvils to 50 characters.
-  - This is a retroactive fix for [MC-203757](https://bugs.mojang.com/browse/MC-203757).
+  - This is a retroactive fix for [MC-203757](https://mojira.dev/MC-203757).
 
 ### Consume Behaviors
 - *Apply effects* behavior can now pull effects from the built-in behavior.

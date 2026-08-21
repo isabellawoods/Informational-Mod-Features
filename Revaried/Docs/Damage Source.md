@@ -2,7 +2,7 @@
 > [!NOTE]
 > This feature is exclusive to *Revaried*, and was ported over from *Minecraft Unofficial Documentation - MUD*.
 >
-> **Last Updated**: 19-08-26 (8.0.9)
+> **Last Updated**: 20-08-26 (8.0.9)
 
 > [!WARNING]
 > In my current implementation of data-driven "registries", it **doesn't work in multiplayer** due to the server not sending them to the client. Loading them beforehand may be a possible workaround.
@@ -72,7 +72,7 @@ On consumables, this is defined by the "damage entity" consume behavior.
 
 - When `default`, the default method of making death messages is used;
 - When `direct_entity` or `indirect_entity`, the message will include the entity which killed the player;
-- When `intentional_game_design`, the message will be *"Player was killed by \[[Intentional Game Design](https://bugs.mojang.com/browse/MCPE-28723)]"*.
+- When `intentional_game_design`, the message will be *"Player was killed by \[[Intentional Game Design](https://mojira.dev/MCPE-28723)]"*.
 
 ## List of damage sources
 ### Back Math

@@ -1,6 +1,6 @@
 # Item Tags
 > [!NOTE]
-> **Last Updated:** 17-08-26 (1.2.0)
+> **Last Updated:** 20-08-26 (1.2.0)
 
 This file lists all item tags under the `c` (common) namespace added by *Reutilities*.
 
@@ -67,3 +67,11 @@ The equivalent tag in 1.16 is `#melony:icon_items`.
 - `outfitted:tab_icon`
 - `revaried:shulker_spectrum_icon`
 - `stancements:stancements_logo`
+
+## Navigation
+### Tags
+|                 |                                                                                                                                                          |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`melony`**    | ![](/Textures/navbox/tags/item.png) [Item](/Tags/Melony%20Convention/Item%20Tags.md)                                                                     |
+| **Reutilities** | ![](/Textures/navbox/tags/item.png) **Item** ▪ ![](/Textures/navbox/tags/trim_material.png) [Trim Material](/Tags/Reutilities/Trim%20Material%20Tags.md) |
+| **Stancements** | ![](/Textures/navbox/tags/vinyl_modifier.png) [Vinyl Modifier](/Tags/Stancements/Vinyl%20Modifier%20Tag.md)                                              |

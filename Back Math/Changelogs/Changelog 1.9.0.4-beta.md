@@ -1,7 +1,7 @@
 ![Back Math 9.0.4 changelog photo](Assets/1.9.0.4-beta.png)
 <h1 style="text-align: center;">- Back Math - 9.0.4 -</h1>
 
-> **Written On:** 27-01-25 - **Last Updated:** 03-01-26
+> **Written On:** 27-01-25 - **Last Updated:** 20-08-26
 
 **9.0.4** is the fourth version for *Back Math* 9.0, released on January 26, 2025.[^1][^2][^3]
 
@@ -42,7 +42,7 @@ This changelog doesn't have the full list of changes made to items because I'm t
 - Mid-term armor setting mobs on fire is now controlled by item behaviors.
 - Obsidian infused mid-term armor now has mid-term's durability bar color.
 - Arrows shot by mid-term bows now apply the Slowness effect.
-- Jantic railguns now load when right-click is kept held down (retroactive fix for [MC-165461](https://bugs.mojang.com/browse/MC-165461)).
+- Jantic railguns now load when right-click is kept held down (retroactive fix for [MC-165461](https://mojira.dev/MC-165461)).
 - Jantic railguns now show tooltips from `super` (more specifically, from stone).
 - Jantic railguns now render properly in first person.
 - Skull banner patterns can now be crafted using aljamic bones and sleepish skeleton skulls.

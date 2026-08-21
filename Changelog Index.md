@@ -133,10 +133,15 @@
 
 ## Stancements
 ### 26.1
+- [0.4.3](Stancements/Changelogs/Changelog%200.4.3.md)
+- [0.4.2](Stancements/Changelogs/Changelog%200.4.2.md)
 - [0.4.1.1](Stancements/Changelogs/Changelog%200.4.1.1.md)
 - [0.4.1](Stancements/Changelogs/Changelog%200.4.1%20(26.1).md)
 
 ### 1.21.1
+- [5.0.0-beta.1](Stancements/Changelogs/Changelog%205.0.0-beta.1.md)
+- [0.4.4](Stancements/Changelogs/Changelog%200.4.4.md)
+- [0.4.3](Stancements/Changelogs/Changelog%200.4.3.md)
 - [0.4.2](Stancements/Changelogs/Changelog%200.4.2.md)
 - [0.4.1](Stancements/Changelogs/Changelog%200.4.1%20(1.21).md)
 - [0.4.0](Stancements/Changelogs/Changelog%200.4.0.md)

@@ -1,8 +1,8 @@
-![Stancements 5.0.0 Beta 1 changelog photo](Assets/5.0.0-beta.1.png)
+![Stancements 5.0.0 Beta 1 changelog photo, taken with Flashback](Assets/5.0.0-beta.1.png)
 
 <h1 style="text-align: center;">- Stancements 5.0.0 Beta 1 -</h1>
 
-> **Written On:** 25-07-26 - **Last Updated:** 19-08-26 - **Download**: [`1.21.1`](https://github.com/isabellawoods/Stancements/releases/download/5.0.0-beta.1/stancements-neoforge-5.0.0-beta.1+1.21.1.jar)
+> **Written On:** 25-07-26 - **Last Updated:** 20-08-26 - **Download**: [`1.21.1`](https://github.com/isabellawoods/Stancements/releases/download/5.0.0-beta.1/stancements-neoforge-5.0.0-beta.1+1.21.1.jar)
 
 **5.0.0 Beta 1** (stylized as **5.0.0-beta.1** in the `.jar` file) is a major update of *Stancements* released on July 23, 2026.[^1] It adds the pocket recorder, short and long cassette tapes, and moves all ambient jukebox songs to the `minecraft` namespace to match the 26.1 version.
 

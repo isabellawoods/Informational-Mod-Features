@@ -370,3 +370,11 @@ Items in this tag have their rarity switched to "potato", from [snapshot 24w14po
 
 ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#melony:with_rarity/potato** *(0 values)*
 - *Empty.*
+
+## Navigation
+### Tags
+|                 |                                                                                                                                                                                          |
+| --------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **`melony`**    | ![](/Textures/navbox/tags/item.png) **Item**                                                                                                                                             |
+| **Reutilities** | ![](/Textures/navbox/tags/item.png) [Item](/Tags/Reutilities/Item%20Tags.md) ▪ ![](/Textures/navbox/tags/trim_material.png) [Trim Material](/Tags/Reutilities/Trim%20Material%20Tags.md) |
+| **Stancements** | ![](/Textures/navbox/tags/vinyl_modifier.png) [Vinyl Modifier](/Tags/Stancements/Vinyl%20Modifier%20Tag.md)                                                                              |

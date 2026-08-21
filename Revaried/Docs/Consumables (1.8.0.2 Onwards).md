@@ -1,7 +1,7 @@
 <h1 style="text-align: center;">- Consumables -</h1>
 <div style="text-align: center;">A Guide and Documentation of all things consumable</div>
 
-> **Written On**: 20-11-24 - **Last Updated:** 05-01-26
+> **Written On**: 20-11-24 - **Last Updated:** 20-08-26
 
 ## NBT Format
 - <img src=Tags/compound_tag.png> Root tag for this item.
@@ -111,7 +111,7 @@ Damages the entity with a pre-existing or custom damage source. See [**damage so
     >   - `default`: Use the default message builder. Only has the "*.player*" suffix.
     >   - `direct_entity`: <sup>*[please add information here]*</sup>
     >   - `indirect_entity`: <sup>*[please add information here]*</sup>
-    >   - `intentional_game_design`: Use the "*\<player>* was killed by [[Intentional Game Design](https://bugs.mojang.com/browse/MCPE-28723)]" death message.
+    >   - `intentional_game_design`: Use the "*\<player>* was killed by [[Intentional Game Design](https://mojira.dev/MCPE-28723)]" death message.
     > - <img src="Tags/boolean_tag.png"/> **is_explosion**: *(optional)* Marks this damage source as coming from an explosion. Makes blast protection protect against this.
     > - <img src="Tags/boolean_tag.png"/> **is_projectile**: *(optional)* Marks this damage source as being from a projectile. Makes projectile protection protect against this.
     > - <img src="Tags/boolean_tag.png"/> **is_magic**: *(optional)* Marks this damage source as being from a magic source. Makes magic protection protect against this.

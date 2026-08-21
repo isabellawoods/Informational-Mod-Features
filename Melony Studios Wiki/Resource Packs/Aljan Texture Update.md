@@ -1,9 +1,9 @@
 # Aljan Texture Update
-**Aljan Texture Update** is a resource pack that updates most of the textures and ambience of the Aljan (now Numos) dimension. It comes disables by default in new *Minecraft* instances.
+**Aljan Texture Update** is a resource pack that updates the ambience and part of the textures of the Aljan (now Numos) dimension. It comes disables by default in new *Minecraft* instances.
 
 Originally, this pack was meant to be merged with *Back Math* once all of the textures were complete. However, *Back Math* on 1.16 has since been discontinued in favor of ***Numinosity*** and the complete remake of *Back Math* on 1.21 (or 26.1).
 
-![](Melony%20Studios%20Wiki/Resource%20Packs/Screenshots/aljan_texture_update.png)
+![](/Melony%20Studios%20Wiki/Resource%20Packs/Screenshots/aljan_texture_update.png)
 
 > *"Texture update for the Aljan. \[Made on 29-9-24]"*
 >
@@ -23,7 +23,7 @@ Besides just updating several textures in the dimension, this resource pack also
 
 The colored fog (tinted **\#553B4E**, dull purple) is also controlled by the **Change Aljan Fog Color At Night** option (defaults to `true`), and only occurs between ticks `13300` and `22400`.
 
-![](Melony%20Studios%20Wiki/Resource%20Packs/Screenshots/aljan_nighttime_fog_example.png)
+![](/Melony%20Studios%20Wiki/Resource%20Packs/Screenshots/aljan_nighttime_fog_example.png)
 
 <center><i>How nighttime looks in the Aljan dimension, with <b>Brightness</b> set to <code>0</code>.</i></center>
 
@@ -43,10 +43,10 @@ The colored fog (tinted **\#553B4E**, dull purple) is also controlled by the **C
 | [9.0.8-beta](/Back%20Math/Changelogs/Changelog%201.9.0.8-beta.md)                                           | Added textures for the newly added *aljanwood and aljancap boats and signs* (both item and entity textures).                                                                                                                                                              |
 
 ## Gallery
-|                                                                                     |                                                                                    |
-| :---------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: |
-| ![](Melony%20Studios%20Wiki/Resource%20Packs/Screenshots/aljan_textures_before.png) | ![](Melony%20Studios%20Wiki/Resource%20Packs/Screenshots/aljan_textures_after.png) |
-|                     *Aljan blocks without this resource pack.*                      |                      *Aljan blocks with this resource pack.*                       |
+|                                                                                      |                                                                                     |
+| :----------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------: |
+| ![](/Melony%20Studios%20Wiki/Resource%20Packs/Screenshots/aljan_textures_before.png) | ![](/Melony%20Studios%20Wiki/Resource%20Packs/Screenshots/aljan_textures_after.png) |
+|                      *Aljan blocks without this resource pack.*                      |                       *Aljan blocks with this resource pack.*                       |
 
 > <div style="text-align: center;">
 >
