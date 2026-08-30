@@ -2,13 +2,13 @@
 
 <h1 style="text-align: center;">- Stancements 0.4.4 -</h1>
 
-> **Written On:** 08-07-26 - **Last Updated:** 19-08-26 - **Download**: [`1.21.1`](https://github.com/isabellawoods/Stancements/releases/download/0.4.4/stancements-neoforge-0.4.4+1.21.1.jar)
+> **Written On:** 08-07-26 - **Last Updated:** 30-08-26 - **Download**: [`1.21.1`](https://github.com/isabellawoods/Stancements/releases/download/0.4.4/stancements-neoforge-0.4.4+1.21.1.jar) | [`26.1.2`](https://github.com/isabellawoods/Stancements/releases/download/0.4.4/stancements-neoforge-0.4.4+26.1.2.jar)
 
-**0.4.4** is a major update of *Stancements* released on July 7, 2026.[^1] It makes the music recording process fully data-driven using **vinyl modifiers**, and adds some easter eggs for "creepy" music discs.
+**0.4.4** is a major update of *Stancements* released on July 7, 2026 on 1.21.1[^1], and on August 23, 2026 on 26.1.2[^2]. It makes the music recording process fully data-driven using **vinyl modifiers**, and adds some easter eggs for "creepy" music discs.
 
 > [!WARNING] Known issues
-> - **\[Fixed in `5.0.0-beta.1`]** Jukebox songs in the `minecraft` namespace will search for disc styles in the `stancements` namespace (disc styles for vanilla discs don't work).
-> - **\[Fixed in `5.0.0-beta.1`]** The ![*(string or list)*](/Revaried/Docs/Tags/string_tag.png)![](/Revaried/Docs/Tags/list_tag.png) **targets** field on vinyl modifiers can now target non-existent jukebox songs.
+> - **\[1.21.1 Only] \[Fixed in `5.0.0-beta.1`]** Jukebox songs in the `minecraft` namespace will search for disc styles in the `stancements` namespace (disc styles for vanilla discs don't work).
+> - **\[Fixed in `5.0.0-beta.1`]** The ![*(string or list)*](/Revaried/Docs/Tags/string_tag.png)![](/Revaried/Docs/Tags/list_tag.png) **targets** field on vinyl modifiers cannot target non-existent jukebox songs.
 
 ## Additions
 ### Items
@@ -35,6 +35,7 @@
 
 #### Music Recorder
 -  Music discs playing in containers from *Sophisticated Storage* can once again be copied.
+- **\[26.1.2]** *Sophisticated Backpacks* and containers from *Sophisticated Storage* can now be copied from once again.
 - If it has multiple jukeboxes besides itself, it will now pick the one playing a song instead of stopping at the first jukebox.
   - If the music disc is a copy or it disallows copies, it still stops at the first. This will be fixed at a later date.
 - Taking discs out now plays a sound and shows particles (taken from the crafter).
@@ -43,14 +44,14 @@
 
 ### Items
 - Updated the recorded disc style of music disc "11" to actually look like 11 instead of "stal".
+  - It now uses the color **\#141414** and the label `8.0`.
 
 ### Miscellaneous
 - Renamed the sound event `item.cauldron.dye` to `block.cauldron.dye`.
 
-### [Recorder Modded Songs](/Melony%20Studios%20Wiki/Resource%20Packs/Recorder%20Modded%20Songs.md) Pack
-- "Bounce" by fingerspit (from *Vanilla Backport*) now uses the label `14.0`, added in the last version.
+### [Recorder Modded Songs](/Melony%20Studios%20Wiki/Resource%20Packs/Recorder%20Modded%20Songs.md) pack
+- **\[1.21.1]** "Bounce" by fingerspit (from *Vanilla Backport*) now uses the label `14.0`, added in the last version.
 
-## Removals
 ### Miscellaneous
 - Removed the **Music Discs Block Ambient Music** option, as it has been split into two.
 
@@ -58,7 +59,7 @@
 ### Additions
 - Added the ![*(int)*](/Revaried/Docs/Tags/integer_tag.png) **ticks_until_ejection** tag to the `music_recorder` block entity.
   - When set to a value above `-1`, it counts down to zero and then ejects the inserted disc out of the recorder.
-  - This can be disabled by the **Recorder Free Will** option.
+  - This can be disabled by the **Recorder Free Will** option. If disabled in **26.1.2**, the field will be cleared when the recording finishes or is canceled.
 - Added the `-Dstdebug.logging` debugging flag, which enables some debug logs for vinyl modifiers.
 
 #### Vinyl modifiers
@@ -98,27 +99,46 @@ The components below were taken from the components used for enchantments:
 - Added the `stancements:recorder_state/item` loot condition.
   - Compares the item inside the music recorder (if possible) with the provided ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) **targets**, which can be an item ID, a list of item IDs, or a hash-prefixed item tag.
   - If the recorder cannot be obtained from the provided parameter set, the condition simply returns `false`.
-- Added **4** new loot functions:
-  - `stancements:set_random_dyes` **(Copied from 26.1)**: Dyes the target item with a set amount of random dyes (defined by the ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) **number_of_dyes** number provider), but only if the item is in the `#minecraft:dyeable` item tag.
+- Added **4**<sup>*[1.21.1]*</sup> / **3**<sup>*[26.1.2]*</sup> new loot functions:
+  - **\[1.21.1]** `stancements:set_random_dyes` **(Backported from 26.1)**: Dyes the target item with a set amount of random dyes (defined by the ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) **number_of_dyes** number provider), but only if the item is in the `#minecraft:dyeable` item tag.
   - `stancements:set_random_label`: Picks a random label from the provided ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) **range** (number provider) and puts it on the item. There's also an option to ![*(boolean)*](/Revaried/Docs/Tags/boolean_tag.png) **round_to_nearest** integer.
   - `stancements:style_disc_from_registry`: Applies the color and label from the *recorded disc style* registry if possible, and falls back to a ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) **fallback_dyes_setter** and a ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) **fallback_label_setter** if not.
   - `stancements:apply_recording_turns_into`: Converts an item into another based on its `stancements:recording_turns_into` component. Has no extra fields.
-- Added **2** new number providers:
-  - `stancements:sum`: Sums all number provider results in ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) **summands** into one.
+- **\[1.21.1]** Added **2** new number providers:
+  - `stancements:sum` **(Backported from 26.1)**: Sums all number provider results in ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) **summands** into one.
   - `stancement:clamped_number`: Clamps a ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) **source** number provider between ![*(int)*](/Revaried/Docs/Tags/integer_tag.png) **min_inclusive** and ![*(int)*](/Revaried/Docs/Tags/integer_tag.png) **max_inclusive**.
 
 ### Changes
-- Renamed *STOptions* to *STCommonOptions*.
+- **\[26.1.2]** The ![*(string or int)*](/Revaried/Docs/Tags/string_tag.png)![](/Revaried/Docs/Tags/integer_tag.png) **color** field on recorded disc styles now uses `ExtraCodecs.STRING_RGB_COLOR` instead of *Reutilities*' `HEX_INT_CODEC`.
+  - This means it now requires 6 digits to be properly parsed, and now accepts a list of 3 ![](/Revaried/Docs/Tags/float_tag.png) floats as input (ranged from `0.0` to `1.0`).
 - Unified the *StartRecordingAttemptEvent* into a single class that runs before either recording methods in *MusicRecorderBlock*.
   - `clientMusicID` is now provided for copying songs as well.
-- Renamed the following methods and fields:
+- Renamed the following methods, fields and classes:
 
 | Class                         | Old Name          | New Name                   |
 | ----------------------------- | ----------------- | -------------------------- |
+| **\[26.1.2]** LogoItem        | *N/A*             | ReLogoItem                 |
 | MusicRecorderBlock            | `stopRecording()` | `interruptAndEject()`      |
+| STOptions                     | *N/A*             | STCommonOptions            |
 | STShearsDispenseBehaviorMixin | `execute()`       | `executeOrShearsOffTags()` |
 | STShearsItemMixin             | `mineBlock()`     | `mineBlockWithShears()`    |
 | STSounds                      | `ITEM_DYE`        | `DYE_ITEM`                 |
+
+### Removals
+- **\[26.1.2]** Removed the `refmap` line from this mod's mixins file, as it was never generated in the first place.
+- Removed the following methods, fields and classes:
+
+| Class                     | Method/field                       |
+| ------------------------- | ---------------------------------- |
+| **\[26.1.2]** ReCodecs    | *N/A*                              |
+| RecordedDiscItem          | `setAppearanceFromStyleRegistry()` |
+| RecordedDiscItem          | `getRandomDye()`                   |
+| RecordedDiscItem          | `getRandomLabelColor()`            |
+| RecordedDiscItem          | `getRecordedDisc()`                |
+| RecordedDiscItem          | `randomizeAppearance()`            |
+| **\[26.1.2]** ReItemTags  | *N/A*                              |
+| **\[26.1.2]** STBlockTags | `common()`                         |
+| **\[26.1.2]** STBlockTags | `MINEABLE_WITH_SHEARS`             |
 
 ## Tags
 ### Additions
@@ -133,5 +153,9 @@ The components below were taken from the components used for enchantments:
 - Added sculk-infested recorded discs to the `#minecraft:dyeable` item tag.
 - Added sculk-infested vinyl and recorded discs to the `#c:music_discs` item tag.
 
+### Removals
+- **\[26.1.2]** Removed the `#c:mineable/shears` block tag, since this feature was removed in [0.4.1](Changelog%200.4.1%20(26.1).md).
+
 ### References
 [^1]: ["0.4.4: Vinyl Modifiers & Haunted Discs"](https://github.com/isabellawoods/Stancements/commit/445ac0099fe03a0d57ded6b71dfaee22541faf99) (Commit `445ac00`) — GitHub, July 7, 2026.
+[^1]: ["0.4.4: Vinyl Modifiers & Haunted Discs"](https://github.com/isabellawoods/Stancements/commit/6a72f88a3d043e9577aaec331e6929d4b8b512fe) (Commit `6a72f88`) — GitHub, August 23, 2026.

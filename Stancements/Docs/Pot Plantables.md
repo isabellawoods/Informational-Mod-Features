@@ -1,13 +1,13 @@
 # Pot Plantables
 > [!NOTE]
-> **Last Updated**: 19-08-26 (0.4.1 - 1.21.1 | 0.4.1.1 | 26.1.2)
+> **Last Updated**: 30-08-26 (5.0.0-beta.2 - 1.21.1 | 0.4.1.1 | 26.1.2)
 
-`pot_plantables.json` is an **item data map** defining which items can be placed on crop pots, and which block it becomes.
+`pot_plantables.json` was an **item data map** defining which items could be placed on crop pots, and which block it became.
 
-This data map file is located at `data/stancements/data_maps/item/pot_plantables.json`.
+This data map file was located at `data/stancements/data_maps/item/pot_plantables.json`.
 
 ## JSON format
-Pot plantables are defined using the following format:
+Pot plantables were defined using the following format:
 
 - ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) The root **values** object.
   - ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) **\<item ID>**: The ID of a registered item. May be a non-existent item, but that will require a loading condition.
@@ -34,13 +34,14 @@ Pot plantables are defined using the following format:
 ```
 
 ## History
-| Version                                              | Changes                                                                            |
-| ---------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| [0.3.1](Stancements/Changelogs/Changelog%200.3.1.md) | Added the "pot plantable" data map.                                                |
-| [0.3.2](Stancements/Changelogs/Changelog%200.3.2.md) | Renamed to "pot plantables", since all data maps from *NeoForge* use plural names. |
+| Version                                                             | Changes                                                                                                                                    |
+| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| [0.3.1](Stancements/Changelogs/Changelog%200.3.1.md)                | Added the "pot plantable" data map.                                                                                                        |
+| [0.3.2](Stancements/Changelogs/Changelog%200.3.2.md)                | Renamed to "pot plantables", since all data maps from *NeoForge* use plural names.                                                         |
+| [5.0.0-beta.2](/Stancements/Changelogs/Changelog%205.0.0-beta.2.md) | Removed this data map. This was because it didn't really have an use and Fabric doesn't have an equivalent of data maps that I'm aware of. |
 
 ## Issues
-Issues relating to "Pot plantables" or "Crop pots" are maintained on [*Stancements*' issue tracker](https://github.com/isabellawoods/Stancements/issues). Issues should be reported and viewed there.
+Issues relating to "Pot plantables" or "Crop pots" will no longer be maintained on [*Stancements*' issue tracker](https://github.com/isabellawoods/Stancements/issues), as this feature has been removed.
 
 ## Navigation
 ### Data pack definitions
@@ -52,4 +53,4 @@ Issues relating to "Pot plantables" or "Crop pots" are maintained on [*Stancemen
 | **Reutilities**   | ![](/Textures/navbox/outfit_definition_re.png) [Outfit Definition](/Reutilities/Docs/Outfit%20Definition.md)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | **Revaried**      | ![](/Textures/navbox/bowl_type.png) [Bowl Type](/Revaried/Docs/Bowl%20Type.md) ▪ ![](/Textures/navbox/damage_source.png) [Damage Source](/Revaried/Docs/Damage%20Source.md) ▪ ![](/Textures/navbox/wool_armor_color.png) [Wool Armor Color](/Revaried/Docs/Wool%20Armor%20Color.md)                                                                                                                                                                                                                                                                                                                               |
 | **Stacked Goods** | ![](/Textures/navbox/mossifiables.png) [Mossifiables](/Stacked%20Goods/Docs/Mossifiables.md) ▪ ![](/Textures/navbox/mineral_extraction.png) [Mineral Extraction](/Stacked%20Goods/Docs/Mineral%20Extraction.md)  ▪ ![](/Textures/navbox/scrapables.png) [Scrapables](/Stacked%20Goods/Docs/Scrapables.md)                                                                                                                                                                                                                                                                                                         |
-| **Stancements**   | ![](/Textures/navbox/pot_plantables.png) **Pot Plantables**  ▪ ![](/Textures/navbox/recorded_song_styles.png) [Recorded Song Styles](/Stancements/Docs/Recorded%20Song%20Styles.md) ▪ ![](/Textures/navbox/recorded_disc_style.png) [Recorded Disc Style](/Stancements/Docs/Recorded%20Disc%20Style.md) ▪ ![](/Textures/navbox/track.png) [Track](/Stancements/Docs/Track.md) ▪ ![](/Textures/navbox/vinyl_modifier.png) [Vinyl Modifier](/Stancements/Docs/Vinyl%20Modifier.md)                                                                                                                                  |
+| **Stancements**   | ![](/Textures/navbox/album.png) [Album](/Stancements/Docs/Album.md) ▪ ![](/Textures/navbox/pot_plantables.png) **Pot Plantables**  ▪ ![](/Textures/navbox/recorded_song_styles.png) [Recorded Song Styles](/Stancements/Docs/Recorded%20Song%20Styles.md) ▪ ![](/Textures/navbox/recorded_disc_style.png) [Recorded Disc Style](/Stancements/Docs/Recorded%20Disc%20Style.md) ▪ ![](/Textures/navbox/track.png) [Track](/Stancements/Docs/Track.md) ▪ ![](/Textures/navbox/vinyl_modifier.png) [Vinyl Modifier](/Stancements/Docs/Vinyl%20Modifier.md)                                                            |

@@ -2,12 +2,12 @@
 
 <h1 style="text-align: center;">- Stancements 5.0.0 Beta 1 -</h1>
 
-> **Written On:** 25-07-26 - **Last Updated:** 20-08-26 - **Download**: [`1.21.1`](https://github.com/isabellawoods/Stancements/releases/download/5.0.0-beta.1/stancements-neoforge-5.0.0-beta.1+1.21.1.jar)
+> **Written On:** 25-07-26 - **Last Updated:** 30-08-26 - **Download**: [`1.21.1`](https://github.com/isabellawoods/Stancements/releases/download/5.0.0-beta.1/stancements-neoforge-5.0.0-beta.1+1.21.1.jar)
 
 **5.0.0 Beta 1** (stylized as **5.0.0-beta.1** in the `.jar` file) is a major update of *Stancements* released on July 23, 2026.[^1] It adds the pocket recorder, short and long cassette tapes, and moves all ambient jukebox songs to the `minecraft` namespace to match the 26.1 version.
 
 > [!WARNING] Known issues
-> - **\[Fixed in `5.0.0-beta.2`]** The `#stancements:ambient_music` jukebox song tag and several other album tags haven't had their IDs changed to match the new names.
+> - **\[1.21.1 Only] \[Fixed in `5.0.0-beta.2`]** The `#stancements:ambient_music` jukebox song tag and several other album tags haven't had their IDs changed to match the new names.
 >   - This means that recorded ambient songs won't block existing ambient songs from playing in this version.
 
 ## Additions
@@ -59,7 +59,7 @@
 - The mod's logos, banner and *Catalogue* background texture have been compressed.
 - Fixed a single misplaced pixel in the "[Recorder Modded Songs](/Melony%20Studios%20Wiki/Resource%20Packs/Recorder%20Modded%20Songs.md)" resource- and data packs.
 - The "Tags: \<minecart tags>" display in *Jade* is no longer always pluralized: "Tag(s): \<tags>".
-- **\[Bra. Portuguese]** Fixed a typo in the sculk-infested vinyl disc tooltip: "tentava gravava" -> "tentava gravar".
+- **\[1.21.1, Bra. Portuguese]** Fixed a typo in the sculk-infested vinyl disc tooltip: "tentava gravava" -> "tentava gravar".
 
 ## Technical
 ### Additions

@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Stancements 0.4.3 -</h1>
 
-> **Written On:** 08-07-26 - **Last Updated:** 19-08-26 - **Download**: [`1.21.1`](https://github.com/isabellawoods/Stancements/releases/download/0.4.3/stancements-neoforge-0.4.3+1.21.1.jar) | [`26.1.2`](https://github.com/isabellawoods/Stancements/releases/download/0.4.3/stancements-neoforge-0.4.3+26.1.2.jar)
+> **Written On:** 08-07-26 - **Last Updated:** 30-08-26 - **Download**: [`1.21.1`](https://github.com/isabellawoods/Stancements/releases/download/0.4.3/stancements-neoforge-0.4.3+1.21.1.jar) | [`26.1.2`](https://github.com/isabellawoods/Stancements/releases/download/0.4.3/stancements-neoforge-0.4.3+26.1.2.jar)
 
 **0.4.3** is a minor version of *Stancements* released on June 19, 2026.[^1] It allows ambient recorded discs to stop the game's music for it to play, and fixes various small bugs.
 
@@ -14,7 +14,7 @@
 
 ### Items
 - Added recorded disc label `14.0`, for the new "fingerspit - Bounce" music disc.
-  - The recorded disc style for "Bounce" hasn't been updated yet.
+  - **\[1.21.1]** The recorded disc style for "Bounce" hasn't been updated yet.
 - If a recorded disc has the `music_data.id` component and no `jukebox_playable`, the game will automatically try to re-record that disc.
   - When first recording, both component are now saved to the item.
   - The old `music_id` component is now converted into `music_data.id`.
@@ -28,7 +28,7 @@
     - This also controls the comparator output of the recorder, since that doesn't follow the recorder's actual recording duration.
 - The mod's display URL now points to its [Modrinth page](https://modrinth.com/mod/stancements), with its GitHub page only being shown when *Forged Mod Menu* is loaded, appearing as "Sources".
 
-### [Recorder Modded Songs](/Melony%20Studios%20Wiki/Resource%20Packs/Recorder%20Modded%20Songs.md) Pack
+### [Recorder Modded Songs](/Melony%20Studios%20Wiki/Resource%20Packs/Recorder%20Modded%20Songs.md) pack
 - Added Brazilian Portuguese translations for the Chaos Cubed songs.
 - Added jukebox song definitions for:
   - **\[1.21]** *Biomes O' Plenty*, *Paradise Lost*
@@ -58,7 +58,7 @@
 - Updated the mod's logo when viewed from *Forged Mod Menu*.
 - **\[1.21]** When recording songs outside of the `sounds/music/` folder, the "Recording \<song>" text should now be properly translated.
 
-### [Recorder Modded Songs](/Melony%20Studios%20Wiki/Resource%20Packs/Recorder%20Modded%20Songs.md) Pack
+### [Recorder Modded Songs](/Melony%20Studios%20Wiki/Resource%20Packs/Recorder%20Modded%20Songs.md) pack
 - "Welcome to Paradise" (`aether1`) by Emile van Krieken has been pitched down slightly to match the album version.
 - "Crag Gardens" by AOCAWOL (from *Oh The Biomes We've Gone*) is now recorded properly (ID was `craig_gardens` before).
 - "The Flame Still Burns" by Caner Crebes (from *Iron's Spells n' Spellbooks*) now uses the label `7.0`, from `10.0`.

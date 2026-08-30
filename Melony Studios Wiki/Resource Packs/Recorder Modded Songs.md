@@ -162,7 +162,7 @@ This list is based off of the [NeoForge `1.0.9`](https://modrinth.com/mod/enders
 
 - **1.** "Menoch — Dreams of the Phae" (`tfc:m0-dreams_of_the_phae`);
 - **2.** "Menoch — Firmavista" (`tfc:m1-firmavista`);
-- **3.** "Menoch — Sycamore Heights" (`tfc:m2-sycamore_height`[^1]);
+- **3.** "Menoch — Sycamore Heights" (`tfc:m2-sycamore_heights`);
 - **4.** "Menoch — TerraFirmaCraft" (`tfc:m3-terrafirmacraft`);
 - **5.** "Menoch — Through the Willows" (`tfc:m4-through_the_willows`).
 
@@ -172,7 +172,7 @@ This list is based off of the [NeoForge `1.0.9`](https://modrinth.com/mod/enders
 #### [*The Aether II Original Soundtrack*](https://emilevankrieken.bandcamp.com/album/the-aether-ii-original-soundtrack)
 > Watch on [**YouTube Music**](https://music.youtube.com/playlist?list=OLAK5uy_kISgyPv2lSuIkzIakCgXYg5i2Afv5lNhs) as well.
 
-- **1.** "Emile van Krieken — Welcome to Paradise" (`aether:aether1`)[^2];
+- **1.** "Emile van Krieken — Welcome to Paradise" (`aether:aether1`)[^1];
 - **2.** "Emile van Krieken — Wings" (`aether:aether2`);
 - **3.** "Emile van Krieken — Meadow" (`aether:aether3`);
 - **4.** "Emile van Krieken — Moa's Song" (`aether:aether4`);
@@ -204,7 +204,7 @@ This list is based off of the [NeoForge `1.0.9`](https://modrinth.com/mod/enders
 #### [*The Aether II Original Soundtrack*](https://emilevankrieken.bandcamp.com/album/the-aether-ii-original-soundtrack)
 > Watch on [**YouTube Music**](https://music.youtube.com/playlist?list=OLAK5uy_kISgyPv2lSuIkzIakCgXYg5i2Afv5lNhs) as well.
 
-- **1.** "Emile van Krieken — Welcome to Paradise" (`aether_ii:aether1`)[^2];
+- **1.** "Emile van Krieken — Welcome to Paradise" (`aether_ii:aether1`)[^1];
 - **2.** "Emile van Krieken — Wings" (`aether_ii:aether2`);
 - **3.** "Emile van Krieken — Meadow" (`aether_ii:aether3`);
 - **4.** "Emile van Krieken — Moa's Song" (`aether_ii:aether4`);
@@ -253,7 +253,7 @@ Music for *The Bumblezone* is also included in the 26.1 version of *Stancements*
 - "LudoCrypt — [Bee-laxing with the Hom-bees](https://ludocrypt.bandcamp.com/track/bee-laxing-with-the-hom-bees)" (`the_bumblezone:bee_laxing_with_the_hom_bees`);
 - "Rat-Faced Boy — Honey Bee" (`the_bumblezone:honey_bee_rat_faced_boy`);
 - "LudoCrypt — [La Bee-da Loca](https://ludocrypt.bandcamp.com/track/la-bee-da-loca)" (`the_bumblezone:la_bee_da_loca`);
-- "Moserao — Rivers of Honey" (`the_bumblezone:rivers_of_honey_moserao`[^3]).
+- "Moserao — Rivers of Honey" (`the_bumblezone:rivers_of_honey_moserao_stereo`).
 
 ### \[1.21] Vanilla Backport
 > [**Modrinth**](https://modrinth.com/mod/vanillabackport) - **YouTube Music**
@@ -296,7 +296,7 @@ All songs in this album are included in the `#minecraft:album/chaos_cubed` jukeb
 | [0.4.3](/Stancements/Changelogs/Changelog%200.4.3.md)               | Added support for *Biomes O'Plenty*, *Paradise Lost* and *Dimensional Doors*.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [0.4.4](/Stancements/Changelogs/Changelog%200.4.4.md)               | "fingerspit — Bounce" now uses label `14`, added in **0.4.3** specifically for "Bounce".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | [5.0.0-beta.1](/Stancements/Changelogs/Changelog%205.0.0-beta.1.md) | <li>Jukebox songs that were previously under the `stancements` namespace are now under `minecraft` like intended.</li> <li>Fixed a single misplaced pixel in the pack icon.</li>                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| 5.0.0-beta.2<sup>*[upcoming]*</sup>                                 | <li>"Menoch — Sycamore Heights" now has the correct ID: `m2-sycamore_heights` (was previously `m2-sycamore_height`).</li> <li>"Moserao — Rivers of Honey" now has the correct ID: `rivers_of_honey_moserao_stereo` (was previously missing the `_stereo` part).</li>                                                                                                                                                                                                                                                                                                                                                                        |
+| [5.0.0-beta.2](/Stancements/Changelogs/Changelog%205.0.0-beta.2.md) | <li>"Menoch — Sycamore Heights" now has the correct ID: `m2-sycamore_heights` (was previously `m2-sycamore_height`).</li> <li>"Moserao — Rivers of Honey" now has the correct ID: `rivers_of_honey_moserao_stereo` (was previously missing the `_stereo` part).</li>                                                                                                                                                                                                                                                                                                                                                                        |
 
 ## Gallery
 > <div style="text-align: center;">
@@ -306,6 +306,4 @@ All songs in this album are included in the `#minecraft:album/chaos_cubed` jukeb
 > The icon for this pack.</div>
 
 ### Notes
-[^1]: **\[Fixed in `5.0.0-beta.2`]** "Sycamore Heights" is incorrectly mispelled as `sycamore_height` in the jukebox song file.
-[^2]: The music disc is pitched down by **3%** (`0.97`) to match the album version.
-[^3]: **\[Fixed in `5.0.0-beta.2`]** "Rivers of Honey" is missing "`_stereo`" at the end of its jukebox song ID.
+[^1]: The music disc is pitched down by **3%** (`0.97`) to match the album version.
