@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Revaried 8.0.10 -</h1>
 
-> **Written On:** 26-07-25 - **Last Updated:** 05-01-26
+> **Written On:** 26-07-25 - **Last Updated:** 20-08-26
 
 **8.0.10** is the tenth version for [*Revaried* 8.0.0](/Revaried/Changelogs/1.16.5%20-%201.8.0/Changelog%201.8.0.md), released on November 17, 2025.[^1][^2][^3] It backports the functionality of item behaviors from *Reutilities*, and makes changes to the options screen.
 
@@ -15,7 +15,7 @@
 
 ### Miscellaneous
 - Added a translation for the song "Moog City", used by *Mellow UI*.
-- **[Bra. Portuguese]** Added translations for the "Dye stains" and "Ink Sac splotches" subtitles.
+- **\[Bra. Portuguese]** Added translations for the "Dye stains" and "Ink Sac splotches" subtitles.
 
 ## Changes
 ### Blocks
@@ -28,7 +28,7 @@
 
 ### Screens
 - The panorama overlay now renders on *Revaried*'s options screens.
-- The titles in the options screens now use *Mellow UI*'s screen title style ("**[Revaried]** Options **>** Items").
+- The titles in the options screens now use *Mellow UI*'s screen title style ("**\[Revaried]** Options **>** Items").
 - Notice buttons now only change the color of the text, instead of replacing the button rendering.
 - Moved the "Done" buttons 2px down.
 - The list background and separators are now set in `init()` instead of `render()`.
@@ -75,7 +75,7 @@
 - Properly registered all argument types (potion, use animation, damage source and consume behavior).
 - JSON serialization of consume behaviors is now handled by the behaviors, instead of being under `JSONUtils`.
 - The description of *Revaried*'s default data pack is now translatable.
-- *Revaried* now has a flair accent color: **#FFC55F**, used for *Mellow UI*'s mod list.
+- *Revaried* now has a flair accent color: **\#FFC55F**, used for *Mellow UI*'s mod list.
 
 ### Changes
 - Changed the mod version to `8.0.10`, removing the extra `1.16.5-1.` at the beginning.

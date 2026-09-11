@@ -160,7 +160,7 @@ Sets the entity on fire for a specific amount of ticks.
 
 - <img src=Tags/compound_tag.png> The behavior tag.
   - <img src=Tags/integer_tag.png> **ticks_on_fire**: How many ticks this entity should be on fire for. Rounded to seconds when applied. Defaults to `100`.
-  - <img src="Tags/integer_tag"/> **tooltip_color**: *(optional)* The color used for the "Ablaze" tooltip on consumable items. Defaults to **#E1A61E** (orange).
+  - <img src="Tags/integer_tag"/> **tooltip_color**: *(optional)* The color used for the "Ablaze" tooltip on consumable items. Defaults to **\#E1A61E** (orange).
 
 ### Multi-Behavior (`MultiBehavior`)
 <sup>**Registry Name**: `variants:multi_behavior` | **Translation**: Multi-Behavior</sup>

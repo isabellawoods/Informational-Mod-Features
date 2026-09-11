@@ -1,7 +1,7 @@
 ![Back Math 9.0.9](Assets/9.0.9.png)
 <h1 style="text-align: center;">- Back Math - 9.0.9 -</h1>
 
-> **Written On:** 06-02-26 - **Last Updated:** 25-04-26
+> **Written On:** 06-02-26 - **Last Updated:** 20-08-26
 
 **9.0.9** is the ninth version for *Back Math* 9.0, released on January 9, 2026.[^1] It adds three new capes for termians, and exposes many of this mod's debugging utilities as JVM arguments.
 
@@ -15,11 +15,11 @@
 
 ### Items
 - Updated the "Hold \<Key> for \<something>" tooltips to match *Reutilities*:
-  - "Hold [Left Shift] for Description" for item descriptions;
-  - "Hold [Left Shift] for Attributes" for bow attributes;
-  - "*(Hold [Left Shift] to see all items)*" for when there are too many items in a crate.
-- **[Bra. Portuguese]** Fixed a typo in the devil and angelic crown names: "Corora" to "Coroa".
-- **[Bra. Portuguese]** The key binding category is now translated: "Melony Studios" to "Estúdios Melony".
+  - "Hold \[Left Shift] for Description" for item descriptions;
+  - "Hold \[Left Shift] for Attributes" for bow attributes;
+  - "*(Hold \[Left Shift] to see all items)*" for when there are too many items in a crate.
+- **\[Bra. Portuguese]** Fixed a typo in the devil and angelic crown names: "Corora" to "Coroa".
+- **\[Bra. Portuguese]** The key binding category is now translated: "Melony Studios" to "Estúdios Melony".
 
 ### Entities
 - Queen lucy pets from before 1.9.0.8 no longer have pure black ponchos.
@@ -28,7 +28,7 @@
 ## Technical
 ### Additions
 - Added a README file to the project (finally!).
-- *Back Math* now has a flair accent color: **#AA2A2A**, used for *Mellow UI*'s mod list.
+- *Back Math* now has a flair accent color: **\#AA2A2A**, used for *Mellow UI*'s mod list.
 - Added a built-in panorama under `backmath:default_panorama` to be used with *Mellow UI*.
 - Added descriptions to all 1.9.X versions in the update checker file.
 - Added "1.8.0-beta" to the update checker file.

@@ -54,7 +54,7 @@
   - Now these have water instead of sleepishwater.
 - Aljan underwater caves now use vanilla water instead of sleepishwater.
 - The Aljan dimension now uses vanilla water instead of sleepishwater.
-- Brightened the color of the water in the Aljan from *#280C40* and *#1D082E* to ***#661163*** and ***#590F57***.
+- Brightened the color of the water in the Aljan from *\#280C40* and *\#1D082E* to ***\#661163*** and ***\#590F57***.
 
 ### Miscellaneous
 - The Aljan nighttime sky color now applies every day, instead of only the first day.

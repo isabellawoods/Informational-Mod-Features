@@ -76,7 +76,7 @@ The **October 4th** update is a version for *Back Math* 1.8.0, released on Octob
 
 ### World Generation
 - The Aljan dimension type now uses the proper dimension effects.
-- Changed the temperature of Aljan woods to **-0.5**, and the foliage color to #**E9F9F9**.
+- Changed the temperature of Aljan woods to **-0.5**, and the foliage color to **\#E9F9F9**.
   - This means aljan woods is now snow-covered.
 
 ### Miscellaneous

@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Mellow UI 4.7.0 -</h1>
 
-> **Written On:** 31-10-25 - **Last Updated:** 16-12-25
+> **Written On:** 31-10-25 - **Last Updated:** 20-08-26
 
 **4.7.0** is a major release for *Mellow UI*, released on October 27, 2025 on 1.16[^1], and on December 14, 2025 on 1.18.[^2][^3]
 
@@ -63,7 +63,7 @@
     - Because of this change, the widgets no longer visually update, but tooltips still do.
 - Widgets from tabs now use *Mellow UI*'s tooltip providers for tooltips.
 - Changed the size of text field widgets to line up with other widgets.
-- The hardcore widget tooltip title is now brighter tint of red (**#FF0000**).
+- The hardcore widget tooltip title is now brighter tint of red (**\#FF0000**).
 
 #### Customization
 - The customization screen now has a search box. Currently, it only applies to the panorama list.
@@ -78,7 +78,7 @@
 - The revert edit consumer now works when using Ctrl + Z to revert your edit.
 
 #### Select World
-- The "Hardcore Mode!" text in world summaries is now a brighter tint of red (**#FF0000**).
+- The "Hardcore Mode!" text in world summaries is now a brighter tint of red (**\#FF0000**).
 - The entry text is now trimmed when it extends beyond the entry itself.
   - I did forget to add the tooltips from the newer versions, though.
 - World titles now obey the widget text color options.

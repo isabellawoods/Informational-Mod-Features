@@ -20,7 +20,7 @@
 - All config subscreens are now consistent with both the accessibility screen and *Mellow UI*'s screens.
 - Readded the "subtitute 'The End' biome with" text box, now located besides the "Done" button.
   - Currently, the footer bar in *Mellow UI* collides the text. This will be fixed eventually.
-- Entries that require restarting the game will now be colored **#FFC55F** and will show a custom tooltip: "<h style="color: #FFC55F">[Requires a restart to take effect!]</h>".
+- Entries that require restarting the game will now be colored **\#FFC55F** and will show a custom tooltip: "<h style="color: #FFC55F">[Requires a restart to take effect!]</h>".
 - The panorama now spins consistently between screens.
 
 ## Miscellaneous
@@ -30,7 +30,7 @@
 
 ## Changes
 ### Items
-- Attribute tooltips on food items are now grouped with the effects, have the checkmark boxes, and are colored with a faded green (**#4F7A4F**) or red (**#7F4B4B**).
+- Attribute tooltips on food items are now grouped with the effects, have the checkmark boxes, and are colored with a faded green (**\#4F7A4F**) or red (**\#7F4B4B**).
   - This was copied from *Back Math*'s *"Apply Mob Effects"* item behavior effect type.
 - Magma swords are now repaired using crystallized magma cream instead of magma blocks.
 - Fireworks rockets no longer have duplicated "Hold \<Alt>" tooltips.
@@ -60,7 +60,7 @@
 ## Miscellaneous
 - Updated most external (and some internal) references of *"Variants"* to *"Revaried"*.
   - This includes the README file, mixin configs and reference maps, mod name and description, config files, data generators, etc.
-- Changed the color of the consume behaviors in commands to **#FFC55F**.
+- Changed the color of the consume behaviors in commands to **\#FFC55F**.
 - The bookshelf recipe advancements now check for the correct books item tag.
   - Plain birch bookshelves now properly require the `fabricio2010pack_loaded` condition.
 

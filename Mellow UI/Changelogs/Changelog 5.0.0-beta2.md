@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Mellow UI 5.0.0 Beta 2 -</h1>
 
-> **Written On:** 16-12-25 - **Last Updated:** 16-12-25
+> **Written On:** 16-12-25 - **Last Updated:** 20-08-26
 
 **5.0.0 Beta 2** is a major release for *Mellow UI*, released on December 6, 2025 on 1.16[^1], and on December 15, 2025 on 1.18.[^2]
 
@@ -65,7 +65,7 @@
   - **Pause Menu and Toast**: displays both as a toast and on the pause menu.
   - Its id has changed to `musicToast`, from `showMusicToast`.
   - Updates its tooltips to match the newer versions.
-- Changed the default color of the **Update Availability** color option to **#57FFE1** (light blue), from **#41F384** (green).
+- Changed the default color of the **Update Availability** color option to **\#57FFE1** (light blue), from **\#41F384** (green).
 
 ### Screens
 #### *Forge*'s Mod List
@@ -105,7 +105,7 @@
 
 ### Changes
 - Text rendering via `ScrollingText` now uses the draw methods from the vanilla *Render Components*.
-- *Mellow UI*'s tooltip provider now checks if the tooltip data is `null`before trying to render it.
+- *Mellow UI*'s tooltip provider now checks if the tooltip data is `null` before trying to render it.
 - GUI atlas animations now work like other atlases (given the texture has a `.mcmeta` file). However, only textures that *use* the atlas in the code will be animated.
 
 ### References

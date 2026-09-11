@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Mellow UI 5.0.0 Beta 4 -</h1>
 
-> **Written On:** 06-02-26 - **Last Updated:** 06-02-26 - **1.16 Changelog:** [5.0.0-beta4](Changelog%205.0.0-beta4.md)
+> **Written On:** 06-02-26 - **Last Updated:** 20-08-26 - **1.16 Changelog:** [5.0.0-beta4](Changelog%205.0.0-beta4.md)
 
 **5.0.0 Beta 4** is a minor upcoming release for *Mellow UI*.[^1] It updates most of the screens that weren't yet updated, and shifts all lists and separators to match vanilla.
 
@@ -27,7 +27,7 @@ This 1.18 changelog is in a different file because the version has a dot between
 - The **Classified As Containers** option now points to the correct `RecipesGui` class (from JEI) in 1.18.
 - Changed the position of the options list scroller to match vanilla.
 - The item category buttons on the statistics screen are now only hovered if the cursor is within the bounds of the list.
-- **[Bra. Portuguese]** Updated the "Search..." translation to "Buscar", from "Pesquisar".
+- **\[Bra. Portuguese]** Updated the "Search..." translation to "Buscar", from "Pesquisar".
 - Updated the mod's logo and pack icon.
   - Added the `logoBlur=false` property to the `mods.toml` file.
 
@@ -65,7 +65,7 @@ This 1.18 changelog is in a different file because the version has a dot between
 ### Changes
 - Updated *Forge* to `40.3.0`, from `40.2.14`.
 - Renamed the `TickingWidget.tick()` method to `tickWidget()`, to fix a crash in the updated Create New World screen.
-- Changed *Mellow UI*'s accent color to **#FF2BDA**, from **#955AE0**.
+- Changed *Mellow UI*'s accent color to **\#FF2BDA**, from **\#955AE0**.
 
 ### Removals
 

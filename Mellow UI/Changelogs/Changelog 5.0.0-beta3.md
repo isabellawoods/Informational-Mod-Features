@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Mellow UI 5.0.0 Beta 3 -</h1>
 
-> **Written On:** 16-12-25 - **Last Updated:** 07-02-26
+> **Written On:** 16-12-25 - **Last Updated:** 20-08-26
 
 **5.0.0 Beta 3** is a major release for *Mellow UI*, released on December 21, 2025 on 1.16[^1][^2][^3], and on January 24, 2026 on 1.18.[^4] It adds themes, makes post-processing effects loaded via resource packs, and makes various changes to other screens.
 
@@ -24,11 +24,11 @@
   - Currently, the mod includes **3** themes:
     - **Default**: the default theme. Does not make any changes;
     - **Programmer Art**: extension of the Programmer Art resource pack. It changes most UI textures to match the old style, and gives the option to apply the pack if wanted;
-    - **High Contrast**: extension of the High Contrast resource pack. It only changes the default flair color to **#FFFF55**, and gives the option to apply the pack if wanted.
+    - **High Contrast**: extension of the High Contrast resource pack. It only changes the default flair color to **\#FFFF55**, and gives the option to apply the pack if wanted.
 - Post-processing effects are loaded from resource packs.
   - By default, this change adds the "Transparency" shader to the Super Secret Settings list, but any mods that add new shaders (like *Quark*) are also included now.
   - As there's no way I know to find the correct uniforms, they are currently hardcoded for only the vanilla shaders.
-- Added a unique flair color for *Minecraft*: **#6CC349** (light green).
+- Added a unique flair color for *Minecraft*: **\#6CC349** (light green).
 - Added a dark mode version of *Mellomedley*'s title screen gradient.
 - Added new texture for the title screen icons background to the High Contrast resource pack.
 
@@ -61,8 +61,8 @@
 - **(1.16)** Removed all translations strings related to the `CustomizedWorldOptionsScreen`.
 - **(1.16)** Updated the tooltip of the **Screen Background** style option to include **Fading Blur**.
 - **(1.16)** The "Autor(es)" text in *Mellow UI*'s mod list has been changed to "Autor(es):" in Brazilian Portuguese.
-- **(1.18) [Bra. Portuguese]** Added the word "mod" on the "broken config screen" error message.
-- **(1.18) [Bra. Portuguese]** Changed the word "no" to "ao" on the button compatibility error messages.
+- **(1.18) \[Bra. Portuguese]** Added the word "mod" on the "broken config screen" error message.
+- **(1.18) \[Bra. Portuguese]** Changed the word "no" to "ao" on the button compatibility error messages.
 - Removed all translation strings related to the work-in-progress theme list, as it has been added.
 - Changed the breast settings error message to say "options" instead of "skin customization".
 - Added the word "mod" before the mod id in the "broken config screen" error message.

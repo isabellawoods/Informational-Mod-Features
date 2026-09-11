@@ -1,2 +1,6 @@
 # Obsidian folders and files
 /.obsidian
+/.trash
+
+# Visual Studio Code
+/.vscode

@@ -3,7 +3,7 @@
 # <div style="text-align: center;">- Variants - 1.8.0.7 -</div>
 ### <div style="text-align: center;">A Variants Release Changelog made on *09/12/2024*</div>
 
-**1.8.0.7** is the seventh version for [*Revaried 1.8.0*](/Revaried/Changelogs/1.16.5%20-%201.8.0/Changelog%201.8.0.md), released on Januay 6, 2025.[^1][^2][^3]
+**1.8.0.7** is the seventh version for [*Revaried 1.8.0*](/Revaried/Changelogs/1.16.5%20-%201.8.0/Changelog%201.8.0.md), released on January 6, 2025.[^1][^2][^3]
 
 ## Additions
 ### Blocks
@@ -71,7 +71,7 @@
   - The old config menu has been moved to the "world generation" submenu, which now has a panorama.
     - Removed the "substitute 'The End' with biome" textbox, but it it's set to an invalid biome, is now grays out the "Done" button.
   - The text position on these menus is lower than before, and now shows the tab you're in.
-    - If you're inside the world generation tab, the title will show *"[Variants] Settings > World Generation"*.
+    - If you're inside the world generation tab, the title will show *"\[Variants] Settings > World Generation"*.
 - Increased the character limit of anvils to 50 characters.
   - This is a retroactive fix for [MC-203757](https://mojira.dev/MC-203757).
 
@@ -84,7 +84,7 @@
 - *Teleport entity* behavior's exact teleport now only runs on the server side.
 - *Ignite* behavior now has a tooltip that shows the fire duration.
   - Currently, it only ever shows as 5 seconds when read from NBT.
-  - This is shown like an effect would, with the name being "Ablaze" colored **#E1A61E**.
+  - This is shown like an effect would, with the name being "Ablaze" colored **\#E1A61E**.
 - Consume behaviors are now properly saved in the recipe data generators.
 
 ### Translations

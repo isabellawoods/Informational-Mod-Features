@@ -5,7 +5,7 @@
 
 ## Changes
 - Chorus Plants now properly connect to Ender Nylium and Ender Nylium Quartz Ore.
-- The Infinity Sweaters tab now has the color **#31CCDD**, and now uses the same letters as the Infinity Sweater Tab Icon item. 
+- The Infinity Sweaters tab now has the color **\#31CCDD**, and now uses the same letters as the Infinity Sweater Tab Icon item.
 - If an exponential stew has no bowl set through NBT, the tooltip now shows the default bowl: the vanilla Bowl.
 - Stew behavior is now executed before applying the suspicious stew effects.
 

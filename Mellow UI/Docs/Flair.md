@@ -1,6 +1,6 @@
 # Flair
 > [!NOTE]
-> **Last Updated**: 15-06-26 (5.0.0-beta3)
+> **Last Updated**: 20-08-26 (5.0.0-beta3)
 
 A **flair** is per-mod customization options for their own entry on *Mellow UI*'s mod list and configuration screens. Flairs can be defined using JSON files in a resource pack at the path `assets/<namespace>/flair/<mod_id>.json`.
 
@@ -22,9 +22,10 @@ Flairs are defined using the following format:
 If a flair is not defined for a mod, the `mellowui:default` flair is used instead, and if the *"High Contrast"* resource pack is enabled, it overrides the default to have its own color.
 
 ### Existing flairs
-- *Mellow UI*: <c style="color:#955AE0">⏹</c> **#955AE0**;
-- *Forge*: <c style="color:#DFA76A">⏹</c> **#DFA76A**;
-- Default: <c style="color:#FFFFA0">⏹</c> **#FFFFA0** (<c style="color:#FFFF55">⏹</c> **#FFFF55** if using *High Contrast*);
+- *Mellow UI*: **\#955AE0**;
+- *Forge*: **\#DFA76A**;
+- *Minecraft*: **\#6CC349**;
+- Default: **\#FFFFA0** (**\#FFFF55** if using *High Contrast*).
 
 ## History
 | Version                                                           | Changes                                                                                                                          |

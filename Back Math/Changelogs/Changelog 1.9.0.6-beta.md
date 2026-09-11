@@ -1,7 +1,7 @@
 ![Back Math 9.0.6 changelog photo](Assets/1.9.0.6-beta.png)
 <h1 style="text-align: center;">- Back Math - 9.0.6 -</h1>
 
-> **Written On:** 04-03-25 - **Last Updated:** 03-01-26
+> **Written On:** 04-03-25 - **Last Updated:** 20-08-26
 
 **9.0.6** is the sixth version for *Back Math* 9.0, released on March 4, 2025.[^1]
 
@@ -42,7 +42,7 @@
   - Updated the item and outfit textures to be white.
   - Karate lucia's karate headbands are still yellow.
   - Renamed to "Karate Headband".
-  - Their default color is **#FED83D**.
+  - Their default color is **\#FED83D**.
   - Are now repaired and crafted using any `#minecraft:wool`.
     - The recipe advancement now requires both wool and string.
   - Renamed the texture file to `karate_headband_head.png`.
