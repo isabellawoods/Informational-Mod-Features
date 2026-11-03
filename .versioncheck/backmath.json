@@ -1,0 +1,30 @@
+{
+  "homepage": "https://github.com/isabellawoods/Back-Math/releases",
+  "promos": {
+    "26.1.2-latest": "0.1.0",
+    "26.1.2-recommended": "0.1.0",
+    "1.21.1-latest": "9.0.7",
+    "1.21.1-recommended": "9.0.7",
+    "1.16.5-latest": "9.0.9",
+    "1.16.5-recommended": "9.0.9"
+  },
+  "26.1.2": {
+    "0.1.0": "Initial Commit for 26.1.2"
+  },
+  "1.21.1": {
+    "9.0.7": "Added Reutilities & Updated Dependencies",
+    "2.9.0.7-alpha": "Initial Commit for 1.21.1"
+  },
+  "1.16.5": {
+    "9.0.9": "Debugging Flags & Updates from Other Mods",
+    "1.9.0.8-beta": "Signs, Boats & A Lot of Bug Fixes",
+    "1.9.0.7-beta": "Mob Variants Folder, Tweaks from 1.21 & Updated Spawn Eggs & Effects",
+    "1.9.0.6-beta": "Crates & Emissive/Dyeable Outfits",
+    "1.9.0.5-beta": "Queen Lucy Variants, Data-Driven Outfits & Updated Fruit Leaves",
+    "1.9.0.4-beta": "Updated Heads & Item Behaviors",
+    "1.9.0.3-beta": "Added Barrels & Data-Driven Outfits",
+    "1.9.0.2-beta": "Outfit Rendering & Plateforced Mid-Term Armor",
+    "1.9.0.1-beta": "Texture Updates & Small Bugfixes",
+    "1.8.0-beta": "Too much to list here"
+  }
+}
