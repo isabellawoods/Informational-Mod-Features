@@ -1,6 +1,6 @@
 # Vinyl Modifier Tag
 > [!NOTE]
-> **Last Updated**: 20-08-26 (5.0.0-beta.1 - 1.21.1)
+> **Last Updated**: 07-11-26 (5.0.0-beta.3 - Both)
 
 A **vinyl modifier tag** is a collection of [vinyl modifiers](/Stancements/Docs/Vinyl%20Modifier.md). Currently, their only use is to prioritize certain modifiers to ensure the consistency of the outputted disc.
 
@@ -12,7 +12,7 @@ Vinyl modifiers in this tag run before all other modifiers when a recording begi
 
 **Added in**: [*Stancements* `0.4.4`](/Stancements/Changelogs/Changelog%200.4.4.md)
 
-![*(list)*](/Revaried/Docs/Tags/list_tag.png) **#stancements:priority_modification** *(2 values)*
+![*(list)*](/Revaried/Docs/Tags/list_tag.png) **\#stancements:priority_modification** *(2 values)*
 - `stancements:pipeline/finish_recording`
 - `stancements:pipeline/sculk_ejection_chance`
 

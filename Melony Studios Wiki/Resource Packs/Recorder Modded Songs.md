@@ -13,7 +13,7 @@ The data pack is always enabled by default, both on new and existing worlds.
 | --------------------- | ----------------------------------------------------------------------------------------------------------------- |
 | **Pack maker(s)**     | [isabellawoods](https://github.com/isabellawoods)                                                                 |
 | **Edition(s)**        | *Java Edition*                                                                                                    |
-| **Size (standalone)** | <li>**\[1.21.1]** 9.3kB (resources), 51.3kB (data);</li> <li>**\[26.1.2]** 5.7kB (resources), 29.7kB (data).</li> |
+| **Size (standalone)** | <li>**\[1.21.1]** 9.6kB (resources), 65.1kB (data);</li> <li>**\[26.1.2]** 6.9kB (resources), 45.3kB (data).</li> |
 | **Added by**          | *Stancements*                                                                                                     |
 | **Pack version**      | <li>**\[1.21.1]** `34` (resources), `48` (data);</li> <li>**\[26.1.2]**  `84.0` (resources), `101.1` (data).</li> |
 
@@ -78,7 +78,12 @@ All songs that are ==highlighted== represent *recorded disc styles*, and not juk
 - "Stevenrs11 — [==Creepy==](https://youtu.be/6NGHhSNBm6Q)" (`dimdoors:creepy`) — \#39CEFF **//** Label `2`;
 - "Firel — [==They Stare Back==](https://youtu.be/lMGh7Gnd31A)" (`dimdoors:they_stare_back`) — \#FF0004 **//** Label `11`.
 
-### \[1.21] Enderscape
+### \[26.1] Dungeons Plus
+> [**Modrinth**](https://modrinth.com/mod/dungeons-plus)
+
+- "LachSFX — ==Lost Keep==" (`dungeons_plus:lost_keep`) — \#6E0453 **//** Label `4`.
+
+### Enderscape
 > [**Modrinth**](https://modrinth.com/mod/enderscape) - **Bandcamp** (Release) - [**Bandcamp**](https://lunarbunten.bandcamp.com/album/enderscape-beta) (Beta) - **YouTube Music**
 
 This list is based off of the [NeoForge `1.0.9`](https://modrinth.com/mod/enderscape/version/K3Vz3uXn) build, which does not include "Prélude" or "Mystique".
@@ -86,18 +91,26 @@ This list is based off of the [NeoForge `1.0.9`](https://modrinth.com/mod/enders
 #### [*Enderscape*](https://lunarbunten.bandcamp.com/album/enderscape-2)
 > Watch on [**YouTube Music**](https://music.youtube.com/playlist?list=PL8FoJcakzSXpqahJ6-MHelV7bpflmoaM4) as well.
 
+- **1.** "lunarbunten — Prélude" (`enderscape:structure/stronghold/prelude`);
 - **2.** "lunarbunten — Desolation" (`enderscape:biome/default_end/desolation`);
-- **3.** "lunarbunten — Flutters" (`enderscape:biome/magnia_crags/flutters`);
+- **3.** "lunarbunten — Flutters" (`enderscape:biome/magnia_crags/flutters`);[^2]
 - **4.** "lunarbunten — Mutagen" (`enderscape:biome/corrupt_barrens/mutagen`);
 - **5.** "lunarbunten — Nebula" (`enderscape:biome/corrupt_barrens/nebula`);
 - **6.** "vye — ==decay==" (`enderscape:decay`) — \#AAB9A6 **//** Label `2`;
 - **7.** "lunarbunten — Grandeur" (`enderscape:structure/end_city/grandeur`);
+- **8.** "lunarbunten — Mystique" (`enderscape:structure/end_city/mystique`);
 - **9.** "lunarbunten — ==glare==" (`enderscape:glare`) — \#E39AE9 **//** Label `7`;
 - **10.** "lunarbunten, vye — Respite" (`enderscape:biome/veiled_woodlands/respite`);
+- **11. \[26.1]** "vye, lunarbunten — Lullaby" (`enderscape:biome/veiled_woodlands/lullaby`);
 - **12.** "lunarbunten — Elysium" (`enderscape:biome/celestial_grove/elysium`);
 - **13.** "lunarbunten — Otherworld" (`enderscape:biome/celestial_grove/otherworld`);
 - **14.** "lunarbunten — Finality" (`enderscape:biome/celestial_grove/finality`);
 - **15.** "lunarbunten — ==bliss==" (`enderscape:bliss`) — \#89FFDA **//** Label `13`.
+
+### \[1.21] From The Caves
+> [**Modrinth**](https://modrinth.com/mod/from-the-caves-official)
+
+- "==14==" (`from_the_caves:strange_disc`) — \#440303 **//** Label `1`.
 
 ### \[1.21] Galosphere
 > [**Modrinth**](https://modrinth.com/mod/galosphere) - **Bandcamp** - **YouTube Music**
@@ -109,6 +122,12 @@ This list is based off of the [NeoForge `1.0.9`](https://modrinth.com/mod/enders
 - **2.** "lunarbunten — Spectral" (`galosphere:spectral`);
 - **3.** "lunarbunten — Pristine" (`galosphere:pristine`).
 
+### \[1.21] Halcyon
+> [**Modrinth**](https://modrinth.com/mod/data-essence)
+
+- "Fuzzy — ==Conductor's Lullaby==" (`halcyon:conductors_lullaby`) — \#F794CB **//** Label `3`;
+- "DavidRarria09 — ==UnderTheSky==" (`halcyon:under_the_sky`) — \#0259BF **//** Label `3`.
+
 ### \[1.21] Iron's Spell 'n Spellbooks
 > [**Modrinth**](https://modrinth.com/mod/irons-spells-n-spellbooks)
 
@@ -116,7 +135,7 @@ This list is based off of the [NeoForge `1.0.9`](https://modrinth.com/mod/enders
 - "Caner Crebes — [==The Flame Still Burns==](https://youtu.be/AX2oRiX2ljs)" (`iron_spellbooks:flame_still_burns`) — \#D6AF39 **//** Label `7`;
 - "Caner Crebes — ==Whispers of Ice==" (`iron_spellbooks:whispers_of_ice`) — \#6087BF **//** Label `2`.
 
-### \[1.21] Nature's Spirit
+### Nature's Spirit
 > [**Modrinth**](https://modrinth.com/mod/natures-spirit) - **Bandcamp** - **YouTube Music**
 
 #### [*Natures Spirit*](https://ludocrypt.bandcamp.com/album/natures-spirit)
@@ -147,6 +166,12 @@ This list is based off of the [NeoForge `1.0.9`](https://modrinth.com/mod/enders
 - **4.** "sunsette — Floating" (`paradise_lost:paradise_lost/floating`);
 - **5.** "sunsette — Cloud Ocean" (`paradise_lost:paradise_lost/cloud_ocean`);
 - **7.** "sunsette — Spirit Sunset" (`paradise_lost:paradise_lost/spirit_sunset`).
+
+### \[26.1] Rediscovered
+> [**Modrinth**](https://modrinth.com/mod/rediscovered)
+
+#### [*Magnetic Circuit*](https://soundcloud.com/markusalexei/magnetic-circuit)
+- **1.** "Notch — ==Magnetic Circuit==" (`rediscovered:magnetic_circuit`) — \#7E60FF **//** Label `9`.
 
 ### \[1.21] Supplementaries
 > [**Modrinth**](https://modrinth.com/mod/supplementaries)
@@ -243,10 +268,10 @@ This list is based off of the [NeoForge `1.0.9`](https://modrinth.com/mod/enders
 #### [*The Scrapbook*](https://aetheraudio.bandcamp.com/album/the-scrapbook)
 - **3.** "AetherAudio — ==Aerwhale==" (`aether_ii:aerwhale`) — \#9AEDDC **//** Label `6`.
 
+### \[1.21] The Broken Script
+
 ### The Bumblezone
 > [**Modrinth**](https://modrinth.com/mod/the-bumblezone)
-
-Music for *The Bumblezone* is also included in the 26.1 version of *Stancements*, but the mod hasn't been officially updated yet.
 
 > Watch [Bee-laxing with the Hom-bees](https://music.youtube.com/playlist?list=OLAK5uy_kFdDkX7S8ev1iqLi9NkkYxUCJ-34kbjUU) and [La Bee-da Loca](https://music.youtube.com/playlist?list=OLAK5uy_kmOs63G6krvF14z-cKCVpzHymiwa0pbQo) on **YouTube Music** as well.
 
@@ -254,6 +279,16 @@ Music for *The Bumblezone* is also included in the 26.1 version of *Stancements*
 - "Rat-Faced Boy — Honey Bee" (`the_bumblezone:honey_bee_rat_faced_boy`);
 - "LudoCrypt — [La Bee-da Loca](https://ludocrypt.bandcamp.com/track/la-bee-da-loca)" (`the_bumblezone:la_bee_da_loca`);
 - "Moserao — Rivers of Honey" (`the_bumblezone:rivers_of_honey_moserao_stereo`).
+
+### \[26.1] The Conjurer
+> [**Modrinth**](https://modrinth.com/mod/the-conjurer)
+
+- "Jesterguy — ==Delve Deeper==" (`conjurer_illager:delve_deeper`) — \#E79E4A **//** Label `9`.
+
+### \[26.1] The Farlanders
+> [**Modrinth**](https://modrinth.com/mod/the-farlanders)
+
+- "??? — Nightfall" (`farlanders:nightfall`).
 
 ### \[1.21] Vanilla Backport
 > [**Modrinth**](https://modrinth.com/mod/vanillabackport) - **YouTube Music**
@@ -296,7 +331,9 @@ All songs in this album are included in the `#minecraft:album/chaos_cubed` jukeb
 | [0.4.3](/Stancements/Changelogs/Changelog%200.4.3.md)               | Added support for *Biomes O'Plenty*, *Paradise Lost* and *Dimensional Doors*.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | [0.4.4](/Stancements/Changelogs/Changelog%200.4.4.md)               | "fingerspit — Bounce" now uses label `14`, added in **0.4.3** specifically for "Bounce".                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 | [5.0.0-beta.1](/Stancements/Changelogs/Changelog%205.0.0-beta.1.md) | <li>Jukebox songs that were previously under the `stancements` namespace are now under `minecraft` like intended.</li> <li>Fixed a single misplaced pixel in the pack icon.</li>                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
-| [5.0.0-beta.2](/Stancements/Changelogs/Changelog%205.0.0-beta.2.md) | <li>"Menoch — Sycamore Heights" now has the correct ID: `m2-sycamore_heights` (was previously `m2-sycamore_height`).</li> <li>"Moserao — Rivers of Honey" now has the correct ID: `rivers_of_honey_moserao_stereo` (was previously missing the `_stereo` part).</li>                                                                                                                                                                                                                                                                                                                                                                        |
+| [5.0.0-beta.2](/Stancements/Changelogs/Changelog%205.0.0-beta.2.md) | <li>**\[26.1]** Added back support for *Enderscape* and *Nature's Spirit*.</li> <li>**\[26.1]** Added recorded song styles for the following mods: *Enderscape*, *Rediscovered* and *The Conjurer*.</li> <li>"Menoch — Sycamore Heights" now has the correct ID: `m2-sycamore_heights` (was previously `m2-sycamore_height`).</li> <li>"Moserao — Rivers of Honey" now has the correct ID: `rivers_of_honey_moserao_stereo` (was previously missing the `_stereo` part).</li>                                                                                                                                                               |
+| [5.0.0-beta.3](/Stancements/Changelogs/Changelog%205.0.0-beta.3.md) | <li>Added support for **\[1.21]** *Pastel* and **\[26.1]** *The Farlanders*.</li> <li>Added recorded song styles for the following mods: **\[26.1]** *Dungeons Plus*, **\[1.21]** *From The Caves*, **\[1.21]** *Halcyon*, **\[1.21]** *Pastel* and **\[1.21]** *The Broken Script*.</li> <li>**\[1.21]** Added support for *Enderscape* `2.0` (added "Mystique" and "Prélude").</li>                                                                                                                                                                                                                                                       |
+| [5.0.0-beta.4](/Stancements/Changelogs/Changelog%205.0.0-beta.4.md) | **\[1.21]** Jukebox songs for *Pastel* now work properly.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 
 ## Gallery
 > <div style="text-align: center;">
@@ -307,3 +344,4 @@ All songs in this album are included in the `#minecraft:album/chaos_cubed` jukeb
 
 ### Notes
 [^1]: The music disc is pitched down by **3%** (`0.97`) to match the album version.
+[^2]: `magnia_crags` in *Enderscape* `1.0`, and `magnia_fields` in `2.0` and later.

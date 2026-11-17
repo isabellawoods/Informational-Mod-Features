@@ -2,13 +2,15 @@
 
 <h1 style="text-align: center;">- Stancements 5.0.0 Beta 1 -</h1>
 
-> **Written On:** 25-07-26 - **Last Updated:** 30-08-26 - **Download**: [`1.21.1`](https://github.com/isabellawoods/Stancements/releases/download/5.0.0-beta.1/stancements-neoforge-5.0.0-beta.1+1.21.1.jar)
+> **Written On:** 25-07-26 - **Last Updated:** 16-11-26 - **Download**: [`1.21.1`](https://github.com/isabellawoods/Stancements/releases/download/5.0.0-beta.1/stancements-neoforge-5.0.0-beta.1+1.21.1.jar) | [`26.1.2`](https://github.com/isabellawoods/Stancements/releases/download/5.0.0-beta.1/stancements-neoforge-5.0.0-beta.1+26.1.2.jar)
 
-**5.0.0 Beta 1** (stylized as **5.0.0-beta.1** in the `.jar` file) is a major update of *Stancements* released on July 23, 2026.[^1] It adds the pocket recorder, short and long cassette tapes, and moves all ambient jukebox songs to the `minecraft` namespace to match the 26.1 version.
+**5.0.0 Beta 1** (stylized as **5.0.0-beta.1** in the `.jar` file) is a major update of *Stancements* released on July 23, 2026 on 1.21.1[^1], and on October 5, 2026 on 26.1.2[^2]. It adds the pocket recorder, short and long cassette tapes, and moves all ambient jukebox songs to the `minecraft` namespace to match the 26.1 version.
 
 > [!WARNING] Known issues
 > - **\[1.21.1 Only] \[Fixed in `5.0.0-beta.2`]** The `#stancements:ambient_music` jukebox song tag and several other album tags haven't had their IDs changed to match the new names.
 >   - This means that recorded ambient songs won't block existing ambient songs from playing in this version.
+> - **\[1.21.1 Only] \[Fixed in `5.0.0-beta.3`]** Sculk-infested vinyl discs don't have a chance of being ejected like they're supposed to.
+> - **\[1.21.1 Only] \[Fixed in `5.0.0-beta.3`]** Trying to record a song via an inventory/music recorder can crash in certain cases.
 
 ## Additions
 ### Items
@@ -20,9 +22,12 @@
 - Added short and long cassette tapes.
   - Crafted with 3 copper ingots, 1 iron/gold ingot and 2 redstone dust. The recipe gives two tapes.
   - Can be inserted into pocket recorders to record songs.
-  - Short tapes can store up to 15 songs, and long tapes up to 30.
+  - Has a tooltip that shows the first 4 songs inside the tape, with the option to press Shift to show all.
+  - **\[1.21]** If the first song stored inside is long enough to scroll, the rest of the tooltip becomes invisible.
+  - Short tapes can store up to 15 songs, and long tapes up to 30. This is shown in the tape's fullness bar within its tooltip.
   - Stack up to 8.
-- Sculk-infested vinyl discs now have a **15% chance to eject itself after 20 seconds** when attempting to record anything.
+- **\[26.1]** Sculk-infested vinyl discs now have a **15% chance to eject itself after 20 seconds** when attempting to record anything.
+  - This is broken is 1.21 and will only be fixed in `5.0.0-beta.3`.
 
 ### Miscellaneous
 - Added the `Like the Old Times` advancement: *"Record any song using a Pocket Recorder"*.
@@ -63,7 +68,9 @@
 
 ## Technical
 ### Additions
-- Added the `stancements:pipeline/sculk_ejection_chance` vinyl modifier.
+- Added the `pipeline/sculk_ejection_chance` vinyl modifier.
+- **\[26.1]** Added the `inventory_recorder/state` select item model property.
+- **\[26.1]** Added the `inventory_recorder/storage_inserted` conditional item model property.
 
 ### Changes
 - Jukebox song definitions for vanilla songs are now located in the `minecraft` namespace, rather than in `stancements`.
@@ -76,11 +83,14 @@
 - Updated *Reutilities* to `1.5.2`, from `1.5.0`.
 - Renamed the following methods and fields:
 
-| Class         | Old Name                  | New Name                    |
-| ------------- | ------------------------- | --------------------------- |
-| STSounds      | `SOUNDS`                  | `STANCEMENTS`               |
-| STEvents      | `addDataPackRegistries()` | `addDataDrivenRegistries()` |
-| VinylModifier | `appliesForCopies()`      | `actsOnCopies()`            |
+| Class                 | Old Name                  | New Name                    |
+| --------------------- | ------------------------- | --------------------------- |
+| STSounds              | `SOUNDS`                  | `STANCEMENTS`               |
+| STEvents              | `addDataPackRegistries()` | `addDataDrivenRegistries()` |
+| VinylModifier         | `appliesForCopies()`      | `actsOnCopies()`            |
+| VinylModifier         | `modifiesWhenCopying()`   | `modifiesCopies()`          |
+| VinylModifier.Builder | `modifiesWhenCopying()`   | `modifiesCopies()`          |
+| VinylModifier.Builder | `modifiesWhenCopying`     | `modifiesCopies`            |
 
 #### `record_song` advancement trigger
 -  The ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **excluded** field is now a list of [tracks](/Stancements/Docs/Track.md).
@@ -111,3 +121,4 @@
 
 ### References
 [^1]: ["5.0.0-beta.1: Pocket Recorder & Songs in `minecraft` Namespace"](https://github.com/isabellawoods/Stancements/commit/83896362c87ddf4019f788b7ac59240065a4b95f) (Commit `8389636`) — GitHub, July 23, 2026.
+[^2]: ["5.0.0-beta.1: Pocket Recorder & Unification with `Track`s"](https://github.com/isabellawoods/Stancements/commit/85a4756b65af28cbda468de4c8eb16d3558f7d25) (Commit `c75ed4f`) — GitHub, October 5, 2026.

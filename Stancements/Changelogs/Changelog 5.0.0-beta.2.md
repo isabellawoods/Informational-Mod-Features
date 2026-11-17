@@ -2,15 +2,21 @@
 
 <h1 style="text-align: center;">- Stancements 5.0.0 Beta 2 -</h1>
 
-> **Written On:** 29-08-26 - **Last Updated:** 30-08-26 - **Download**: [`1.21.1`](https://github.com/isabellawoods/Stancements/releases/download/5.0.0-beta.2/stancements-neoforge-5.0.0-beta.2+1.21.1.jar)
+> **Written On:** 29-08-26 - **Last Updated:** 16-11-26 - **Download**: [`1.21.1`](https://github.com/isabellawoods/Stancements/releases/download/5.0.0-beta.2/stancements-neoforge-5.0.0-beta.2+1.21.1.jar) | [`26.1.2`](https://github.com/isabellawoods/Stancements/releases/download/5.0.0-beta.2/stancements-neoforge-5.0.0-beta.2+26.1.2.jar)
 
-**5.0.0 Beta 2** (stylized as **5.0.0-beta.2** in the `.jar` file) is a minor update of *Stancements* released on August 28, 2026.[^1] It adds album definitions to data packs, and makes several technical updates behind the scenes.
+**5.0.0 Beta 2** (stylized as **5.0.0-beta.2** in the `.jar` file) is a minor update of *Stancements* released on August 28, 2026 on 1.21.1[^1], and on October 22, 2026 on 26.1.2[^2]. It adds album definitions to data packs, and makes several technical updates behind the scenes.
+
+> [!WARNING] Known issues
+> - **\[1.21.1 Only] \[Fixed in `5.0.0-beta.3`]** Sculk-infested vinyl discs don't have a chance of being ejected like they're supposed to.
+> - **\[1.21.1 Only] \[Fixed in `5.0.0-beta.3`]** Trying to record a song via an inventory/music recorder can crash in certain cases.
+> - **\[Fixed in `5.0.0-beta.4`]** Music disc copies aren't being marked as copies.
 
 ## Additions
 ### Blocks
 - Added the album block.
   - Currently, it has no texture, no model, no item form (thus no drops), and no recipe.
   - When right-clicked, it opens a crude interface with only the title "Album" being shown.
+    - On 26.1, the "Inventory" text is shown where it usually would. 
   - Use the sound of bamboo wood, and can be broken by hand relatively fast.
 
 ### Miscellaneous
@@ -18,16 +24,29 @@
   - **Recorded Disc Auto-Conversion** (`item.recordedDiscAutoConversion`): Whether recorded discs without a valid jukebox song, but with a defined `music_data.id`, should try to re-record themselves when in the player's inventory. Defaults to `true`.
 
 ### [Recorder Modded Songs](/Melony%20Studios%20Wiki/Resource%20Packs/Recorder%20Modded%20Songs.md) pack
-- Added the `enderscape:music_disc_decay` vinyl modifier, targeting the "lunarbunten — decay" music disc.
+- Added the `enderscape:music_disc_decay` vinyl modifier, targeting the "vye — decay" music disc.
   - When trying to record the disc, this message is shown: "*Something is interfering with the recorder...*", using the color **\#AAB9A6**.
   - It currently doesn't play any sounds.
+- **\[26.1]** Readded support for *Enderscape* and *Nature's Spirit*, including any new songs added in this update.
+- **\[26.1]** Added support for the following modded music discs:
+
+| Mod            | Music disc               |
+| -------------- | ------------------------ |
+| *Enderscape*   | lunarbunten — glare      |
+| *Enderscape*   | vye — decay              |
+| *Enderscape*   | lunarbunten — bliss      |
+| *Rediscovered* | Notch — Magnetic Circuit |
+| *The Conjurer* | Jesterguy — Delve Deeper |
 
 ## Changes
 ### Blocks
-- The shelf recipe now gives 6 shelves instead of 3.
+- The shelf recipe now gives 6 shelves instead of 3, except for the pale oak shelf.
 
 ### Items
-- If the pocket recorder's timer goes into the negatives, the description will now be colored red.
+- If an inventory recorder's timer goes into the negatives, the description will now be colored red.
+- **\[26.1]** Scrolling text in an inventory recorder is now properly aligned with the rest of the text.
+  - It now scrolls one more pixel to the right to account for the text shadow.
+- **\[26.1]** The inventory recorder tooltip is now aligned to the middle of the tooltip, like bundles.
 - Renamed the `recording_turns_into` component to `recordable_transform`.
   - Added two new fields: ![*(string*](/Revaried/Docs/Tags/string_tag.png) **on_remix** and ![*(string*](/Revaried/Docs/Tags/string_tag.png) **on_write**. Both point to item IDs to use when converted by the upcoming **music remixer** and **cassette tape manager** (temporary name).
   - The ![*(string*](/Revaried/Docs/Tags/string_tag.png) **when_recorded** field has been renamed to **on_record**.
@@ -39,6 +58,7 @@
 ## Technical
 ### Additions
 - Added the `album` block entity. It has no extra fields.
+- Added the `album` menu type.
 - Added [albums](/Stancements/Docs/Album.md) to data packs.
   - Currently, they aren't used anywhere in game. They will eventually be used by **album blocks** to display album and song information in-game.
   - Albums define a **track list** for which songs are stored within. They also provide information about songwriters, genres, and sources for the name and description.
@@ -68,8 +88,14 @@
 - The ![*(string or int)*](/Revaried/Docs/Tags/string_tag.png)![](/Revaried/Docs/Tags/integer_tag.png) **color** and ![*(float)*](/Revaried/Docs/Tags/float_tag.png) **label** fields on [recorded disc styles](/Stancements/Docs/Recorded%20Disc%20Style.md) are now both optional.
   - If one of the fields is absent, it will be randomized like usual.
   - Both fields cannot be absent simultaneously, though.
-- All jukebox song and vinyl modifier tags are now data-generated.
-- Updated the *ModDevGradle* plugin to `2.0.143`, from `2.0.80`.
+- **\[1.21]** All jukebox song and vinyl modifier tags are now data-generated.
+- Updated the dependencies for this mod:
+
+| Dependency        | On 1.21.1 | On 26.1.2                |
+| ----------------- | --------- | ------------------------ |
+| *ModDevGradle*    | `2.0.143` | `2.0.143`                |
+| *Forged Mod Menu* | -         | `11.2.1` (doesn't exist) |
+
 - Renamed the following methods, fields and classes:
 
 | Class                             | Old name                     | New name                    |
@@ -118,6 +144,8 @@
 
 ### [Recorder Modded Songs](/Melony%20Studios%20Wiki/Resource%20Packs/Recorder%20Modded%20Songs.md) pack: Changes
 - "Menoch — Sycamore Heights" (from *TerraFirmaCraft*) and "Moserao — Rivers of Honey" (from *The Bumblezone*) now use their correct IDs in the `#stancements:ambient_music` jukebox song tag.
+- **\[26.1]** Added all readded songs from *Enderscape* and *Nature's Spirit* to the `#stancements:ambient_music` jukebox song tag.
 
 ### References
 [^1]: ["5.0.0-beta.2: Album Definitions & Technical Updates"](https://github.com/isabellawoods/Stancements/commit/d5c36280c92ec5ff02a9bcf5a5d998264f3c7145) (Commit `d5c3628`) — GitHub, August 28, 2026.
+[^2]: ["5.0.0-beta.2: Album Definitions & Technical Updates"](https://github.com/isabellawoods/Stancements/commit/85a4756b65af28cbda468de4c8eb16d3558f7d25) (Commit `85a4756`) — GitHub, October 22, 2026.

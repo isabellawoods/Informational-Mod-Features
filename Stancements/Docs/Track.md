@@ -1,6 +1,6 @@
 # Track
 > [!NOTE]
-> **Last Updated**: 30-08-26 (5.0.0-beta.2 - 1.21.1)
+> **Last Updated**: 07-11-26 (5.0.0-beta.2 - 1.21.1)
 
 A **track** is an "abstraction" of the `music_id` and `copying_song` fields used in code related to recording or copying music.
 
@@ -23,6 +23,11 @@ If ![*(boolean)*](/Revaried/Docs/Tags/boolean_tag.png) **resolved** is `false`, 
 - **Saving a *List* with one track:**
 ```json
 "track": "minecraft:music/game/watcher"
+OR
+"track": {
+  "id": "minecraft:game/watcher",
+  "resolved": true
+}
 ```
 
 - **Saving a *List* with more than one track:**
@@ -32,7 +37,7 @@ If ![*(boolean)*](/Revaried/Docs/Tags/boolean_tag.png) **resolved** is `false`, 
     "id": "minecraft:game/watcher",
     "resolved": true
   },
-  "minecraft:music/game/watcher"
+  "minecraft:music/game/shores"
 ]
 ```
 

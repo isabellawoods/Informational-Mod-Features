@@ -2,7 +2,7 @@
 
 <h1 style="text-align: center;">- Stancements 0.4.0 -</h1>
 
-> **Written On:** 23-12-25 - **Last Updated:** 15-06-26
+> **Written On:** 23-12-25 - **Last Updated:** 16-11-26
 
 **0.4.0** is a major release for *Stancements*, released on February 23, 2026.[^1][^2][^3][^4] It adds a faster variant of powered rails, and the ability to tag minecarts with different colors that tagging rails can detect.
 
@@ -58,7 +58,7 @@
 - Changed the options screen translations from "Settings" to "Options", to match *Reutilities*.
 - Added a translation for the "Common Options" button.
   - It's never used since there's only one config file, but now it doesn't complain about it not existing.
-- The "Bonsai Plantation" advancement has been renamed to "Crop Tops".
+- The `Bonsai Plantation` advancement has been renamed to `Crop Tops`.
 - **\[Bra. Portuguese]** The "seeds planted in crop pots" statistic now says "vasos" instead of "potes". 
 - When **Add Items to Vanilla Tabs** is enabled, crafting table cloths now come after stained glass panes instead of carpets.
 - The square logo is now used by *Catalogue* (fixed a typo in the file location).

@@ -1,6 +1,6 @@
 # Album
 > [!NOTE]
-> **Written on**: 30-08-26 (5.0.0-beta.2 - 1.21.1) - **Last updated**: 30-08-26
+> **Written on**: 30-08-26 (5.0.0-beta.2 - 1.21.1) - **Last updated**: 16-11-26 (5.0.0-beta.4)
 
 An **album** defines a list of tracks that an **album block** will store, and provides information about the album, its songwriter(s) and its description.
 
@@ -19,8 +19,8 @@ Albums are defined using the following format:
   - ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **songwriters**: *(optional)* A list of strings — Each one is the name of a person that participated in the production of this album.
   - ![*(compound)*](/Revaried/Docs/Tags/compound_tag.png) **link_tree**: *(optional)* A map of translation keys (string) to a valid URL (string) — This will be shown in the album block's interface.
     - **Example:** `"link_tree": {"link_tree.bandcamp": "https://c418.bandcamp.com"}`
-  - ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **genres**: *(optional)* A list of strings — Each one is a musical genre that represents this album. *Stancements* provides translations for some broader genres by default in its [translation files](https://github.com/isabellawoods/Stancements/blob/neoforge-1.21.1/src/main/resources/assets/stancements/lang/en_us.json#L262-L288).
-    - The translation key for genres is `musical_genre.<genre>`.
+  - ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **tags**: *(optional)* A list of strings — Each one is a tag that represents this album, similar to Bandcamp's album tags. *Stancements* provides translations for some broader tags by default in its [translation files](https://github.com/isabellawoods/Stancements/blob/neoforge-1.21.1/src/main/resources/assets/stancements/lang/en_us.json#L328-L359).
+    - The translation key for genres is `musical_tag.<tag>`.
 
 ### Example
 ```json
@@ -35,7 +35,7 @@ data/gameosts/stancements/album/excursions.json
     "translate": "album.gameosts.excursions.description",
     "color": "#a0a0a0"
   },
-  "cover_art": "gameosts:gui/album/excursions",
+  "cover_art": "gameosts:gui/album_cover_art/excursions",
   "track_listing": [
     [
       {
@@ -45,18 +45,19 @@ data/gameosts/stancements/album/excursions.json
       {
         "id": "gameosts:excursions/cold_summer",
         "resolved": true
-      }
+      },
+      ...
     ]
   ],
   "songwriters": [
     "C418",
-    "Jukio Kallio" // credited as Kuabee in the Bandcamp version
+    "Jukio Kallio" // credited as Kuabee in Bandcamp
   ],
   "link_tree": {
     "link_tree.bandcamp": "https://c418.bandcamp.com/album/excursions",
     "link_tree.youtube_music": "https://music.youtube.com/playlist?list=OLAK5uy_n_b5cjnm9jtxbAi_20ybH8UIaLumcULOE"
   },
-  "genres": [
+  "tags": [
     "ambient",
     "electronic",
     "house",
@@ -66,9 +67,11 @@ data/gameosts/stancements/album/excursions.json
 ```
 
 ## History
-| Version                                                             | Changes                                                                                                                                                                                                                                                      |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [5.0.0-beta.2](/Stancements/Changelogs/Changelog%205.0.0-beta.2.md) | <li>Added albums to data packs.</li> <li>Currently, it includes the following albums (all under the `minecraft` namespace): `volume_alpha`, `volume_beta`, `nether_update`, `caves_and_cliffs`, `the_wild_update`, `trails_and_tales`, `tricky_trials`.</li> |
+| Version                                                             | Changes                                                                                                                                                                                                                                                                                                                                                                      |
+| ------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [5.0.0-beta.2](/Stancements/Changelogs/Changelog%205.0.0-beta.2.md) | <li>Added albums to data packs.</li> <li>The `genres` field is currently mispelled as ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **genre**.</li>  <li>Currently, it includes the following albums (all under the `minecraft` namespace): `volume_alpha`, `volume_beta`, `nether_update`, `caves_and_cliffs`, `the_wild_update`, `trails_and_tales`, `tricky_trials`.</li> |
+| [5.0.0-beta.3](/Stancements/Changelogs/Changelog%205.0.0-beta.3.md) | <li>Renamed the ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **genre** field to ![*(list)*](/Revaried/Docs/Tags/list_tag.png) **tags**. It now refers to the album's tags (similar to Bandcamp) instead of fixed genres that its tracks fall into.</li> <li>Removed the unused *SourceBackedComponent* class from *Album*.</li>                                             |
+| [5.0.0-beta.4](/Stancements/Changelogs/Changelog%205.0.0-beta.4.md) | The built-in album definition covers now point to `gui/album_cover_art/<album>` instead of `textures/album/<album>.png`.                                                                                                                                                                                                                                                     |
 
 ## Issues
 Issues relating to "Vinyl modifier" are maintained on [*Stancements*' issue tracker](https://github.com/isabellawoods/Stancements/issues). Issues should be reported and viewed there.
